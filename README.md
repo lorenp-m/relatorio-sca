@@ -10,7 +10,7 @@ Substitua ou atualize a planilha principal diretamente dentro da pasta correspon
 
 ## Atualizar imagens
 
-Adicione, substitua ou remova imagens JPG, JPEG, PNG ou WEBP em `1. Imagens/[Área]`. Mantenha `Projeto` ou `Obra` no nome do arquivo para a classificação automática.
+Adicione, substitua ou remova imagens JPG, JPEG, PNG ou WEBP em `1. Imagens/[Área]`. Arquivos com `Projeto`, `Projetos`, `3D`, `Render`, `Renderização`, `Modelagem` ou `Maquete` no nome são classificados automaticamente como Projeto. Os demais são classificados como Campo.
 
 ## Atualizar documentação LO
 
@@ -23,4 +23,3 @@ Substitua ou atualize a planilha dentro de `3. Documentações LO` da unidade co
 ## Publicar
 
 Faça commit e push no GitHub. O workflow processará as fontes e atualizará o GitHub Pages automaticamente.
-

@@ -4880,27 +4880,6 @@
     "doneLabel": "Entregues",
     "rows": [
       {
-        "description": "Requerimento modelo padrão SEMMA, devidamente preenchido e assinado",
-        "area": "Licenciamento",
-        "manager": "Gustavo Simoni",
-        "status": "Pendente",
-        "comments": "Prazo para protocolo 06/09/2026"
-      },
-      {
-        "description": "Cópia dos documentos Pessoais (RG e CPF) dos proprietários e representantes legais",
-        "area": "Licenciamento",
-        "manager": "Gustavo Simoni",
-        "status": "Entregue",
-        "comments": "Protocolo realizado no 1° processo"
-      },
-      {
-        "description": "Comprovante de quitação da taxa (Documento Único de Arrecadação Municipal - DUAM)",
-        "area": "Licenciamento",
-        "manager": "Gustavo Simoni",
-        "status": "Entregue",
-        "comments": "Taxa de toda área paga no 1° processo"
-      },
-      {
         "description": "Contrato Social, última alteração, se for o caso",
         "area": "Societario",
         "manager": "Leonardo Nepomuceno",
@@ -4911,20 +4890,6 @@
         "description": "Comprovante de endereço do proprietário, localizado em zona urbana, atualizado",
         "area": "Societario",
         "manager": "Leonardo Nepomuceno",
-        "status": "Entregue",
-        "comments": "Protocolo realizado no 1° processo"
-      },
-      {
-        "description": "Procuração pública ou particular com firma reconhecida ou validado pelo agente administrativo desta secretaria ou com assinatura digital válida, se o requerimento não for assinado pelo titular do processo (validade de dois anos)",
-        "area": "Licenciamento",
-        "manager": "Gustavo Simoni",
-        "status": "Entregue",
-        "comments": "Protocolo realizado no 1° processo"
-      },
-      {
-        "description": "Certidão de Inteiro Teor, atualizada (máximo de 90 dias)",
-        "area": "Licenciamento",
-        "manager": "Gustavo Simoni",
         "status": "Entregue",
         "comments": "Protocolo realizado no 1° processo"
       },
@@ -4943,74 +4908,11 @@
         "comments": "Protocolo realizado no 1° processo"
       },
       {
-        "description": "Certidão de Uso do Solo Rural, emitida por esta Secretaria",
-        "area": "Licenciamento",
-        "manager": "Gustavo Simoni",
-        "status": "Entregue",
-        "comments": "Protocolo realizado no 1° processo"
-      },
-      {
-        "description": "Publicação do pedido de licenciamento (Resolução CONAMA 006/1986), publicadas em um jornal de grande circulação local e no Diário Oficial do Estado de Goiás (original ou cópia autenticada)",
-        "area": "Licenciamento",
-        "manager": "Gustavo Simoni",
-        "status": "Pendente",
-        "comments": ""
-      },
-      {
-        "description": "Outorga do Direito de Uso da Água",
-        "area": "Licenciamento",
-        "manager": "Gustavo Simoni",
-        "status": "Entregue",
-        "comments": "3 portarias de outorgas emitidas + 2 em andamento"
-      },
-      {
         "description": "Projetos arquitetônicos e hidrossanitários (planta baixa e cortes), acompanhados de memoriais descritivos e de cálculo, com Anotação de Responsabilidade Técnica (ART), caso os projetos e memoriais apresentados no âmbito do processo de licença de instalação tenham sido alterados",
         "area": "Engenharia",
         "manager": "Leila Midori",
         "status": "Pendente",
         "comments": "Confirmar se houve alterações do Stacker pra ca. Entregar até 31/08/2026"
-      },
-      {
-        "description": "Relatório de Monitoramento Ambiental (RMA), acompanhado da respectiva Anotação de Responsabilidade Técnica (ART), conforme o Termo de Referência desta Secretaria",
-        "area": "Licenciamento",
-        "manager": "Gustavo Simoni",
-        "status": "Entregue",
-        "comments": "Finalizado"
-      },
-      {
-        "description": "Plano de Gerenciamento de Resíduos Sólidos (PGRS), acompanhado da respectiva Anotação de Responsabilidade Técnica (ART), conforme a Instrução Normativa nº 07/2011 – SEMARH",
-        "area": "Licenciamento",
-        "manager": "Gustavo Simoni",
-        "status": "Entregue",
-        "comments": "Protocolo realizado no 1° processo"
-      },
-      {
-        "description": "Mapa geral da propriedade em SIRGAS 2000 atualizado e georreferenciado em arquivo digital (formato Shapefile, Kmz), com ART, contemplando no mínimo a locação de todos os elementos e estruturas das atividades, áreas de Reserva Legal, as Áreas de Preservação Permanente (APP) e demais áreas de relevante interesse ambiental",
-        "area": "Licenciamento",
-        "manager": "Gustavo Simoni",
-        "status": "Entregue",
-        "comments": "Protocolo realizado no 1° processo"
-      },
-      {
-        "description": "Cópia dos contratos de prestação de serviços firmados entre o empreendedor e as empresas responsáveis pela coleta, transporte, tratamento e destinação final dos resíduos Classe I (perigosos) e resíduos Classe II (não perigosos)",
-        "area": "Meio Ambiente",
-        "manager": "Gustavo Simoni",
-        "status": "Entregue",
-        "comments": "Protocolo realizado no 1° processo"
-      },
-      {
-        "description": "Cópia das licenças/autorizações ambientais vigentes das empresas responsáveis pela coleta, transporte, tratamento e destinação final dos resíduos Classe I (perigosos) e resíduos Classe II (não perigosos)",
-        "area": "Meio Ambiente",
-        "manager": "Gustavo Simoni",
-        "status": "Entregue",
-        "comments": "Protocolo realizado no 1° processo"
-      },
-      {
-        "description": "Declaração de Inexigibilidade de Licenciamento Ambiental para consumidor de lenha (exótica) e/ou carvão, emitida pela SEMAD",
-        "area": "Licenciamento",
-        "manager": "Gustavo Simoni",
-        "status": "Entregue",
-        "comments": "Protocolo realizado no 1° processo"
       },
       {
         "description": "Certificado de Conformidade vigente, emitido pelo Corpo de Bombeiros Militar do Estado de Goiás",
@@ -5039,27 +4941,6 @@
         "manager": "Natiela Nicolodi",
         "status": "Entregue",
         "comments": "Na pasta desde 10/07/2026"
-      },
-      {
-        "description": "Relatório de atendimento de todas as exigências técnicas constantes na Licença de Instalação, se for o caso",
-        "area": "Licenciamento",
-        "manager": "Gustavo Simoni",
-        "status": "Entregue",
-        "comments": "Protocolo realizado no 1° processo"
-      },
-      {
-        "description": "Plano de Suprimento Sustentavel",
-        "area": "Licenciamento",
-        "manager": "Gustavo Simoni",
-        "status": "Entregue",
-        "comments": "Protocolo realizado no 1° processo"
-      },
-      {
-        "description": "Projeto de fertirrigação",
-        "area": "Licenciamento",
-        "manager": "Gustavo Simoni",
-        "status": "Entregue",
-        "comments": "Protocolo realizado 09/07/2026"
       }
     ]
   }

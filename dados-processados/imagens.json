@@ -2,235 +2,18 @@
   "schemaVersion": 1,
   "imagens": [
     {
-      "unidade": "nova-mutum",
-      "area": "Bacia Pluvial",
-      "arquivo": "BACIA PLUVILA 06.08.jpeg",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Bacia%20Pluvial/BACIA%20PLUVILA%2006.08.jpeg",
-      "classificacao": "Obra"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Bacia Pluvial",
-      "arquivo": "PROJETO BACIA PLUVIAL.png",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Bacia%20Pluvial/PROJETO%20BACIA%20PLUVIAL.png",
-      "classificacao": "Projeto"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Chillers",
-      "arquivo": "CAIXA DE MANOBRA CHILLER 06.08.jpeg",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Chillers/CAIXA%20DE%20MANOBRA%20CHILLER%2006.08.jpeg",
-      "classificacao": "Obra"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Chillers",
-      "arquivo": "CANALETA CHILLER 06.08.jpeg",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Chillers/CANALETA%20CHILLER%2006.08.jpeg",
-      "classificacao": "Obra"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Chillers",
-      "arquivo": "PROJETO CAIXA DE MANOBRA CHILLER.png",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Chillers/PROJETO%20CAIXA%20DE%20MANOBRA%20CHILLER.png",
-      "classificacao": "Projeto"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Chillers",
-      "arquivo": "PROJETO CANALETA CHILLER.png",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Chillers/PROJETO%20CANALETA%20CHILLER.png",
-      "classificacao": "Projeto"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Destilaria",
-      "arquivo": "CAIXA DE MANOBRA DESTILARIA 06.08.jpeg",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Destilaria/CAIXA%20DE%20MANOBRA%20DESTILARIA%2006.08.jpeg",
-      "classificacao": "Obra"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Destilaria",
-      "arquivo": "PROJETO CAIXA DE MANOBRA DESTILARIA.png",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Destilaria/PROJETO%20CAIXA%20DE%20MANOBRA%20DESTILARIA.png",
-      "classificacao": "Projeto"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Destilaria",
-      "arquivo": "PROJETO SUMP DESTILARIA.png",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Destilaria/PROJETO%20SUMP%20DESTILARIA.png",
-      "classificacao": "Projeto"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Destilaria",
-      "arquivo": "SUMP 2 DESTILARIA 06.08.jpeg",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Destilaria/SUMP%202%20DESTILARIA%2006.08.jpeg",
-      "classificacao": "Obra"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Dorna Volante",
-      "arquivo": "CAIXA DE MANOBRA DORNA VOLANTE 06.08.jpeg",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Dorna%20Volante/CAIXA%20DE%20MANOBRA%20DORNA%20VOLANTE%2006.08.jpeg",
-      "classificacao": "Obra"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Dorna Volante",
-      "arquivo": "PROJETO CAIXA DE MANOBRA DORNA VOLANTE.png",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Dorna%20Volante/PROJETO%20CAIXA%20DE%20MANOBRA%20DORNA%20VOLANTE.png",
-      "classificacao": "Projeto"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Dorna Volante",
-      "arquivo": "PROJETO SUMP DORNA VOLANTE.png",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Dorna%20Volante/PROJETO%20SUMP%20DORNA%20VOLANTE.png",
-      "classificacao": "Projeto"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Dorna Volante",
-      "arquivo": "SUMP DORNA VOLANTE 06.08.jpeg",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Dorna%20Volante/SUMP%20DORNA%20VOLANTE%2006.08.jpeg",
-      "classificacao": "Obra"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Fábrica de Óleo",
-      "arquivo": "CAIXA DE MANOBRA FABRICA DE OLEO 06.08.jpeg",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/F%C3%A1brica%20de%20%C3%93leo/CAIXA%20DE%20MANOBRA%20FABRICA%20DE%20OLEO%2006.08.jpeg",
-      "classificacao": "Obra"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Fábrica de Óleo",
-      "arquivo": "CAIXA SAO FABRICA DE OLEO 06.08.jpeg",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/F%C3%A1brica%20de%20%C3%93leo/CAIXA%20SAO%20FABRICA%20DE%20OLEO%2006.08.jpeg",
-      "classificacao": "Obra"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Fábrica de Óleo",
-      "arquivo": "PROJETO CAIXA SAO FABRICA DE OLEO.png",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/F%C3%A1brica%20de%20%C3%93leo/PROJETO%20CAIXA%20SAO%20FABRICA%20DE%20OLEO.png",
-      "classificacao": "Projeto"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Fábrica de Óleo",
-      "arquivo": "PROJETO SUMP E CAIXA DE MANOBRA FABRICA DE OLEO.png",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/F%C3%A1brica%20de%20%C3%93leo/PROJETO%20SUMP%20E%20CAIXA%20DE%20MANOBRA%20FABRICA%20DE%20OLEO.png",
-      "classificacao": "Projeto"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Fábrica de Óleo",
-      "arquivo": "SUMP FABRICA DE OLEO 06.08.jpeg",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/F%C3%A1brica%20de%20%C3%93leo/SUMP%20FABRICA%20DE%20OLEO%2006.08.jpeg",
-      "classificacao": "Obra"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Fermentação",
-      "arquivo": "PROJETO SUMP FERMENTAÇÃO.png",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Fermenta%C3%A7%C3%A3o/PROJETO%20SUMP%20FERMENTA%C3%87%C3%83O.png",
-      "classificacao": "Projeto"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Fermentação",
-      "arquivo": "SUMP FERMENTAÇÃO 06.08.jpeg",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Fermenta%C3%A7%C3%A3o/SUMP%20FERMENTA%C3%87%C3%83O%2006.08.jpeg",
-      "classificacao": "Obra"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Liquefação",
-      "arquivo": "CAIXA DE MANOBRA LIQUEFAÇÃO 06.08.jpeg",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Liquefa%C3%A7%C3%A3o/CAIXA%20DE%20MANOBRA%20LIQUEFA%C3%87%C3%83O%2006.08.jpeg",
-      "classificacao": "Obra"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Liquefação",
-      "arquivo": "DIQUE CONTENÇÃO LIQUEFAÇÃO 06.08.jpeg",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Liquefa%C3%A7%C3%A3o/DIQUE%20CONTEN%C3%87%C3%83O%20LIQUEFA%C3%87%C3%83O%2006.08.jpeg",
-      "classificacao": "Obra"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Liquefação",
-      "arquivo": "SUMP LIQUEFAÇÃO 06.08.jpeg",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Liquefa%C3%A7%C3%A3o/SUMP%20LIQUEFA%C3%87%C3%83O%2006.08.jpeg",
-      "classificacao": "Obra"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Moinho",
-      "arquivo": "SUMP MOINHO 06.08.jpeg",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Moinho/SUMP%20MOINHO%2006.08.jpeg",
-      "classificacao": "Obra"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Secador de DDGS",
-      "arquivo": "CAIXA DE MANOBRA SECADOR 06.08.jpeg",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Secador%20de%20DDGS/CAIXA%20DE%20MANOBRA%20SECADOR%2006.08.jpeg",
-      "classificacao": "Obra"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Secador de DDGS",
-      "arquivo": "SUMP SECADOR 06.08.jpeg",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Secador%20de%20DDGS/SUMP%20SECADOR%2006.08.jpeg",
-      "classificacao": "Obra"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Tanques de Químicos",
-      "arquivo": "CAIXA DE MANOBRA TANQUE QUIMICOS 06.08.jpeg",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Tanques%20de%20Qu%C3%ADmicos/CAIXA%20DE%20MANOBRA%20TANQUE%20QUIMICOS%2006.08.jpeg",
-      "classificacao": "Obra"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Tanques de Químicos",
-      "arquivo": "PROJETO CAIXA DE MANOBRA TANQUE DE QUIMICOS.png",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Tanques%20de%20Qu%C3%ADmicos/PROJETO%20CAIXA%20DE%20MANOBRA%20TANQUE%20DE%20QUIMICOS.png",
-      "classificacao": "Projeto"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Vinhaça Fina",
-      "arquivo": "PROJETO SUMP VINHAÇA FINA.png",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Vinha%C3%A7a%20Fina/PROJETO%20SUMP%20VINHA%C3%87A%20FINA.png",
-      "classificacao": "Projeto"
-    },
-    {
-      "unidade": "nova-mutum",
-      "area": "Vinhaça Fina",
-      "arquivo": "SUMP 1 VINHACA FINA 06.08.jpeg",
-      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/1.%20Nova%20Mutum/1.%20Imagens/Vinha%C3%A7a%20Fina/SUMP%201%20VINHACA%20FINA%2006.08.jpeg",
-      "classificacao": "Obra"
-    },
-    {
       "unidade": "rio-verde",
       "area": "Almoxarifado",
       "arquivo": "Obra_01_Slide-02.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Almoxarifado/Obra_01_Slide-02.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
       "area": "Almoxarifado",
       "arquivo": "Obra_02_Slide-02.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Almoxarifado/Obra_02_Slide-02.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -251,7 +34,7 @@
       "area": "Armazém de DDGS",
       "arquivo": "Obra_01_Slide-03.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Armaz%C3%A9m%20de%20DDGS/Obra_01_Slide-03.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -265,7 +48,7 @@
       "area": "Armazém de Milho",
       "arquivo": "Obra_01_Slide-04.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Armaz%C3%A9m%20de%20Milho/Obra_01_Slide-04.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -279,14 +62,14 @@
       "area": "Bacia Pluvial",
       "arquivo": "Obra_01_Slide-05.png",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Bacia%20Pluvial/Obra_01_Slide-05.png",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
       "area": "Bacia Pluvial",
       "arquivo": "Obra_02_Slide-05.png",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Bacia%20Pluvial/Obra_02_Slide-05.png",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -307,7 +90,7 @@
       "area": "Caixa d'água",
       "arquivo": "Obra_01_Slide-06.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Caixa%20d'%C3%A1gua/Obra_01_Slide-06.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -321,21 +104,21 @@
       "area": "Caldeira",
       "arquivo": "Obra_01_Slide-07.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Caldeira/Obra_01_Slide-07.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
       "area": "Caldeira",
       "arquivo": "Obra_02_Slide-07.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Caldeira/Obra_02_Slide-07.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
       "area": "Caldeira",
       "arquivo": "Obra_03_Slide-07.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Caldeira/Obra_03_Slide-07.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -363,14 +146,14 @@
       "area": "Casa de Força",
       "arquivo": "Obra_01_Slide-08.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Casa%20de%20For%C3%A7a/Obra_01_Slide-08.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
       "area": "Casa de Força",
       "arquivo": "Obra_02_Slide-08.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Casa%20de%20For%C3%A7a/Obra_02_Slide-08.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -384,7 +167,7 @@
       "area": "Central de Resíduos",
       "arquivo": "Obra_01_Slide-09.png",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Central%20de%20Res%C3%ADduos/Obra_01_Slide-09.png",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -398,14 +181,14 @@
       "area": "Cozimento",
       "arquivo": "Obra_01_Slide-10.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Cozimento/Obra_01_Slide-10.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
       "area": "Cozimento",
       "arquivo": "Obra_02_Slide-10.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Cozimento/Obra_02_Slide-10.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -426,21 +209,21 @@
       "area": "Destilaria",
       "arquivo": "Obra_01_Slide-11.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Destilaria/Obra_01_Slide-11.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
       "area": "Destilaria",
       "arquivo": "Obra_02_Slide-11.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Destilaria/Obra_02_Slide-11.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
       "area": "Destilaria",
       "arquivo": "Obra_03_Slide-11.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Destilaria/Obra_03_Slide-11.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -468,14 +251,14 @@
       "area": "Dorna Volante",
       "arquivo": "Obra_01_Slide-12.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Dorna%20Volante/Obra_01_Slide-12.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
       "area": "Dorna Volante",
       "arquivo": "Obra_02_Slide-12.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Dorna%20Volante/Obra_02_Slide-12.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -489,7 +272,7 @@
       "area": "ETA (Osmose)",
       "arquivo": "Obra_01_Slide-13.png",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/ETA%20(Osmose)/Obra_01_Slide-13.png",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -510,7 +293,7 @@
       "area": "Expedição de Etanol",
       "arquivo": "Obra_01_Slide-14.png",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Expedi%C3%A7%C3%A3o%20de%20Etanol/Obra_01_Slide-14.png",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -524,14 +307,14 @@
       "area": "Fermentação",
       "arquivo": "Obra_01_Slide-15.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Fermenta%C3%A7%C3%A3o/Obra_01_Slide-15.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
       "area": "Fermentação",
       "arquivo": "Obra_02_Slide-15.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Fermenta%C3%A7%C3%A3o/Obra_02_Slide-15.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -552,7 +335,7 @@
       "area": "Fertirrigação",
       "arquivo": "Obra_01_Slide-16.png",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Fertirriga%C3%A7%C3%A3o/Obra_01_Slide-16.png",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -566,14 +349,14 @@
       "area": "Moinho",
       "arquivo": "Obra_01_Slide-17.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Moinho/Obra_01_Slide-17.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
       "area": "Moinho",
       "arquivo": "Obra_02_Slide-17.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Moinho/Obra_02_Slide-17.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -594,7 +377,7 @@
       "area": "Motor LCI",
       "arquivo": "Obra_01_Slide-30.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Motor%20LCI/Obra_01_Slide-30.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -608,21 +391,21 @@
       "area": "Oficina",
       "arquivo": "Obra_01_Slide-18.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Obra_01_Slide-18.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
       "area": "Oficina",
       "arquivo": "Obra_02_Slide-18.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Obra_02_Slide-18.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
       "area": "Oficina",
       "arquivo": "Obra_03_Slide-18.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Obra_03_Slide-18.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -671,7 +454,7 @@
       "area": "Pátio de Biomassa (Stacker)",
       "arquivo": "Obra_01_Slide-19.png",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/P%C3%A1tio%20de%20Biomassa%20(Stacker)/Obra_01_Slide-19.png",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -685,7 +468,7 @@
       "area": "Pátio de Cinzas",
       "arquivo": "Obra_01_Slide-20.png",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/P%C3%A1tio%20de%20Cinzas/Obra_01_Slide-20.png",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -699,7 +482,7 @@
       "area": "Poço 01 - Estrutura",
       "arquivo": "Obra_01_Slide-21.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2001%20-%20Estrutura/Obra_01_Slide-21.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -713,7 +496,7 @@
       "area": "Poço 02 - Estrutura",
       "arquivo": "Obra_01_Slide-22.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2002%20-%20Estrutura/Obra_01_Slide-22.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -727,7 +510,7 @@
       "area": "Poço 03 - Estrutura",
       "arquivo": "Obra_01_Slide-23.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2003%20-%20Estrutura/Obra_01_Slide-23.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -741,7 +524,7 @@
       "area": "Poço 04 - Estrutura",
       "arquivo": "Obra_01_Slide-24.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2004%20-%20Estrutura/Obra_01_Slide-24.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -755,7 +538,7 @@
       "area": "Poço 05 - Estrutura",
       "arquivo": "Obra_01_Slide-25.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2005%20-%20Estrutura/Obra_01_Slide-25.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -769,7 +552,7 @@
       "area": "Poço 06 - Estrutura",
       "arquivo": "Obra_01_Slide-26.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2006%20-%20Estrutura/Obra_01_Slide-26.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -783,7 +566,7 @@
       "area": "Sala dos Compressores",
       "arquivo": "Obra_01_Slide-27.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Sala%20dos%20Compressores/Obra_01_Slide-27.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -797,7 +580,7 @@
       "area": "Sala Elétricas - SE",
       "arquivo": "Obra_01_Slide-28.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Sala%20El%C3%A9tricas%20-%20SE/Obra_01_Slide-28.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -811,14 +594,14 @@
       "area": "Secador de DDGS",
       "arquivo": "Obra_01_Slide-29.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Secador%20de%20DDGS/Obra_01_Slide-29.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
       "area": "Secador de DDGS",
       "arquivo": "Obra_02_Slide-29.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Secador%20de%20DDGS/Obra_02_Slide-29.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -839,14 +622,14 @@
       "area": "Tanques de Etanol",
       "arquivo": "Obra_01_Slide-31.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Etanol/Obra_01_Slide-31.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
       "area": "Tanques de Etanol",
       "arquivo": "Obra_02_Slide-31.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Etanol/Obra_02_Slide-31.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -860,14 +643,14 @@
       "area": "Tanques de Medição",
       "arquivo": "Obra_01_Slide-33.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Medi%C3%A7%C3%A3o/Obra_01_Slide-33.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
       "area": "Tanques de Medição",
       "arquivo": "Obra_02_Slide-33.png",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Medi%C3%A7%C3%A3o/Obra_02_Slide-33.png",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -881,14 +664,14 @@
       "area": "Tanques de Óleo",
       "arquivo": "Obra_01_Slide-32.png",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20%C3%93leo/Obra_01_Slide-32.png",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
       "area": "Tanques de Óleo",
       "arquivo": "Obra_02_Slide-32.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20%C3%93leo/Obra_02_Slide-32.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -902,14 +685,14 @@
       "area": "Tanques de Químicos",
       "arquivo": "Obra_01_Slide-34.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Qu%C3%ADmicos/Obra_01_Slide-34.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
       "area": "Tanques de Químicos",
       "arquivo": "Obra_02_Slide-34.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Qu%C3%ADmicos/Obra_02_Slide-34.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -930,7 +713,7 @@
       "area": "Torre de Resfriamento",
       "arquivo": "Obra_01_Slide-37.png",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Torre%20de%20Resfriamento/Obra_01_Slide-37.png",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -944,7 +727,7 @@
       "area": "Vinhaça Fina",
       "arquivo": "Obra_01_Slide-35.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Vinha%C3%A7a%20Fina/Obra_01_Slide-35.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
@@ -958,14 +741,14 @@
       "area": "Vinhaça Grossa",
       "arquivo": "Obra_01_Slide-36.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Vinha%C3%A7a%20Grossa/Obra_01_Slide-36.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",
       "area": "Vinhaça Grossa",
       "arquivo": "Obra_02_Slide-36.jpeg",
       "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Vinha%C3%A7a%20Grossa/Obra_02_Slide-36.jpeg",
-      "classificacao": "Obra"
+      "classificacao": "Campo"
     },
     {
       "unidade": "rio-verde",

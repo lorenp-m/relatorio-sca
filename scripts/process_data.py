@@ -21,6 +21,7 @@ SOURCE_ROOT = ROOT / "dados" / "17. Atualização de SCAs"
 OUTPUT_ROOT = ROOT / "dados-processados"
 CONTRACT = json.loads((ROOT / "config" / "dashboard_contract.json").read_text(encoding="utf-8"))
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp"}
+EXCLUDED_DOCUMENT_AREAS = {"licenciamento", "meio ambiente"}
 UNITS = {
     "nova-mutum": {"folder": "1. Nova Mutum", "label": "Nova Mutum / MT"},
     "rondonopolis": {"folder": "2. Rondonópolis", "label": "Rondonópolis / MT"},
@@ -145,10 +146,8 @@ def value_at(row: tuple[Any, ...], index: int | None) -> Any:
 
 def classify_image(name: str) -> str:
     token = key(Path(name).stem)
-    if re.search(r"(^| )projeto( |$)", token):
+    if re.search(r"(^| )(projetos?|3d|3 d|renders?|renderizacao|renderizacoes|modelagem|modelagens|maquetes?)( |$)", token):
         return "Projeto"
-    if re.search(r"(^| )(obra|campo)( |$)", token):
-        return "Obra"
     return "Obra"
 
 
@@ -166,7 +165,7 @@ def build_images(unit_id: str, unit_folder: Path) -> tuple[list[dict[str, Any]],
         kind = classify_image(path.name)
         repo_path = path.relative_to(ROOT).as_posix()
         url = "/".join(quote(part, safe="-._~()'") for part in repo_path.split("/"))
-        item = {"unidade": unit_id, "area": area, "arquivo": path.name, "caminho": url, "classificacao": kind}
+        item = {"unidade": unit_id, "area": area, "arquivo": path.name, "caminho": url, "classificacao": "Campo" if kind == "Obra" else kind}
         manifest.append(item)
         by_area[key(area)][kind].append(url)
     return manifest, by_area
@@ -355,7 +354,10 @@ def read_documents(folder: Path, contract: dict[str, Any]) -> dict[str, Any]:
         description = clean_cell(value_at(row, desc_i))
         if not description:
             continue
-        rows.append({"description": description, "area": clean_cell(value_at(row, area_i), "Não informado"), "manager": clean_cell(value_at(row, manager_i), "Não informado"), "status": clean_cell(value_at(row, status_i), "Pendente"), "comments": clean_cell(value_at(row, comments_i))})
+        area = clean_cell(value_at(row, area_i), "Não informado")
+        if key(area) in EXCLUDED_DOCUMENT_AREAS:
+            continue
+        rows.append({"description": description, "area": area, "manager": clean_cell(value_at(row, manager_i), "Não informado"), "status": clean_cell(value_at(row, status_i), "Pendente"), "comments": clean_cell(value_at(row, comments_i))})
     result["rows"] = rows
     return result
 
