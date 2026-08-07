@@ -525,7 +525,7 @@ function renderDocuments(){
         <span><i style="background:var(--red)"></i><span><b>${pend}</b> Pendentes</span></span></div></div></div>`;
   }).join("")||`<div class="docs-empty-state">Nenhum documento foi carregado para esta unidade.</div>`;
   const body=rows.map(r=>`<tr><td>${esc(r.description||"—")}</td><td>${esc(r.area||"—")}</td><td>${esc(r.manager||"—")}</td>
-    <td><span class="doc-status ${docIsDone(r.status)?"entregue":"pendente"}">${esc(r.status||"—")}</span></td><td>${esc(r.comments||"—")}</td></tr>`).join("");
+    <td><span class="doc-status ${docIsDone(r.status)?"entregue":"pendente"}">${esc(r.status||"—")}</span></td></tr>`).join("");
   page.innerHTML=`
     <div class="section-h"><div class="badge">4</div><h2>Entrega de Documentos</h2><span class="hint">Base: ${esc(cfg.source)}</span></div>
     <div class="docs-kpis">
@@ -539,7 +539,7 @@ function renderDocuments(){
     <div class="docs-filter-section">
       <div class="section-h compact-section"><div class="badge">·</div><h2>Relação completa de documentos</h2><span class="hint">Filtros aplicados à tabela abaixo.</span></div>
       <div class="selbar docs-filterbar" id="docsFilterbar">
-        <input id="docsSearch" type="search" placeholder="Buscar documento ou comentário">
+        <input id="docsSearch" type="search" placeholder="Buscar documento">
         <select id="docsAreaFilter"><option value="">${esc(cfg.filterLabels.area)}</option></select>
         <select id="docsStatusFilter"><option value="">Todos os status</option></select>
         <select id="docsManagerFilter"><option value="">${esc(cfg.filterLabels.manager)}</option></select>
@@ -550,7 +550,7 @@ function renderDocuments(){
     <div class="docs-table-card"><div class="docs-table-head"><span id="docsTableCount">${rows.length} registro${rows.length===1?"":"s"}</span></div>
       <div class="docs-table-wrap"><table class="docs-table"><thead><tr>
         <th class="col-desc">Documento</th><th class="col-area">${esc(cfg.columns.area)}</th><th class="col-manager">${esc(cfg.columns.manager)}</th>
-        <th class="col-status">Status</th><th class="col-comments">${esc(cfg.columns.comments)}</th>
+        <th class="col-status">Status</th>
       </tr></thead><tbody>${body}</tbody></table></div></div>`;
   initDocumentFilters();
 }
@@ -574,8 +574,8 @@ function initDocumentFilters(){
     const q=docsNorm(search.value),area=docsNorm(areaSel.value),status=docsNorm(statusSel.value),manager=docsNorm(managerSel.value);
     let visible=0;
     rows.forEach(r=>{
-      const doc=docsNorm(r.cells[0]?.textContent),rowArea=docsNorm(r.cells[1]?.textContent),rowManager=docsNorm(r.cells[2]?.textContent),rowStatus=docsNorm(r.cells[3]?.textContent),comments=docsNorm(r.cells[4]?.textContent);
-      const show=(!q||doc.includes(q)||comments.includes(q))&&(!area||rowArea===area)&&(!status||rowStatus===status)&&(!manager||rowManager===manager);
+      const doc=docsNorm(r.cells[0]?.textContent),rowArea=docsNorm(r.cells[1]?.textContent),rowManager=docsNorm(r.cells[2]?.textContent),rowStatus=docsNorm(r.cells[3]?.textContent);
+      const show=(!q||doc.includes(q))&&(!area||rowArea===area)&&(!status||rowStatus===status)&&(!manager||rowManager===manager);
       r.style.display=show?'':'none';
       if(show)visible++;
     });
