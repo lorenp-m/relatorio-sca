@@ -1,0 +1,2517 @@
+{
+  "rio-verde": {
+    "meta": {
+      "unidade": "Rio Verde / GO",
+      "fases": "1 e 2",
+      "conteudo": "Sistemas de Controle Ambiental (SCA)",
+      "responsavel": "Diego Santos da Silva",
+      "atualizacao": "31/07/2026",
+      "prazo_protocolo": "31/08/2026",
+      "prazo_docs": "31/08/2026",
+      "vistoria": "06/10/2026",
+      "termino": "07/10/2026"
+    },
+    "area_codes": {
+      "Almoxarifado": "1",
+      "Armazém de DDGS": "2",
+      "Armazém de Milho": "3",
+      "Bacia Pluvial": "4",
+      "Caixa d'água": "5",
+      "Caldeira": "6",
+      "Casa de Força": "7",
+      "Casa de Bombas - LGE": "8",
+      "Central de Resíduos": "9",
+      "Cozimento": "10",
+      "Destilaria": "11",
+      "Dorna Volante": "13",
+      "Elevatórias": "14",
+      "ETA (Osmose)": "15",
+      "ETE": "16",
+      "Expedição de Etanol": "17",
+      "Fábrica de Óleo": "18",
+      "Fermentação": "19",
+      "Fertirrigação": "20",
+      "Moinho": "21",
+      "Oficina": "23",
+      "Pátio de Biomassa (Stacker)": "24",
+      "Pátio de Cinzas": "25",
+      "Pavimentação": "26",
+      "Poço 01 - Estrutura": "27",
+      "Poço 02 - Estrutura": "28",
+      "Poço 03 - Estrutura": "29",
+      "Poço 04 - Estrutura": "30",
+      "Poço 05 - Estrutura": "31",
+      "Poço 06 - Estrutura": "32",
+      "Drenagem": "34",
+      "Sala dos Compressores": "35",
+      "Sala Elétricas - SE": "36",
+      "Secador de DDGS": "37",
+      "Motor LCI": "38",
+      "Subestação": "39",
+      "Tanques de Etanol": "40",
+      "Tanques de Medição": "41",
+      "Tanques de Óleo": "42",
+      "Tanques de Químicos": "43",
+      "Tombador": "44",
+      "Torre de Resfriamento": "45",
+      "Vinhaça Fina": "46",
+      "Vinhaça Grossa": "47",
+      "Chillers": "48",
+      "Descarga de Soda": "22"
+    },
+    "sca_macro_reference": [
+      {
+        "macro": "Base civil",
+        "n": 70,
+        "conc": 49,
+        "andamento": 17,
+        "nao": 4,
+        "pend": 21,
+        "progresso": 82,
+        "areas": 31,
+        "status": "Em andamento",
+        "prazo_exec": "20/09/2026"
+      },
+      {
+        "macro": "Grelha",
+        "n": 60,
+        "conc": 0,
+        "andamento": 1,
+        "nao": 59,
+        "pend": 60,
+        "progresso": 1,
+        "areas": 28,
+        "status": "Em andamento",
+        "prazo_exec": "20/09/2026"
+      },
+      {
+        "macro": "Válvula",
+        "n": 24,
+        "conc": 0,
+        "andamento": 1,
+        "nao": 23,
+        "pend": 24,
+        "progresso": 2,
+        "areas": 24,
+        "status": "Em andamento",
+        "prazo_exec": "20/09/2026"
+      },
+      {
+        "macro": "Sistema de bombas",
+        "n": 23,
+        "conc": 0,
+        "andamento": 0,
+        "nao": 23,
+        "pend": 23,
+        "progresso": 0,
+        "areas": 12,
+        "status": "Não iniciada",
+        "prazo_exec": "20/09/2026"
+      },
+      {
+        "macro": "Instrumento",
+        "n": 12,
+        "conc": 2,
+        "andamento": 2,
+        "nao": 8,
+        "pend": 10,
+        "progresso": 25,
+        "areas": 6,
+        "status": "Em andamento",
+        "prazo_exec": "31/07/2026"
+      },
+      {
+        "macro": "Tubos e conexões",
+        "n": 12,
+        "conc": 8,
+        "andamento": 0,
+        "nao": 4,
+        "pend": 4,
+        "progresso": 67,
+        "areas": 6,
+        "status": "Em andamento",
+        "prazo_exec": "31/07/2026"
+      },
+      {
+        "macro": "Caixa de passagem",
+        "n": 11,
+        "conc": 8,
+        "andamento": 0,
+        "nao": 3,
+        "pend": 3,
+        "progresso": 73,
+        "areas": 11,
+        "status": "Em andamento",
+        "prazo_exec": "20/09/2026"
+      },
+      {
+        "macro": "Talude",
+        "n": 10,
+        "conc": 0,
+        "andamento": 9,
+        "nao": 1,
+        "pend": 10,
+        "progresso": 45,
+        "areas": 8,
+        "status": "Em andamento",
+        "prazo_exec": "20/09/2026"
+      },
+      {
+        "macro": "Canaleta",
+        "n": 9,
+        "conc": 5,
+        "andamento": 4,
+        "nao": 0,
+        "pend": 4,
+        "progresso": 78,
+        "areas": 8,
+        "status": "Em andamento",
+        "prazo_exec": "09/09/2026"
+      },
+      {
+        "macro": "Impermeabilização",
+        "n": 9,
+        "conc": 2,
+        "andamento": 2,
+        "nao": 5,
+        "pend": 7,
+        "progresso": 33,
+        "areas": 9,
+        "status": "Em andamento",
+        "prazo_exec": "20/09/2026"
+      },
+      {
+        "macro": "Drenagem",
+        "n": 8,
+        "conc": 0,
+        "andamento": 5,
+        "nao": 3,
+        "pend": 8,
+        "progresso": 31,
+        "areas": 4,
+        "status": "Em andamento",
+        "prazo_exec": "07/10/2026"
+      },
+      {
+        "macro": "Bacia de contenção",
+        "n": 7,
+        "conc": 4,
+        "andamento": 0,
+        "nao": 3,
+        "pend": 3,
+        "progresso": 57,
+        "areas": 7,
+        "status": "Em andamento",
+        "prazo_exec": "09/09/2026"
+      },
+      {
+        "macro": "Cercamento",
+        "n": 6,
+        "conc": 2,
+        "andamento": 0,
+        "nao": 4,
+        "pend": 4,
+        "progresso": 33,
+        "areas": 6,
+        "status": "Em andamento",
+        "prazo_exec": "31/07/2026"
+      },
+      {
+        "macro": "Pavimentação",
+        "n": 5,
+        "conc": 0,
+        "andamento": 4,
+        "nao": 1,
+        "pend": 5,
+        "progresso": 40,
+        "areas": 5,
+        "status": "Em andamento",
+        "prazo_exec": "30/09/2026"
+      },
+      {
+        "macro": "Caixa de manobra",
+        "n": 2,
+        "conc": 1,
+        "andamento": 1,
+        "nao": 0,
+        "pend": 1,
+        "progresso": 75,
+        "areas": 2,
+        "status": "Em andamento",
+        "prazo_exec": "20/08/2026"
+      },
+      {
+        "macro": "Não classificado",
+        "n": 2,
+        "conc": 0,
+        "andamento": 1,
+        "nao": 1,
+        "pend": 2,
+        "progresso": 25,
+        "areas": 1,
+        "status": "Em andamento",
+        "prazo_exec": "20/09/2026"
+      },
+      {
+        "macro": "Prédio de apoio",
+        "n": 2,
+        "conc": 0,
+        "andamento": 0,
+        "nao": 2,
+        "pend": 2,
+        "progresso": 0,
+        "areas": 2,
+        "status": "Não iniciada",
+        "prazo_exec": "20/09/2026"
+      },
+      {
+        "macro": "Caixa SAO",
+        "n": 1,
+        "conc": 0,
+        "andamento": 0,
+        "nao": 1,
+        "pend": 1,
+        "progresso": 0,
+        "areas": 1,
+        "status": "Não iniciada",
+        "prazo_exec": "09/09/2026"
+      },
+      {
+        "macro": "Cobertura",
+        "n": 1,
+        "conc": 0,
+        "andamento": 0,
+        "nao": 1,
+        "pend": 1,
+        "progresso": 0,
+        "areas": 1,
+        "status": "Não iniciada",
+        "prazo_exec": "09/09/2026"
+      },
+      {
+        "macro": "Graute",
+        "n": 1,
+        "conc": 0,
+        "andamento": 0,
+        "nao": 1,
+        "pend": 1,
+        "progresso": 0,
+        "areas": 1,
+        "status": "Não iniciada",
+        "prazo_exec": "20/08/2026"
+      },
+      {
+        "macro": "Leitos e cabos",
+        "n": 1,
+        "conc": 0,
+        "andamento": 0,
+        "nao": 1,
+        "pend": 1,
+        "progresso": 0,
+        "areas": 1,
+        "status": "Não iniciada",
+        "prazo_exec": "20/09/2026"
+      },
+      {
+        "macro": "Medidor de Nível",
+        "n": 1,
+        "conc": 0,
+        "andamento": 0,
+        "nao": 1,
+        "pend": 1,
+        "progresso": 0,
+        "areas": 1,
+        "status": "Não iniciada",
+        "prazo_exec": "20/08/2026"
+      },
+      {
+        "macro": "Tubulação",
+        "n": 1,
+        "conc": 0,
+        "andamento": 0,
+        "nao": 1,
+        "pend": 1,
+        "progresso": 0,
+        "areas": 1,
+        "status": "Não iniciada",
+        "prazo_exec": "20/09/2026"
+      }
+    ],
+    "documents": {
+      "source": "Checklist LO · LO_CHECKLIST_RVD.xlsx",
+      "deadline": "31/08/2026",
+      "columns": {
+        "area": "Setor responsável",
+        "manager": "Liderança responsável",
+        "comments": "Observações"
+      },
+      "filterLabels": {
+        "area": "Todos os setores responsáveis",
+        "manager": "Todas as lideranças responsáveis"
+      },
+      "doneLabel": "Entregues"
+    },
+    "item_sca_macro": {
+      "1.2.20.1.1": "Canaleta",
+      "1.2.20.1.2": "Caixa de passagem",
+      "1.2.20.2.1": "Grelha",
+      "1.2.7.1.1": "Canaleta",
+      "1.2.7.1.2": "Talude",
+      "1.2.7.1.3": "Talude",
+      "1.2.19.1.1": "Canaleta",
+      "1.2.19.1.2": "Talude",
+      "1.2.19.1.3": "Talude",
+      "1.2.1.1.1": "Drenagem",
+      "1.2.1.1.2": "Drenagem",
+      "1.2.1.1.3": "Drenagem",
+      "1.2.1.1.4": "Talude",
+      "1.2.1.3.1": "Sistema de bombas",
+      "1.2.1.1.5": "Drenagem",
+      "1.2.14.1.1": "Base civil",
+      "1.2.14.3.1": "Sistema de bombas",
+      "1.2.14.1.2": "Prédio de apoio",
+      "1.2.14.1.3": "Impermeabilização",
+      "1.2.11.1.1": "Base civil",
+      "1.2.11.3.1": "Sistema de bombas",
+      "1.2.11.2.1": "Grelha",
+      "1.2.11.5.1": "Sistema de bombas",
+      "1.2.11.1.2": "Base civil",
+      "1.2.11.2.2": "Grelha",
+      "1.2.11.1.3": "Base civil",
+      "1.2.11.3.2": "Válvula",
+      "1.2.11.2.3": "Grelha",
+      "1.2.11.1.4": "Base civil",
+      "1.2.12.1.1": "Canaleta",
+      "1.2.12.2.1": "Grelha",
+      "1.2.12.1.2": "Bacia de contenção",
+      "1.2.12.1.3": "Caixa de manobra",
+      "1.2.12.3.1": "Válvula",
+      "1.2.12.2.2": "Grelha",
+      "1.2.12.1.4": "Canaleta",
+      "1.2.6.1.1": "Talude",
+      "1.2.6.1.2": "Caixa de manobra",
+      "1.2.6.3.1": "Válvula",
+      "1.2.6.2.1": "Grelha",
+      "1.2.6.1.3": "Canaleta",
+      "1.2.6.2.2": "Grelha",
+      "1.2.6.1.4": "Caixa de passagem",
+      "1.2.6.2.3": "Grelha",
+      "1.2.22.1.1": "Caixa de passagem",
+      "1.2.22.2.1": "Grelha",
+      "1.2.22.1.2": "Prédio de apoio",
+      "1.2.22.1.3": "Base civil",
+      "1.2.22.3.1": "Válvula",
+      "1.2.22.2.2": "Grelha",
+      "1.2.3.1.1": "Base civil",
+      "1.2.3.5.1": "Sistema de bombas",
+      "1.2.3.2.1": "Grelha",
+      "1.2.3.5.2": "Sistema de bombas",
+      "1.2.3.1.2": "Base civil",
+      "1.2.3.2.2": "Grelha",
+      "1.2.3.1.3": "Base civil",
+      "1.2.3.3.1": "Válvula",
+      "1.2.3.2.3": "Grelha",
+      "1.2.3.3.2": "Base civil",
+      "1.2.5.1.1": "Base civil",
+      "1.2.5.5.1": "Sistema de bombas",
+      "1.2.5.2.1": "Grelha",
+      "1.2.5.5.2": "Sistema de bombas",
+      "1.2.5.1.2": "Base civil",
+      "1.2.5.2.2": "Grelha",
+      "1.2.5.1.3": "Base civil",
+      "1.2.5.3.1": "Válvula",
+      "1.2.5.2.3": "Grelha",
+      "1.2.5.1.4": "Base civil",
+      "1.2.5.5.3": "Sistema de bombas",
+      "1.2.5.2.4": "Grelha",
+      "1.2.5.5.4": "Sistema de bombas",
+      "1.2.5.1.5": "Base civil",
+      "1.2.5.3.2": "Válvula",
+      "1.2.5.2.5": "Grelha",
+      "1.2.5.3.3": "Base civil",
+      "1.2.22.1.4": "Base civil",
+      "1.2.22.1.5": "Graute",
+      "1.2.22.3.2": "Sistema de bombas",
+      "1.2.22.1.6": "Base civil",
+      "1.2.22.3.3": "Sistema de bombas",
+      "1.2.22.5.1": "Medidor de Nível",
+      "1.2.22.5.2": "Sistema de bombas",
+      "1.2.14.1.4": "Canaleta",
+      "1.2.14.2.1": "Grelha",
+      "1.2.14.1.5": "Base civil",
+      "1.2.14.3.2": "Válvula",
+      "1.2.14.2.2": "Grelha",
+      "1.2.14.1.6": "Base civil",
+      "1.2.14.2.3": "Grelha",
+      "1.2.14.1.7": "Base civil",
+      "1.2.22.1.7": "Drenagem",
+      "1.2.22.1.8": "Canaleta",
+      "1.2.22.2.3": "Grelha",
+      "1.2.22.1.9": "Base civil",
+      "1.2.22.3.4": "Válvula",
+      "1.2.22.2.4": "Grelha",
+      "1.2.22.1.10": "Base civil",
+      "1.2.22.2.5": "Grelha",
+      "1.2.22.1.11": "Base civil",
+      "1.2.22.1.12": "Base civil",
+      "1.2.22.1.13": "Base civil",
+      "1.2.6.1.5": "Base civil",
+      "1.2.6.3.2": "Válvula",
+      "1.2.6.2.4": "Grelha",
+      "1.2.6.1.6": "Base civil",
+      "1.2.6.2.5": "Grelha",
+      "1.2.6.1.7": "Base civil",
+      "1.2.9.1.1": "Base civil",
+      "1.2.9.5.1": "Sistema de bombas",
+      "1.2.9.2.1": "Grelha",
+      "1.2.9.5.2": "Sistema de bombas",
+      "1.2.9.1.2": "Base civil",
+      "1.2.9.2.2": "Grelha",
+      "1.2.9.1.3": "Base civil",
+      "1.2.9.3.1": "Válvula",
+      "1.2.9.2.3": "Grelha",
+      "1.2.9.1.4": "Base civil",
+      "1.2.4.1.1": "Base civil",
+      "1.2.4.5.1": "Sistema de bombas",
+      "1.2.4.2.1": "Grelha",
+      "1.2.4.5.2": "Sistema de bombas",
+      "1.2.4.1.2": "Base civil",
+      "1.2.4.3.1": "Válvula",
+      "1.2.4.2.2": "Grelha",
+      "1.2.4.1.3": "Base civil",
+      "1.2.22.1.14": "Não classificado",
+      "1.2.22.2.6": "Tubulação",
+      "1.2.22.1.15": "Base civil",
+      "1.2.22.3.5": "Não classificado",
+      "1.2.22.4.1": "Leitos e cabos",
+      "1.2.2.1.1": "Base civil",
+      "1.2.2.5.1": "Sistema de bombas",
+      "1.2.2.2.1": "Grelha",
+      "1.2.2.5.2": "Sistema de bombas",
+      "1.2.2.1.2": "Base civil",
+      "1.2.2.2.2": "Grelha",
+      "1.2.2.1.3": "Base civil",
+      "1.2.2.3.1": "Válvula",
+      "1.2.2.2.3": "Grelha",
+      "1.2.2.1.4": "Base civil",
+      "1.2.20.1.3": "Canaleta",
+      "1.2.20.1.4": "Base civil",
+      "1.2.20.2.2": "Grelha",
+      "1.2.20.1.5": "Base civil",
+      "1.2.20.1.6": "Base civil",
+      "1.2.20.1.7": "Base civil",
+      "1.2.20.3.1": "Válvula",
+      "1.2.10.1.1": "Impermeabilização",
+      "1.2.10.1.2": "Drenagem",
+      "1.2.10.2.1": "Cobertura",
+      "1.2.11.1.5": "Talude",
+      "1.2.11.1.6": "Impermeabilização",
+      "1.2.11.1.7": "Pavimentação",
+      "1.2.1.1.6": "Pavimentação",
+      "1.2.14.5.1": "Instrumento",
+      "1.2.14.5.2": "Instrumento",
+      "1.2.14.1.8": "Base civil",
+      "1.2.14.1.9": "Impermeabilização",
+      "1.2.14.1.10": "Tubos e conexões",
+      "1.2.14.1.11": "Tubos e conexões",
+      "1.2.14.1.12": "Cercamento",
+      "1.2.14.5.3": "Instrumento",
+      "1.2.14.5.4": "Instrumento",
+      "1.2.14.1.13": "Base civil",
+      "1.2.14.1.14": "Impermeabilização",
+      "1.2.14.1.15": "Tubos e conexões",
+      "1.2.14.1.16": "Tubos e conexões",
+      "1.2.14.1.17": "Cercamento",
+      "1.2.14.5.5": "Instrumento",
+      "1.2.14.5.6": "Instrumento",
+      "1.2.14.1.18": "Base civil",
+      "1.2.14.1.19": "Impermeabilização",
+      "1.2.14.1.20": "Tubos e conexões",
+      "1.2.14.1.21": "Tubos e conexões",
+      "1.2.14.1.22": "Cercamento",
+      "1.2.14.5.7": "Instrumento",
+      "1.2.14.5.8": "Instrumento",
+      "1.2.14.1.23": "Base civil",
+      "1.2.14.1.24": "Impermeabilização",
+      "1.2.14.1.25": "Tubos e conexões",
+      "1.2.14.1.26": "Tubos e conexões",
+      "1.2.14.1.27": "Cercamento",
+      "1.2.14.5.9": "Instrumento",
+      "1.2.14.5.10": "Instrumento",
+      "1.2.14.1.28": "Base civil",
+      "1.2.14.1.29": "Impermeabilização",
+      "1.2.14.1.30": "Tubos e conexões",
+      "1.2.14.1.31": "Tubos e conexões",
+      "1.2.14.1.32": "Cercamento",
+      "1.2.14.5.11": "Instrumento",
+      "1.2.14.5.12": "Instrumento",
+      "1.2.14.1.33": "Base civil",
+      "1.2.14.1.34": "Impermeabilização",
+      "1.2.14.1.35": "Tubos e conexões",
+      "1.2.14.1.36": "Tubos e conexões",
+      "1.2.14.1.37": "Cercamento",
+      "1.2.1.1.7": "Drenagem",
+      "1.2.1.1.8": "Drenagem",
+      "1.2.13.1.1": "Bacia de contenção",
+      "1.2.13.1.2": "Caixa de passagem",
+      "1.2.13.2.1": "Grelha",
+      "1.2.12.1.5": "Caixa de passagem",
+      "1.2.12.2.3": "Grelha",
+      "1.2.7.1.4": "Base civil",
+      "1.2.7.5.1": "Sistema de bombas",
+      "1.2.7.2.1": "Grelha",
+      "1.2.7.5.2": "Sistema de bombas",
+      "1.2.7.1.5": "Base civil",
+      "1.2.7.2.2": "Grelha",
+      "1.2.7.1.6": "Base civil",
+      "1.2.7.3.1": "Válvula",
+      "1.2.7.2.3": "Grelha",
+      "1.2.7.1.7": "Base civil",
+      "1.2.16.1.1": "Base civil",
+      "1.2.16.3.1": "Válvula",
+      "1.2.16.2.1": "Grelha",
+      "1.2.16.1.2": "Caixa de passagem",
+      "1.2.16.2.2": "Grelha",
+      "1.2.12.4.1": "Caixa SAO",
+      "1.2.12.4.2": "Bacia de contenção",
+      "1.2.6.1.8": "Talude",
+      "1.2.6.1.9": "Base civil",
+      "1.2.6.3.3": "Válvula",
+      "1.2.6.2.6": "Grelha",
+      "1.2.6.1.10": "Caixa de passagem",
+      "1.2.6.2.7": "Grelha",
+      "1.2.6.1.11": "Pavimentação",
+      "1.2.6.1.12": "Talude",
+      "1.2.6.1.13": "Base civil",
+      "1.2.6.3.4": "Válvula",
+      "1.2.6.2.8": "Grelha",
+      "1.2.6.1.14": "Caixa de passagem",
+      "1.2.6.2.9": "Grelha",
+      "1.2.6.1.15": "Pavimentação",
+      "1.2.9.1.5": "Talude",
+      "1.2.9.1.6": "Base civil",
+      "1.2.9.3.2": "Válvula",
+      "1.2.9.2.4": "Grelha",
+      "1.2.9.1.7": "Caixa de passagem",
+      "1.2.9.2.5": "Grelha",
+      "1.2.9.1.8": "Pavimentação",
+      "1.2.20.1.8": "Base civil",
+      "1.2.20.3.2": "Válvula",
+      "1.2.20.2.3": "Grelha",
+      "1.2.20.1.9": "Caixa de passagem",
+      "1.2.20.2.4": "Grelha",
+      "1.2.20.1.10": "Bacia de contenção",
+      "1.2.19.1.4": "Bacia de contenção",
+      "1.2.15.1.1": "Bacia de contenção",
+      "1.2.15.1.2": "Base civil",
+      "1.2.15.3.1": "Válvula",
+      "1.2.15.2.1": "Grelha",
+      "1.2.8.1.1": "Bacia de contenção",
+      "1.2.8.1.2": "Caixa de passagem",
+      "1.2.8.2.1": "Grelha",
+      "1.2.7.1.8": "Base civil",
+      "1.2.7.5.3": "Sistema de bombas",
+      "1.2.7.2.4": "Grelha",
+      "1.2.7.5.4": "Sistema de bombas",
+      "1.2.7.1.9": "Base civil",
+      "1.2.7.2.5": "Grelha",
+      "1.2.7.1.10": "Base civil",
+      "1.2.7.3.2": "Válvula",
+      "1.2.7.2.6": "Grelha",
+      "1.2.7.1.11": "Base civil",
+      "1.2.15.1.3": "Base civil",
+      "1.2.15.2.2": "Grelha",
+      "1.2.15.1.4": "Base civil",
+      "1.2.15.3.2": "Válvula",
+      "1.2.15.2.3": "Grelha",
+      "1.2.15.1.5": "Base civil",
+      "1.2.20.1.11": "Base civil",
+      "1.2.20.1.12": "Grelha",
+      "1.2.20.1.13": "Base civil",
+      "1.2.20.3.3": "Válvula",
+      "1.2.20.2.5": "Grelha"
+    },
+    "area_pend_ppt": {
+      "Almoxarifado": [
+        "Grelhas nas caixas de passagem"
+      ],
+      "Armazém de DDGS": [
+        "Canaletas para água pluvial (Em andamento)"
+      ],
+      "Armazém de Milho": [
+        "Finalização das canaletas para água pluvial"
+      ],
+      "Bacia Pluvial": [
+        "1. Completa (Bombas ou Monge c/ Válvulas)",
+        "2. Taludes sem erosão",
+        "3. Conexão com a rede de drenagem da planta",
+        "4. Conexão com o dissipador de água"
+      ],
+      "Caixa d'água": [
+        "1. Bomba Dosadora",
+        "2. Abrigo para químicos",
+        "3. Piso impermeável"
+      ],
+      "Caldeira": [
+        "SUMP finalizada (Bomba, base, grade e nível)",
+        "Grelhas nas canaletas",
+        "Caixa de manobra (Válvulas)"
+      ],
+      "Casa de Força": [
+        "1. Canaletas",
+        "2. Grelha nas canaletas",
+        "3. Bacia de contenção (Estrutura fechada)",
+        "4. Caixa de manobra com válvula"
+      ],
+      "Casa de Bombas - LGE": [],
+      "Central de Resíduos": [
+        "Status: Terraplanagem"
+      ],
+      "Cozimento": [
+        "1. SUMP finalizada (Bomba, base, grade e nível)",
+        "2. Grelhas nas canaletas",
+        "3. Caixa de manobra (Válvulas)"
+      ],
+      "Destilaria": [
+        "1. SUMP finalizada (Bomba, base, grade e nível)",
+        "2. Grelhas nas canaletas",
+        "3. Caixa de manobra (Válvulas)"
+      ],
+      "Dorna Volante": [
+        "1. SUMP finalizada (Bomba, base, grade e nível)",
+        "2. Grelhas nas canaletas",
+        "3. Caixa de manobra (Válvulas)",
+        "4. Bacia de Contenção"
+      ],
+      "Elevatórias": [],
+      "ETA (Osmose)": [
+        "1. SCA não iniciados, concretando Bases."
+      ],
+      "ETE": [],
+      "Expedição de Etanol": [
+        "1. SCA Não Iniciado"
+      ],
+      "Fábrica de Óleo": [],
+      "Fermentação": [
+        "SUMP finalizada (Bomba, base, grade e nível)"
+      ],
+      "Fertirrigação": [
+        "1. Não Iniciado"
+      ],
+      "Moinho": [
+        "SUMP finalizada (Bomba, base, grade e nível)",
+        "Grelhas nas canaletas",
+        "Caixa de manobra (Válvulas)"
+      ],
+      "Oficina": [
+        "Grelha nas caixas de passagens;",
+        "Bacia de contenção com válvula para tanque de combustível."
+      ],
+      "Pátio de Biomassa (Stacker)": [
+        "1. Impermeabilização do pátio",
+        "2. Rede de drenagem",
+        "3. Cobertura da biomassa"
+      ],
+      "Pátio de Cinzas": [
+        "1. Não Iniciado"
+      ],
+      "Pavimentação": [],
+      "Poço 01 - Estrutura": [
+        "P.01:",
+        "Horímetro",
+        "Saída de Água para coleta"
+      ],
+      "Poço 02 - Estrutura": [
+        "P.02:",
+        "1. Horímetro"
+      ],
+      "Poço 03 - Estrutura": [
+        "P.03:",
+        "1. Hidrômetro",
+        "2. Horímetro",
+        "3. Laje Sanitária",
+        "4. Cercamento com portão"
+      ],
+      "Poço 04 - Estrutura": [
+        "P.04:",
+        "1. Hidrômetro",
+        "2. Horímetro",
+        "3. Laje Sanitária",
+        "4. Cercamento com portão",
+        "5. Saída de água para coleta"
+      ],
+      "Poço 05 - Estrutura": [
+        "P.05:",
+        "1. Hidrômetro",
+        "2. Horímetro",
+        "3. Laje Sanitária",
+        "4. Cercamento com portão",
+        "5. Saída de água para coleta"
+      ],
+      "Poço 06 - Estrutura": [
+        "P.06:",
+        "1. Hidrômetro",
+        "2. Horímetro",
+        "3. Laje Sanitária",
+        "4. Cercamento com portão",
+        "5. Saída de água para coleta"
+      ],
+      "Drenagem": [],
+      "Sala dos Compressores": [
+        "Bacia de Contenção;",
+        "2 Caixas de Passagem com Grelhas"
+      ],
+      "Sala Elétricas - SE": [
+        "Bacia de Contenção;",
+        "Caixa de passagem;",
+        "Grelhas."
+      ],
+      "Secador de DDGS": [
+        "1. Sump Finalizada (Bomba, base, grade e nível);",
+        "2. Caixa de manobra com válvulas",
+        "3. Canaletas",
+        "4. Grelha nas canaletas",
+        "5.Bacia de contenção"
+      ],
+      "Motor LCI": [
+        "1. Caixa de manobra com válvulas",
+        "2. Grelhas da caixa de manobra e passagem"
+      ],
+      "Subestação": [],
+      "Tanques de Etanol": [
+        "Válvulas das caixas de manobras;",
+        "Grelhas;",
+        "Bacias de contenção;",
+        "Piso compactado ou concretado;",
+        "Caixa de manobra e de passagem do tanque maior"
+      ],
+      "Tanques de Medição": [
+        "Válvulas das caixas de manobras;",
+        "Grelhas;",
+        "Bacias de contenção;",
+        "Piso compactado ou concretado."
+      ],
+      "Tanques de Óleo": [
+        "Válvulas das caixas de manobras;",
+        "Grelhas;",
+        "Bacias de contenção;",
+        "Piso compactado ou concretado."
+      ],
+      "Tanques de Químicos": [
+        "Grelha das caixas de passagem;",
+        "Válvula da caixa de manobra;",
+        "Grelhas;",
+        "Piso impermeável."
+      ],
+      "Tombador": [],
+      "Torre de Resfriamento": [
+        "Skid de dosagem para abrigo de produtos químicos, não iniciado."
+      ],
+      "Vinhaça Fina": [
+        "Grelha da caixa de passagem;"
+      ],
+      "Vinhaça Grossa": [
+        "1. Sump Finalizada (Bomba, base, grade e nível);",
+        "2. Caixa de manobra com válvulas",
+        "3. Canaletas",
+        "4. Grelha nas canaletas"
+      ],
+      "Chillers": [],
+      "Descarga de Soda": []
+    },
+    "item_names": {
+      "1.2.20.1.1": "Canaletas simples",
+      "1.2.20.1.2": "Caixa de passagem (Estrutura Civil)",
+      "1.2.20.2.1": "Caixa de passagem (Grelha)",
+      "1.2.7.1.1": "Canaletas simples",
+      "1.2.7.1.2": "Escada Hidráulica no Talude",
+      "1.2.7.1.3": "Talude sem erosão",
+      "1.2.19.1.1": "Canaletas",
+      "1.2.19.1.2": "Escada Hidráulica no Talude",
+      "1.2.19.1.3": "Talude sem erosão",
+      "1.2.1.1.1": "Dissipador",
+      "1.2.1.1.2": "Vertedouro",
+      "1.2.1.1.3": "Monge",
+      "1.2.1.1.4": "Taludes com grama",
+      "1.2.1.3.1": "bombas instaladas",
+      "1.2.1.1.5": "Conexão com a drenagem da planta",
+      "1.2.14.1.1": "Base para a bomba",
+      "1.2.14.3.1": "Bomba dosadora",
+      "1.2.14.1.2": "Abrigo para químicos",
+      "1.2.14.1.3": "Piso impermeabilizado",
+      "1.2.11.1.1": "SUMP - Estrutura Civil",
+      "1.2.11.3.1": "SUMP - Bombas Instaladas",
+      "1.2.11.2.1": "SUMP - Grelhas",
+      "1.2.11.5.1": "SUMP - Sistema de Nível",
+      "1.2.11.1.2": "Canaletas - Estrutura Civil",
+      "1.2.11.2.2": "Canaletas - Grelhas",
+      "1.2.11.1.3": "Caixa de Manobra - Estrutura Civil",
+      "1.2.11.3.2": "Caixa de Manobra - Válvulas",
+      "1.2.11.2.3": "Caixa de Manobra - Grelha",
+      "1.2.11.1.4": "Bacia de Contenção",
+      "1.2.12.1.1": "Canaleta - Estrutura Civil",
+      "1.2.12.2.1": "Canaleta - Grelha",
+      "1.2.12.1.2": "Bacia de contenção",
+      "1.2.12.1.3": "Caixa de Manobra - Estrutura Civil",
+      "1.2.12.3.1": "Caixa de Manobra - Válvulas",
+      "1.2.12.2.2": "Caixa de Manobra - Grelha",
+      "1.2.12.1.4": "Canaleta simples - Estrutura Civil",
+      "1.2.6.1.1": "Taludes Internos",
+      "1.2.6.1.2": "Caixa de Manobra - Estrutura Civil",
+      "1.2.6.3.1": "Caixa de Manobra - Válvulas",
+      "1.2.6.2.1": "Caixa de Manobra - Grelha",
+      "1.2.6.1.3": "Canaleta (Estrutura Civil)",
+      "1.2.6.2.2": "Canaleta (Grelha)",
+      "1.2.6.1.4": "Caixa de Passagem (estrutura civil)",
+      "1.2.6.2.3": "Caixa de Passagem (grelha)",
+      "1.2.22.1.1": "Caixa de Passagem (estrutura civil)",
+      "1.2.22.2.1": "Caixa de Passagem (grelha)",
+      "1.2.22.1.2": "Bacia de Contenção IBC - Estrutura Civil",
+      "1.2.22.1.3": "Caixa de Manobra - Estrutura Civil",
+      "1.2.22.3.1": "Caixa de Manobra - Válvulas",
+      "1.2.22.2.2": "Caixa de Manobra - Grelha",
+      "1.2.3.1.1": "SUMP - Estrutura Civil",
+      "1.2.3.5.1": "SUMP - Bombas Instaladas",
+      "1.2.3.2.1": "SUMP - Grelhas",
+      "1.2.3.5.2": "SUMP - Sistema de Nível",
+      "1.2.3.1.2": "Canaletas - Estrutura Civil",
+      "1.2.3.2.2": "Canaletas - Grelhas",
+      "1.2.3.1.3": "Caixa de Manobra - Estrutura Civil",
+      "1.2.3.3.1": "Caixa de Manobra - Válvulas",
+      "1.2.3.2.3": "Caixa de Manobra - Grelha",
+      "1.2.3.3.2": "Bacia de Contenção",
+      "1.2.5.1.1": "SUMP - Estrutura Civil",
+      "1.2.5.5.1": "SUMP - Bombas Instaladas",
+      "1.2.5.2.1": "SUMP - Grelhas",
+      "1.2.5.5.2": "SUMP - Sistema de Nível",
+      "1.2.5.1.2": "Canaletas - Estrutura Civil",
+      "1.2.5.2.2": "Canaletas - Grelhas",
+      "1.2.5.1.3": "Caixa de Manobra - Estrutura Civil",
+      "1.2.5.3.1": "Caixa de Manobra - Válvulas",
+      "1.2.5.2.3": "Caixa de Manobra - Grelha",
+      "1.2.5.1.4": "SUMP - Estrutura Civil",
+      "1.2.5.5.3": "SUMP - Bombas Instaladas",
+      "1.2.5.2.4": "SUMP - Grelhas",
+      "1.2.5.5.4": "SUMP - Sistema de Nível",
+      "1.2.5.1.5": "Caixa de Manobra - Estrutura Civil",
+      "1.2.5.3.2": "Caixa de Manobra - Válvulas",
+      "1.2.5.2.5": "Caixa de Manobra - Grelha",
+      "1.2.5.3.3": "Bacia de Contenção",
+      "1.2.22.1.4": "Base das bombas",
+      "1.2.22.1.5": "Graute das bases",
+      "1.2.22.3.2": "bombas instaladas",
+      "1.2.22.1.6": "Fosso - estrutura Civil",
+      "1.2.22.3.3": "Linha de escorva",
+      "1.2.22.5.1": "Medidor de nível",
+      "1.2.22.5.2": "Ligação via COI",
+      "1.2.14.1.4": "Canaletas - Estrutura Civil",
+      "1.2.14.2.1": "Canaletas - Grelhas",
+      "1.2.14.1.5": "Caixa de Manobra - Estrutura Civil",
+      "1.2.14.3.2": "Caixa de Manobra - Válvulas",
+      "1.2.14.2.2": "Caixa de Manobra - Grelha",
+      "1.2.14.1.6": "Caixa de passagem - Estrutura Civil",
+      "1.2.14.2.3": "Caixa de passagem - Grelha",
+      "1.2.14.1.7": "Bacia de contenção",
+      "1.2.22.1.7": "Lagoa de segurança",
+      "1.2.22.1.8": "Canaletas - Estrutura Civil",
+      "1.2.22.2.3": "Canaletas - Grelhas",
+      "1.2.22.1.9": "Caixa de Manobra - Estrutura Civil",
+      "1.2.22.3.4": "Caixa de Manobra - Válvulas",
+      "1.2.22.2.4": "Caixa de Manobra - Grelha",
+      "1.2.22.1.10": "Caixa de passagem - Estrutura Civil",
+      "1.2.22.2.5": "Caixa de passagem - Grelha",
+      "1.2.22.1.11": "Bacia de Conteção - Tanques",
+      "1.2.22.1.12": "Bacia de contenção - Químicos",
+      "1.2.22.1.13": "Canaleta simples - Estrutura Civil",
+      "1.2.6.1.5": "Caixa de Manobra - Estrutura Civil",
+      "1.2.6.3.2": "Caixa de Manobra - Válvulas",
+      "1.2.6.2.4": "Caixa de Manobra - Grelha",
+      "1.2.6.1.6": "Caixa de passagem - Estrutura Civil",
+      "1.2.6.2.5": "Caixa de passagem - Grelha",
+      "1.2.6.1.7": "Canaleta simples - Estrutura Civil",
+      "1.2.9.1.1": "SUMP - Estrutura Civil",
+      "1.2.9.5.1": "SUMP - Bombas Instaladas",
+      "1.2.9.2.1": "SUMP - Grelhas",
+      "1.2.9.5.2": "SUMP - Sistema de Nível",
+      "1.2.9.1.2": "Canaletas - Estrutura Civil",
+      "1.2.9.2.2": "Canaletas - Grelhas",
+      "1.2.9.1.3": "Caixa de Manobra - Estrutura Civil",
+      "1.2.9.3.1": "Caixa de Manobra - Válvulas",
+      "1.2.9.2.3": "Caixa de Manobra - Grelha",
+      "1.2.9.1.4": "Bacia de Contenção",
+      "1.2.4.1.1": "SUMP - Estrutura Civil",
+      "1.2.4.5.1": "SUMP - Bombas Instaladas",
+      "1.2.4.2.1": "SUMP - Grelhas",
+      "1.2.4.5.2": "SUMP - Sistema de Nível",
+      "1.2.4.1.2": "Caixa de Manobra - Estrutura Civil",
+      "1.2.4.3.1": "Caixa de Manobra - Válvulas",
+      "1.2.4.2.2": "Caixa de Manobra - Grelha",
+      "1.2.4.1.3": "Bacia de Contenção",
+      "1.2.22.1.14": "Infra civil",
+      "1.2.22.2.6": "Infra metálica (tubulações)",
+      "1.2.22.1.15": "Base dos canhões",
+      "1.2.22.3.5": "Canhão finalizado",
+      "1.2.22.4.1": "Operando via COI",
+      "1.2.2.1.1": "SUMP - Estrutura Civil",
+      "1.2.2.5.1": "SUMP - Bombas Instaladas",
+      "1.2.2.2.1": "SUMP - Grelhas",
+      "1.2.2.5.2": "SUMP - Sistema de Nível",
+      "1.2.2.1.2": "Canaletas - Estrutura Civil",
+      "1.2.2.2.2": "Canaletas - Grelhas",
+      "1.2.2.1.3": "Caixa de Manobra - Estrutura Civil",
+      "1.2.2.3.1": "Caixa de Manobra - Válvulas",
+      "1.2.2.2.3": "Caixa de Manobra - Grelha",
+      "1.2.2.1.4": "Bacia de Contenção",
+      "1.2.20.1.3": "Canaleta simples - Estrutura Civil",
+      "1.2.20.1.4": "Caixa de passagem - Estrutura Civil",
+      "1.2.20.2.2": "Caixa de passagem - Grelha",
+      "1.2.20.1.5": "Baia de químicos - Estrutura Civil",
+      "1.2.20.1.6": "Baia de químicos - Canaletas Simples",
+      "1.2.20.1.7": "Bacia de Contenção Tanque 15m³ - Estrutura Civil",
+      "1.2.20.3.1": "Bacia de Contenção Tanque 15m³ - Válvula",
+      "1.2.10.1.1": "Piso impermeabilizado",
+      "1.2.10.1.2": "Rede de drenagem",
+      "1.2.10.2.1": "Cobertura",
+      "1.2.11.1.5": "Taludes",
+      "1.2.11.1.6": "Piso impermeabilizado",
+      "1.2.11.1.7": "Rampa para carregamento",
+      "1.2.1.1.6": "Concretagem dos caminhos, ruas, fluxos de caminhões",
+      "1.2.14.5.1": "Hidrômetro",
+      "1.2.14.5.2": "Horímetro",
+      "1.2.14.1.8": "Base da bomba (pelo menos 1x1m)",
+      "1.2.14.1.9": "Piso impermeabilizado",
+      "1.2.14.1.10": "Saída de coleta",
+      "1.2.14.1.11": "Tubo guia",
+      "1.2.14.1.12": "Cercamento com portão",
+      "1.2.14.5.3": "Hidrômetro",
+      "1.2.14.5.4": "Horímetro",
+      "1.2.14.1.13": "Base da bomba (pelo menos 1x1m)",
+      "1.2.14.1.14": "Piso impermeabilizado",
+      "1.2.14.1.15": "Saída de coleta",
+      "1.2.14.1.16": "Tubo guia",
+      "1.2.14.1.17": "Cercamento com portão",
+      "1.2.14.5.5": "Hidrômetro",
+      "1.2.14.5.6": "Horímetro",
+      "1.2.14.1.18": "Base da bomba (pelo menos 1x1m)",
+      "1.2.14.1.19": "Piso impermeabilizado",
+      "1.2.14.1.20": "Saída de coleta",
+      "1.2.14.1.21": "Tubo guia",
+      "1.2.14.1.22": "Cercamento com portão",
+      "1.2.14.5.7": "Hidrômetro",
+      "1.2.14.5.8": "Horímetro",
+      "1.2.14.1.23": "Base da bomba (pelo menos 1x1m)",
+      "1.2.14.1.24": "Piso impermeabilizado",
+      "1.2.14.1.25": "Saída de coleta",
+      "1.2.14.1.26": "Tubo guia",
+      "1.2.14.1.27": "Cercamento com portão",
+      "1.2.14.5.9": "Hidrômetro",
+      "1.2.14.5.10": "Horímetro",
+      "1.2.14.1.28": "Base da bomba (pelo menos 1x1m)",
+      "1.2.14.1.29": "Piso impermeabilizado",
+      "1.2.14.1.30": "Saída de coleta",
+      "1.2.14.1.31": "Tubo guia",
+      "1.2.14.1.32": "Cercamento com portão",
+      "1.2.14.5.11": "Hidrômetro",
+      "1.2.14.5.12": "Horímetro",
+      "1.2.14.1.33": "Base da bomba (pelo menos 1x1m)",
+      "1.2.14.1.34": "Piso impermeabilizado",
+      "1.2.14.1.35": "Saída de coleta",
+      "1.2.14.1.36": "Tubo guia",
+      "1.2.14.1.37": "Cercamento com portão",
+      "1.2.1.1.7": "Caixas de drenagem",
+      "1.2.1.1.8": "Interligação nas lagoas",
+      "1.2.13.1.1": "Bacia de contenção",
+      "1.2.13.1.2": "Caixa de passagem - Estrutura Civil",
+      "1.2.13.2.1": "Caixa de passagem - Grelha",
+      "1.2.12.1.5": "Caixa de passagem - Estrutura Civil",
+      "1.2.12.2.3": "Caixa de passagem - Grelha",
+      "1.2.7.1.4": "SUMP - Estrutura Civil",
+      "1.2.7.5.1": "SUMP - Bombas Instaladas",
+      "1.2.7.2.1": "SUMP - Grelhas",
+      "1.2.7.5.2": "SUMP - Sistema de Nível",
+      "1.2.7.1.5": "Canaletas - Estrutura Civil",
+      "1.2.7.2.2": "Canaletas - Grelhas",
+      "1.2.7.1.6": "Caixa de Manobra - Estrutura Civil",
+      "1.2.7.3.1": "Caixa de Manobra - Válvulas",
+      "1.2.7.2.3": "Caixa de Manobra - Grelha",
+      "1.2.7.1.7": "Bacia de Contenção",
+      "1.2.16.1.1": "Caixa de Manobra - Estrutura Civil",
+      "1.2.16.3.1": "Caixa de Manobra - Válvulas",
+      "1.2.16.2.1": "Caixa de Manobra - Grelha",
+      "1.2.16.1.2": "Caixa de passagem - Estrutura Civil",
+      "1.2.16.2.2": "Caixa de passagem - Grelha",
+      "1.2.12.4.1": "Caixa SAO - Estrutura Civil",
+      "1.2.12.4.2": "Bacia de contenção Trafo - Estrutura Civil",
+      "1.2.6.1.8": "Taludes sem erosão",
+      "1.2.6.1.9": "Caixa de Manobra - Estrutura Civil",
+      "1.2.6.3.3": "Caixa de Manobra - Válvulas",
+      "1.2.6.2.6": "Caixa de Manobra - Grelha",
+      "1.2.6.1.10": "Caixa de passagem - Estrutura Civil",
+      "1.2.6.2.7": "Caixa de passagem - Grelha",
+      "1.2.6.1.11": "Piso impermeabilizado/Compactado",
+      "1.2.6.1.12": "Taludes sem erosão",
+      "1.2.6.1.13": "Caixa de Manobra - Estrutura Civil",
+      "1.2.6.3.4": "Caixa de Manobra - Válvulas",
+      "1.2.6.2.8": "Caixa de Manobra - Grelha",
+      "1.2.6.1.14": "Caixa de passagem - Estrutura Civil",
+      "1.2.6.2.9": "Caixa de passagem - Grelha",
+      "1.2.6.1.15": "Piso impermeabilizado/Compactado",
+      "1.2.9.1.5": "Taludes sem erosão",
+      "1.2.9.1.6": "Caixa de Manobra - Estrutura Civil",
+      "1.2.9.3.2": "Caixa de Manobra - Válvulas",
+      "1.2.9.2.4": "Caixa de Manobra - Grelha",
+      "1.2.9.1.7": "Caixa de passagem - Estrutura Civil",
+      "1.2.9.2.5": "Caixa de passagem - Grelha",
+      "1.2.9.1.8": "Piso impermeabilizado/Compactado",
+      "1.2.20.1.8": "Caixa de Manobra - Estrutura Civil",
+      "1.2.20.3.2": "Caixa de Manobra - Válvulas",
+      "1.2.20.2.3": "Caixa de Manobra - Grelha",
+      "1.2.20.1.9": "Caixa de passagem - Estrutura Civil",
+      "1.2.20.2.4": "Caixa de passagem - Grelha",
+      "1.2.20.1.10": "Bacia de contenção",
+      "1.2.19.1.4": "Bacia de contenção Pistões - Estrutura Civil",
+      "1.2.15.1.1": "Bacia de contenção SKID - Estrutura Civil",
+      "1.2.15.1.2": "Caixa de Manobra - Estrutura Civil",
+      "1.2.15.3.1": "Caixa de Manobra - Válvulas",
+      "1.2.15.2.1": "Caixa de Manobra - Grelha",
+      "1.2.8.1.1": "Bacia de contenção - Estrutura Civil",
+      "1.2.8.1.2": "Caixa de passagem - Estrutura Civil",
+      "1.2.8.2.1": "Caixa de passagem - Grelha",
+      "1.2.7.1.8": "SUMP - Estrutura Civil",
+      "1.2.7.5.3": "SUMP - Bombas Instaladas",
+      "1.2.7.2.4": "SUMP - Grelhas",
+      "1.2.7.5.4": "SUMP - Sistema de Nível",
+      "1.2.7.1.9": "Canaletas - Estrutura Civil",
+      "1.2.7.2.5": "Canaletas - Grelhas",
+      "1.2.7.1.10": "Caixa de Manobra - Estrutura Civil",
+      "1.2.7.3.2": "Caixa de Manobra - Válvulas",
+      "1.2.7.2.6": "Caixa de Manobra - Grelha",
+      "1.2.7.1.11": "Bacia de Contenção",
+      "1.2.15.1.3": "Canaletas - Estrutura Civil",
+      "1.2.15.2.2": "Canaletas - Grelhas",
+      "1.2.15.1.4": "Caixa de Manobra - Estrutura Civil",
+      "1.2.15.3.2": "Caixa de Manobra - Válvulas",
+      "1.2.15.2.3": "Caixa de Manobra - Grelha",
+      "1.2.15.1.5": "Bacia de Contenção",
+      "1.2.20.1.11": "Canaleta - Estrutura Civil",
+      "1.2.20.1.12": "Canaleta - Grelha",
+      "1.2.20.1.13": "Caixa de Manobra - Estrutura Civil",
+      "1.2.20.3.3": "Caixa de Manobra - Válvulas",
+      "1.2.20.2.5": "Caixa de Manobra - Grelha"
+    },
+    "item_dates": {
+      "1.2.20.1.1": {
+        "previsto": "2026-07-31",
+        "replan": "2026-08-15"
+      },
+      "1.2.20.1.2": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.20.2.1": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.7.1.1": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.7.1.2": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.7.1.3": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.19.1.1": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.19.1.2": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.19.1.3": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.1.1.1": {
+        "previsto": "2026-09-20",
+        "replan": null
+      },
+      "1.2.1.1.2": {
+        "previsto": "2026-09-20",
+        "replan": null
+      },
+      "1.2.1.1.3": {
+        "previsto": "2026-09-20",
+        "replan": null
+      },
+      "1.2.1.1.4": {
+        "previsto": "2026-09-20",
+        "replan": null
+      },
+      "1.2.1.3.1": {
+        "previsto": "2026-09-20",
+        "replan": null
+      },
+      "1.2.1.1.5": {
+        "previsto": "2026-09-20",
+        "replan": null
+      },
+      "1.2.14.1.1": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.14.3.1": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.14.1.2": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.14.1.3": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.11.1.1": {
+        "previsto": "2026-07-20",
+        "replan": null
+      },
+      "1.2.11.3.1": {
+        "previsto": "2026-07-20",
+        "replan": null
+      },
+      "1.2.11.2.1": {
+        "previsto": "2026-07-20",
+        "replan": null
+      },
+      "1.2.11.5.1": {
+        "previsto": "2026-07-20",
+        "replan": null
+      },
+      "1.2.11.1.2": {
+        "previsto": "2026-07-20",
+        "replan": null
+      },
+      "1.2.11.2.2": {
+        "previsto": "2026-07-20",
+        "replan": null
+      },
+      "1.2.11.1.3": {
+        "previsto": "2026-07-20",
+        "replan": null
+      },
+      "1.2.11.3.2": {
+        "previsto": "2026-07-20",
+        "replan": null
+      },
+      "1.2.11.2.3": {
+        "previsto": "2026-07-20",
+        "replan": null
+      },
+      "1.2.11.1.4": {
+        "previsto": "2026-07-20",
+        "replan": null
+      },
+      "1.2.12.1.1": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.12.2.1": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.12.1.2": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.12.1.3": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.12.3.1": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.12.2.2": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.12.1.4": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.6.1.1": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.6.1.2": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.6.3.1": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.6.2.1": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.6.1.3": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.6.2.2": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.6.1.4": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.6.2.3": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.22.1.1": {
+        "previsto": "2026-09-20",
+        "replan": null
+      },
+      "1.2.22.2.1": {
+        "previsto": "2026-09-20",
+        "replan": null
+      },
+      "1.2.22.1.2": {
+        "previsto": "2026-09-20",
+        "replan": null
+      },
+      "1.2.22.1.3": {
+        "previsto": "2026-09-20",
+        "replan": null
+      },
+      "1.2.22.3.1": {
+        "previsto": "2026-09-20",
+        "replan": null
+      },
+      "1.2.22.2.2": {
+        "previsto": "2026-09-20",
+        "replan": null
+      },
+      "1.2.3.1.1": {
+        "previsto": "2026-07-15",
+        "replan": null
+      },
+      "1.2.3.5.1": {
+        "previsto": "2026-07-15",
+        "replan": null
+      },
+      "1.2.3.2.1": {
+        "previsto": "2026-07-15",
+        "replan": null
+      },
+      "1.2.3.5.2": {
+        "previsto": "2026-07-15",
+        "replan": null
+      },
+      "1.2.3.1.2": {
+        "previsto": "2026-07-15",
+        "replan": null
+      },
+      "1.2.3.2.2": {
+        "previsto": "2026-07-15",
+        "replan": null
+      },
+      "1.2.3.1.3": {
+        "previsto": "2026-07-15",
+        "replan": null
+      },
+      "1.2.3.3.1": {
+        "previsto": "2026-07-15",
+        "replan": null
+      },
+      "1.2.3.2.3": {
+        "previsto": "2026-07-15",
+        "replan": null
+      },
+      "1.2.3.3.2": {
+        "previsto": "2026-07-15",
+        "replan": null
+      },
+      "1.2.5.1.1": {
+        "previsto": "2026-07-15",
+        "replan": null
+      },
+      "1.2.5.5.1": {
+        "previsto": "2026-07-15",
+        "replan": null
+      },
+      "1.2.5.2.1": {
+        "previsto": "2026-07-15",
+        "replan": null
+      },
+      "1.2.5.5.2": {
+        "previsto": "2026-07-15",
+        "replan": null
+      },
+      "1.2.5.1.2": {
+        "previsto": "2026-07-15",
+        "replan": null
+      },
+      "1.2.5.2.2": {
+        "previsto": "2026-07-15",
+        "replan": null
+      },
+      "1.2.5.1.3": {
+        "previsto": "2026-07-15",
+        "replan": null
+      },
+      "1.2.5.3.1": {
+        "previsto": "2026-07-15",
+        "replan": null
+      },
+      "1.2.5.2.3": {
+        "previsto": "2026-07-15",
+        "replan": null
+      },
+      "1.2.5.1.4": {
+        "previsto": "2026-07-20",
+        "replan": null
+      },
+      "1.2.5.5.3": {
+        "previsto": "2026-07-20",
+        "replan": null
+      },
+      "1.2.5.2.4": {
+        "previsto": "2026-07-20",
+        "replan": null
+      },
+      "1.2.5.5.4": {
+        "previsto": "2026-07-20",
+        "replan": null
+      },
+      "1.2.5.1.5": {
+        "previsto": "2026-07-20",
+        "replan": null
+      },
+      "1.2.5.3.2": {
+        "previsto": "2026-07-20",
+        "replan": null
+      },
+      "1.2.5.2.5": {
+        "previsto": "2026-07-20",
+        "replan": null
+      },
+      "1.2.5.3.3": {
+        "previsto": "2026-07-20",
+        "replan": null
+      },
+      "1.2.22.1.4": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.22.1.5": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.22.3.2": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.22.1.6": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.22.3.3": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.22.5.1": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.22.5.2": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.14.1.4": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.14.2.1": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.14.1.5": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.14.3.2": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.14.2.2": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.14.1.6": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.14.2.3": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.14.1.7": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.22.1.7": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.22.1.8": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.22.2.3": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.22.1.9": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.22.3.4": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.22.2.4": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.22.1.10": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.22.2.5": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.22.1.11": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.22.1.12": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.22.1.13": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.6.1.5": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.6.3.2": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.6.2.4": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.6.1.6": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.6.2.5": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.6.1.7": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.9.1.1": {
+        "previsto": "2026-08-22",
+        "replan": null
+      },
+      "1.2.9.5.1": {
+        "previsto": "2026-08-22",
+        "replan": null
+      },
+      "1.2.9.2.1": {
+        "previsto": "2026-08-22",
+        "replan": null
+      },
+      "1.2.9.5.2": {
+        "previsto": "2026-08-22",
+        "replan": null
+      },
+      "1.2.9.1.2": {
+        "previsto": "2026-08-22",
+        "replan": null
+      },
+      "1.2.9.2.2": {
+        "previsto": "2026-08-22",
+        "replan": null
+      },
+      "1.2.9.1.3": {
+        "previsto": "2026-08-22",
+        "replan": null
+      },
+      "1.2.9.3.1": {
+        "previsto": "2026-08-22",
+        "replan": null
+      },
+      "1.2.9.2.3": {
+        "previsto": "2026-08-22",
+        "replan": null
+      },
+      "1.2.9.1.4": {
+        "previsto": "2026-08-22",
+        "replan": null
+      },
+      "1.2.4.1.1": {
+        "previsto": "2026-07-22",
+        "replan": null
+      },
+      "1.2.4.5.1": {
+        "previsto": "2026-07-22",
+        "replan": null
+      },
+      "1.2.4.2.1": {
+        "previsto": "2026-07-22",
+        "replan": null
+      },
+      "1.2.4.5.2": {
+        "previsto": "2026-07-22",
+        "replan": null
+      },
+      "1.2.4.1.2": {
+        "previsto": "2026-07-22",
+        "replan": null
+      },
+      "1.2.4.3.1": {
+        "previsto": "2026-07-22",
+        "replan": null
+      },
+      "1.2.4.2.2": {
+        "previsto": "2026-07-22",
+        "replan": null
+      },
+      "1.2.4.1.3": {
+        "previsto": "2026-07-22",
+        "replan": null
+      },
+      "1.2.22.1.14": {
+        "previsto": "2026-09-20",
+        "replan": null
+      },
+      "1.2.22.2.6": {
+        "previsto": "2026-09-20",
+        "replan": null
+      },
+      "1.2.22.1.15": {
+        "previsto": "2026-09-20",
+        "replan": null
+      },
+      "1.2.22.3.5": {
+        "previsto": "2026-09-20",
+        "replan": null
+      },
+      "1.2.22.4.1": {
+        "previsto": "2026-09-20",
+        "replan": null
+      },
+      "1.2.2.1.1": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.2.5.1": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.2.2.1": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.2.5.2": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.2.1.2": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.2.2.2": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.2.1.3": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.2.3.1": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.2.2.3": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.2.1.4": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.20.1.3": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.20.1.4": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.20.2.2": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.20.1.5": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.20.1.6": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.20.1.7": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.20.3.1": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.10.1.1": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.10.1.2": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.10.2.1": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.11.1.5": {
+        "previsto": "2026-09-20",
+        "replan": null
+      },
+      "1.2.11.1.6": {
+        "previsto": "2026-09-20",
+        "replan": null
+      },
+      "1.2.11.1.7": {
+        "previsto": "2026-09-20",
+        "replan": null
+      },
+      "1.2.1.1.6": {
+        "previsto": "2026-09-30",
+        "replan": null
+      },
+      "1.2.14.5.1": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.5.2": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.8": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.9": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.10": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.11": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.12": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.5.3": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.5.4": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.13": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.14": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.15": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.16": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.17": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.5.5": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.5.6": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.18": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.19": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.20": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.21": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.22": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.5.7": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.5.8": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.23": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.24": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.25": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.26": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.27": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.5.9": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.5.10": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.28": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.29": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.30": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.31": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.32": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.5.11": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.5.12": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.33": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.34": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.35": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.36": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.14.1.37": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.1.1.7": {
+        "previsto": "2026-10-07",
+        "replan": null
+      },
+      "1.2.1.1.8": {
+        "previsto": "2026-10-07",
+        "replan": null
+      },
+      "1.2.13.1.1": {
+        "previsto": "2026-08-15",
+        "replan": null
+      },
+      "1.2.13.1.2": {
+        "previsto": "2026-08-15",
+        "replan": null
+      },
+      "1.2.13.2.1": {
+        "previsto": "2026-08-15",
+        "replan": null
+      },
+      "1.2.12.1.5": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.12.2.3": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.7.1.4": {
+        "previsto": "2026-07-10",
+        "replan": null
+      },
+      "1.2.7.5.1": {
+        "previsto": "2026-07-10",
+        "replan": null
+      },
+      "1.2.7.2.1": {
+        "previsto": "2026-07-10",
+        "replan": null
+      },
+      "1.2.7.5.2": {
+        "previsto": "2026-07-10",
+        "replan": null
+      },
+      "1.2.7.1.5": {
+        "previsto": "2026-07-10",
+        "replan": null
+      },
+      "1.2.7.2.2": {
+        "previsto": "2026-07-10",
+        "replan": null
+      },
+      "1.2.7.1.6": {
+        "previsto": "2026-07-10",
+        "replan": null
+      },
+      "1.2.7.3.1": {
+        "previsto": "2026-07-10",
+        "replan": null
+      },
+      "1.2.7.2.3": {
+        "previsto": "2026-07-10",
+        "replan": null
+      },
+      "1.2.7.1.7": {
+        "previsto": "2026-07-10",
+        "replan": null
+      },
+      "1.2.16.1.1": {
+        "previsto": null,
+        "replan": null
+      },
+      "1.2.16.3.1": {
+        "previsto": null,
+        "replan": null
+      },
+      "1.2.16.2.1": {
+        "previsto": null,
+        "replan": null
+      },
+      "1.2.16.1.2": {
+        "previsto": null,
+        "replan": null
+      },
+      "1.2.16.2.2": {
+        "previsto": null,
+        "replan": null
+      },
+      "1.2.12.4.1": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.12.4.2": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.6.1.8": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.6.1.9": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.6.3.3": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.6.2.6": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.6.1.10": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.6.2.7": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.6.1.11": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.6.1.12": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.6.1.13": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.6.3.4": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.6.2.8": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.6.1.14": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.6.2.9": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.6.1.15": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.9.1.5": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.9.1.6": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.9.3.2": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.9.2.4": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.9.1.7": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.9.2.5": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.9.1.8": {
+        "previsto": "2026-08-20",
+        "replan": null
+      },
+      "1.2.20.1.8": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.20.3.2": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.20.2.3": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.20.1.9": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.20.2.4": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.20.1.10": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.19.1.4": {
+        "previsto": null,
+        "replan": null
+      },
+      "1.2.15.1.1": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.15.1.2": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.15.3.1": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.15.2.1": {
+        "previsto": "2026-09-09",
+        "replan": null
+      },
+      "1.2.8.1.1": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.8.1.2": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.8.2.1": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.7.1.8": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.7.5.3": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.7.2.4": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.7.5.4": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.7.1.9": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.7.2.5": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.7.1.10": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.7.3.2": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.7.2.6": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.7.1.11": {
+        "previsto": "2026-07-31",
+        "replan": null
+      },
+      "1.2.15.1.3": {
+        "previsto": null,
+        "replan": null
+      },
+      "1.2.15.2.2": {
+        "previsto": null,
+        "replan": null
+      },
+      "1.2.15.1.4": {
+        "previsto": null,
+        "replan": null
+      },
+      "1.2.15.3.2": {
+        "previsto": null,
+        "replan": null
+      },
+      "1.2.15.2.3": {
+        "previsto": null,
+        "replan": null
+      },
+      "1.2.15.1.5": {
+        "previsto": null,
+        "replan": null
+      },
+      "1.2.20.1.11": {
+        "previsto": null,
+        "replan": null
+      },
+      "1.2.20.1.12": {
+        "previsto": null,
+        "replan": null
+      },
+      "1.2.20.1.13": {
+        "previsto": null,
+        "replan": null
+      },
+      "1.2.20.3.3": {
+        "previsto": null,
+        "replan": null
+      },
+      "1.2.20.2.5": {
+        "previsto": null,
+        "replan": null
+      }
+    },
+    "area_dates": {
+      "Almoxarifado": {
+        "prazo_exec": "15/08/2026",
+        "prazo_prev": "31/07/2026",
+        "prazo_replan": "15/08/2026"
+      },
+      "Armazém de DDGS": {
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "prazo_replan": null
+      },
+      "Armazém de Milho": {
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "prazo_replan": null
+      },
+      "Bacia Pluvial": {
+        "prazo_exec": "20/09/2026",
+        "prazo_prev": "20/09/2026",
+        "prazo_replan": null
+      },
+      "Caixa d'água": {
+        "prazo_exec": "09/09/2026",
+        "prazo_prev": "09/09/2026",
+        "prazo_replan": null
+      },
+      "Caldeira": {
+        "prazo_exec": "20/07/2026",
+        "prazo_prev": "20/07/2026",
+        "prazo_replan": null
+      },
+      "Casa de Força": {
+        "prazo_exec": "20/08/2026",
+        "prazo_prev": "20/08/2026",
+        "prazo_replan": null
+      },
+      "Casa de Bombas - LGE": {
+        "prazo_exec": "20/08/2026",
+        "prazo_prev": "20/08/2026",
+        "prazo_replan": null
+      },
+      "Central de Resíduos": {
+        "prazo_exec": "20/09/2026",
+        "prazo_prev": "20/09/2026",
+        "prazo_replan": null
+      },
+      "Cozimento": {
+        "prazo_exec": "15/07/2026",
+        "prazo_prev": "15/07/2026",
+        "prazo_replan": null
+      },
+      "Destilaria": {
+        "prazo_exec": "15/07/2026",
+        "prazo_prev": "15/07/2026",
+        "prazo_replan": null
+      },
+      "Dorna Volante": {
+        "prazo_exec": "20/07/2026",
+        "prazo_prev": "20/07/2026",
+        "prazo_replan": null
+      },
+      "Elevatórias": {
+        "prazo_exec": "20/08/2026",
+        "prazo_prev": "20/08/2026",
+        "prazo_replan": null
+      },
+      "ETA (Osmose)": {
+        "prazo_exec": "20/08/2026",
+        "prazo_prev": "20/08/2026",
+        "prazo_replan": null
+      },
+      "ETE": {
+        "prazo_exec": "09/09/2026",
+        "prazo_prev": "09/09/2026",
+        "prazo_replan": null
+      },
+      "Expedição de Etanol": {
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "prazo_replan": null
+      },
+      "Fábrica de Óleo": {
+        "prazo_exec": "22/08/2026",
+        "prazo_prev": "22/08/2026",
+        "prazo_replan": null
+      },
+      "Fermentação": {
+        "prazo_exec": "22/07/2026",
+        "prazo_prev": "22/07/2026",
+        "prazo_replan": null
+      },
+      "Fertirrigação": {
+        "prazo_exec": "20/09/2026",
+        "prazo_prev": "20/09/2026",
+        "prazo_replan": null
+      },
+      "Moinho": {
+        "prazo_exec": "09/09/2026",
+        "prazo_prev": "09/09/2026",
+        "prazo_replan": null
+      },
+      "Oficina": {
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "prazo_replan": null
+      },
+      "Pátio de Biomassa (Stacker)": {
+        "prazo_exec": "09/09/2026",
+        "prazo_prev": "09/09/2026",
+        "prazo_replan": null
+      },
+      "Pátio de Cinzas": {
+        "prazo_exec": "20/09/2026",
+        "prazo_prev": "20/09/2026",
+        "prazo_replan": null
+      },
+      "Pavimentação": {
+        "prazo_exec": "30/09/2026",
+        "prazo_prev": "30/09/2026",
+        "prazo_replan": null
+      },
+      "Poço 01 - Estrutura": {
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "prazo_replan": null
+      },
+      "Poço 02 - Estrutura": {
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "prazo_replan": null
+      },
+      "Poço 03 - Estrutura": {
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "prazo_replan": null
+      },
+      "Poço 04 - Estrutura": {
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "prazo_replan": null
+      },
+      "Poço 05 - Estrutura": {
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "prazo_replan": null
+      },
+      "Poço 06 - Estrutura": {
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "prazo_replan": null
+      },
+      "Drenagem": {
+        "prazo_exec": "07/10/2026",
+        "prazo_prev": "07/10/2026",
+        "prazo_replan": null
+      },
+      "Sala dos Compressores": {
+        "prazo_exec": "15/08/2026",
+        "prazo_prev": "15/08/2026",
+        "prazo_replan": null
+      },
+      "Sala Elétricas - SE": {
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "prazo_replan": null
+      },
+      "Secador de DDGS": {
+        "prazo_exec": "10/07/2026",
+        "prazo_prev": "10/07/2026",
+        "prazo_replan": null
+      },
+      "Motor LCI": {
+        "prazo_exec": "A verificar",
+        "prazo_prev": "A verificar",
+        "prazo_replan": null
+      },
+      "Subestação": {
+        "prazo_exec": "09/09/2026",
+        "prazo_prev": "09/09/2026",
+        "prazo_replan": null
+      },
+      "Tanques de Etanol": {
+        "prazo_exec": "09/09/2026",
+        "prazo_prev": "09/09/2026",
+        "prazo_replan": null
+      },
+      "Tanques de Medição": {
+        "prazo_exec": "20/08/2026",
+        "prazo_prev": "20/08/2026",
+        "prazo_replan": null
+      },
+      "Tanques de Óleo": {
+        "prazo_exec": "20/08/2026",
+        "prazo_prev": "20/08/2026",
+        "prazo_replan": null
+      },
+      "Tanques de Químicos": {
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "prazo_replan": null
+      },
+      "Tombador": {
+        "prazo_exec": "A verificar",
+        "prazo_prev": "A verificar",
+        "prazo_replan": null
+      },
+      "Torre de Resfriamento": {
+        "prazo_exec": "09/09/2026",
+        "prazo_prev": "09/09/2026",
+        "prazo_replan": null
+      },
+      "Vinhaça Fina": {
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "prazo_replan": null
+      },
+      "Vinhaça Grossa": {
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "prazo_replan": null
+      },
+      "Chillers": {
+        "prazo_exec": "A verificar",
+        "prazo_prev": "A verificar",
+        "prazo_replan": null
+      },
+      "Descarga de Soda": {
+        "prazo_exec": "A verificar",
+        "prazo_prev": "A verificar",
+        "prazo_replan": null
+      }
+    }
+  },
+  "rondonopolis": {
+    "meta": {
+      "unidade": "Rondonópolis / MT",
+      "fases": "—",
+      "conteudo": "Sistemas de Controle Ambiental (SCA)",
+      "responsavel": "Não informado",
+      "atualizacao": "Sem dados disponíveis",
+      "prazo_protocolo": "—",
+      "prazo_docs": "—",
+      "vistoria": "—",
+      "termino": "—"
+    },
+    "area_codes": {},
+    "sca_macro_reference": [],
+    "documents": {
+      "source": "Base documental não disponibilizada",
+      "deadline": "—",
+      "columns": {
+        "area": "Setor responsável",
+        "manager": "Responsabilidade",
+        "comments": "Observações"
+      },
+      "filterLabels": {
+        "area": "Todos os setores responsáveis",
+        "manager": "Todas as responsabilidades"
+      },
+      "doneLabel": "Entregues"
+    },
+    "item_sca_macro": {},
+    "area_pend_ppt": {},
+    "item_names": {},
+    "item_dates": {},
+    "area_dates": {}
+  },
+  "nova-mutum": {
+    "meta": {
+      "unidade": "Nova Mutum / MT",
+      "fases": "—",
+      "conteudo": "Sistemas de Controle Ambiental (SCA)",
+      "responsavel": "Não informado",
+      "atualizacao": "Sem dados disponíveis",
+      "prazo_protocolo": "24/07/2026",
+      "prazo_docs": "24/07/2026",
+      "vistoria": "—",
+      "termino": "—"
+    },
+    "area_codes": {},
+    "sca_macro_reference": [],
+    "documents": {
+      "source": "Checklist LO · LO_CHECKLIST_NMT.xlsx",
+      "deadline": "24/07/2026",
+      "columns": {
+        "area": "Setor responsável",
+        "manager": "Liderança responsável",
+        "comments": "Observações"
+      },
+      "filterLabels": {
+        "area": "Todos os setores responsáveis",
+        "manager": "Todas as lideranças responsáveis"
+      },
+      "doneLabel": "Entregues"
+    },
+    "item_sca_macro": {},
+    "area_pend_ppt": {},
+    "item_names": {},
+    "item_dates": {},
+    "area_dates": {}
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "label": "Nova Mutum / MT",
+  "operational": {
+    "meta": {
+      "unidade": "Nova Mutum / MT",
+      "fases": "—",
+      "conteudo": "Sistemas de Controle Ambiental (SCA)",
+      "responsavel": "Não informado",
+      "atualizacao": "Sem dados disponíveis",
+      "prazo_protocolo": "24/07/2026",
+      "prazo_docs": "24/07/2026",
+      "vistoria": "—",
+      "termino": "—"
+    },
+    "totais": {
+      "total_areas": 0,
+      "ilhas": 0,
+      "total_scas": 0,
+      "areas_andamento": 0,
+      "areas_nao_iniciadas": 0,
+      "areas_concluidas": 0,
+      "itens_concluidos": 0,
+      "itens_andamento": 0,
+      "itens_nao_iniciados": 0
+    },
+    "fase": {},
+    "reprog": {
+      "scas": 0,
+      "pct": 0,
+      "total": 0
+    },
+    "macro": [],
+    "disciplina": [],
+    "sca_macro": [],
+    "gerente": [],
+    "areas": []
+  },
+  "documents": {
+    "source": "Checklist LO · LO_CHECKLIST_NMT.xlsx",
+    "deadline": "24/07/2026",
+    "columns": {
+      "area": "Setor responsável",
+      "manager": "Liderança responsável",
+      "comments": "Observações"
+    },
+    "filterLabels": {
+      "area": "Todos os setores responsáveis",
+      "manager": "Todas as lideranças responsáveis"
+    },
+    "doneLabel": "Entregues",
+    "rows": [
+      {
+        "description": "Cópia contrato social (caso tenha ocorrido atualizações)",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "Green ja tem"
+      },
+      {
+        "description": "Documentos pessoais dos representantes legais",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "Documento na Pasta"
+      },
+      {
+        "description": "Comprovante de endereço dos representantes legais (atualizado)",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "Comprovante na Pasta"
+      },
+      {
+        "description": "Matrícula do imóvel ou documento que comprove a posse (atualizado)",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "Green ja tem (Caso necessario pedir novo ao agrario)"
+      },
+      {
+        "description": "Informar se houve alteração cadastral em relação à LI (razão social, CNPJ, endereço, representante legal, RT, área, atividade, etc.)",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "Sem atualizações"
+      },
+      {
+        "description": "Layout final (As Built) do empreendimento",
+        "area": "Engenharia",
+        "manager": "Leila Midori",
+        "status": "Pendente",
+        "comments": "Prazo de entrega 24/07/2026, junto da ART de projeto  (e-mail solicitando enviado em 09/07/2026)"
+      },
+      {
+        "description": "Relatório Fotográfico das obras finalizadas",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Pendente",
+        "comments": "Campo sgendado para 10/08"
+      },
+      {
+        "description": "Memorial descritivo final das estruturas implantadas",
+        "area": "Engenharia",
+        "manager": "Leila Midori",
+        "status": "Pendente",
+        "comments": "Prazo de entrega 24/07/2026, junto da ART de projeto (e-mail solicitando enviado em 09/07/2026)"
+      },
+      {
+        "description": "ARTs de execução das obras",
+        "area": "Engenharia",
+        "manager": "Leila Midori",
+        "status": "Pendente",
+        "comments": "Prazo de entrega 24/07/2026, junto da ART de projeto (e-mail solicitando enviado em 09/07/2026)"
+      },
+      {
+        "description": "Cadastro de Consumidor de Produtos Florestais (CC-SEMA)",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "Inpasa possui cadastro"
+      },
+      {
+        "description": "Comprovantes de aquisição de biomassa",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "DAC protocolado recente com a inclusão da Fase III (Tirar dados da DAC)"
+      },
+      {
+        "description": "Relatório de atendimento das condicionantes da Licença de Instalação",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Pendente",
+        "comments": ""
+      },
+      {
+        "description": "Inventário de resíduos sólidos gerados na implantação",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Pendente",
+        "comments": "Meio Ambiente (Pedir a Bruna)"
+      },
+      {
+        "description": "MTRs de todos os resíduos gerados",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Pendente",
+        "comments": "Meio Ambiente (Pedir a Bruna)"
+      },
+      {
+        "description": "Certificados de Destinação Final (CDFs)",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Pendente",
+        "comments": "Meio Ambiente (Pedir a Bruna)"
+      },
+      {
+        "description": "Licenças ambientais das empresas coletoras e destinadoras",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Pendente",
+        "comments": "Meio Ambiente (Pedir a Bruna)"
+      },
+      {
+        "description": "Controle de destinação das cinzas",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Pendente",
+        "comments": "Meio Ambiente (Pedir a Bruna)"
+      },
+      {
+        "description": "Controle de biomassa consumida",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "Seguir com os dados protocolados na DAC anual (Dary conduziu)"
+      },
+      {
+        "description": "Relatórios da ETE",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Pendente",
+        "comments": "Confirmar com a Green, a mesma possui todo os historicos para atendimento de condicionantes/monitoramentos"
+      },
+      {
+        "description": "Laudos analíticos dos efluentes",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Pendente",
+        "comments": "Confirmar com a Green, a mesma possui todo os historicos para atendimento de condicionantes/monitoramentos"
+      },
+      {
+        "description": "Relatórios de fertirrigação",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Pendente",
+        "comments": "Confirmar com a Green, a mesma possui todo os historicos para atendimento de condicionantes/monitoramentos"
+      },
+      {
+        "description": "Registros de manutenção dos sistemas de controle ambiental",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Pendente",
+        "comments": "Confirmar com a Green, a mesma possui todo os historicos para atendimento de condicionantes/monitoramentos"
+      },
+      {
+        "description": "Relatórios de monitoramento atmosférico",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Pendente",
+        "comments": "Confirmar com a Green, a mesma possui todo os historicos para atendimento de condicionantes/monitoramentos"
+      },
+      {
+        "description": "Relatórios de monitoramento de ruído",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Pendente",
+        "comments": "Confirmar com a Green, a mesma possui todo os historicos para atendimento de condicionantes/monitoramentos"
+      },
+      {
+        "description": "Relatórios de monitoramento hídrico",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Pendente",
+        "comments": "Confirmar com a Green, a mesma possui todo os historicos para atendimento de condicionantes/monitoramentos"
+      },
+      {
+        "description": "Relatório Fotográfico da evolução das obras",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Pendente",
+        "comments": "Pedir a Bruna para compartilhar os registros na pasta"
+      },
+      {
+        "description": "PAE atualizado",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Pendente",
+        "comments": "Green tem acesso, Dary irá validar o item"
+      },
+      {
+        "description": "Balanço hídrico, e",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "Balanço atualizado no ultimo mês pela Marcela, Item na pasta."
+      },
+      {
+        "description": "Estimativa de geração de cinzas",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "Dados enviados pelo Iure, utilizando os mesmos dados do protocolo da Caldeira IV."
+      },
+      {
+        "description": "Produção de etanol e subprodutos",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "Seguir com os dados enviados no protocolo da LI caldeira IV"
+      }
+    ]
+  }
+}

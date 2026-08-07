@@ -1,0 +1,5066 @@
+{
+  "label": "Rio Verde / GO",
+  "operational": {
+    "meta": {
+      "unidade": "Rio Verde / GO",
+      "fases": "1 e 2",
+      "conteudo": "Sistemas de Controle Ambiental (SCA)",
+      "responsavel": "Diego Santos da Silva",
+      "atualizacao": "31/07/2026",
+      "prazo_protocolo": "31/08/2026",
+      "prazo_docs": "31/08/2026",
+      "vistoria": "06/10/2026",
+      "termino": "07/10/2026"
+    },
+    "totais": {
+      "total_areas": 46,
+      "ilhas": 19,
+      "total_scas": 278,
+      "areas_andamento": 40,
+      "areas_nao_iniciadas": 5,
+      "areas_concluidas": 1,
+      "itens_concluidos": 81,
+      "itens_andamento": 47,
+      "itens_nao_iniciados": 150
+    },
+    "fase": {
+      "1": {
+        "total": 71,
+        "conc": 25,
+        "pct": 35.2
+      },
+      "Ambas": {
+        "total": 207,
+        "conc": 56,
+        "pct": 27.1
+      }
+    },
+    "reprog": {
+      "scas": 1,
+      "pct": 0.4,
+      "total": 1
+    },
+    "macro": [
+      {
+        "macro": "Utilidades",
+        "n": 99,
+        "conc": 32,
+        "progresso": 38,
+        "pct_conc": 32.3,
+        "pendentes": 67
+      },
+      {
+        "macro": "Etanol",
+        "n": 73,
+        "conc": 26,
+        "progresso": 40,
+        "pct_conc": 35.6,
+        "pendentes": 47
+      },
+      {
+        "macro": "DDGSeÓleo",
+        "n": 43,
+        "conc": 12,
+        "progresso": 38,
+        "pct_conc": 27.9,
+        "pendentes": 31
+      },
+      {
+        "macro": "Efluentes",
+        "n": 29,
+        "conc": 1,
+        "progresso": 17,
+        "pct_conc": 3.4,
+        "pendentes": 28
+      },
+      {
+        "macro": "Administração",
+        "n": 21,
+        "conc": 9,
+        "progresso": 50,
+        "pct_conc": 42.9,
+        "pendentes": 12
+      },
+      {
+        "macro": "Geral",
+        "n": 9,
+        "conc": 0,
+        "progresso": 28,
+        "pct_conc": 0.0,
+        "pendentes": 9
+      },
+      {
+        "macro": "Grãos",
+        "n": 4,
+        "conc": 1,
+        "progresso": 62,
+        "pct_conc": 25.0,
+        "pendentes": 3
+      }
+    ],
+    "disciplina": [
+      {
+        "disciplina": "Civil",
+        "n": 151,
+        "conc": 77,
+        "andamento": 43,
+        "nao": 31,
+        "progresso": 65
+      },
+      {
+        "disciplina": "Metálica",
+        "n": 61,
+        "conc": 0,
+        "andamento": 1,
+        "nao": 60,
+        "progresso": 1
+      },
+      {
+        "disciplina": "Mecânica",
+        "n": 32,
+        "conc": 2,
+        "andamento": 1,
+        "nao": 29,
+        "progresso": 8
+      },
+      {
+        "disciplina": "Instrumentação",
+        "n": 31,
+        "conc": 2,
+        "andamento": 2,
+        "nao": 27,
+        "progresso": 10
+      },
+      {
+        "disciplina": "Elétrica",
+        "n": 3,
+        "conc": 0,
+        "andamento": 0,
+        "nao": 3,
+        "progresso": 0
+      }
+    ],
+    "sca_macro": [
+      {
+        "macro": "Base civil",
+        "n": 70,
+        "conc": 49,
+        "andamento": 17,
+        "nao": 4,
+        "pend": 21,
+        "progresso": 82,
+        "areas": 31,
+        "status": "Em andamento",
+        "prazo_exec": "20/09/2026"
+      },
+      {
+        "macro": "Grelha",
+        "n": 60,
+        "conc": 0,
+        "andamento": 1,
+        "nao": 59,
+        "pend": 60,
+        "progresso": 1,
+        "areas": 28,
+        "status": "Em andamento",
+        "prazo_exec": "20/09/2026"
+      },
+      {
+        "macro": "Válvula",
+        "n": 24,
+        "conc": 0,
+        "andamento": 1,
+        "nao": 23,
+        "pend": 24,
+        "progresso": 2,
+        "areas": 24,
+        "status": "Em andamento",
+        "prazo_exec": "20/09/2026"
+      },
+      {
+        "macro": "Sistema de bombas",
+        "n": 23,
+        "conc": 0,
+        "andamento": 0,
+        "nao": 23,
+        "pend": 23,
+        "progresso": 0,
+        "areas": 12,
+        "status": "Não iniciada",
+        "prazo_exec": "20/09/2026"
+      },
+      {
+        "macro": "Instrumento",
+        "n": 12,
+        "conc": 2,
+        "andamento": 2,
+        "nao": 8,
+        "pend": 10,
+        "progresso": 25,
+        "areas": 6,
+        "status": "Em andamento",
+        "prazo_exec": "31/07/2026"
+      },
+      {
+        "macro": "Tubos e conexões",
+        "n": 12,
+        "conc": 8,
+        "andamento": 0,
+        "nao": 4,
+        "pend": 4,
+        "progresso": 67,
+        "areas": 6,
+        "status": "Em andamento",
+        "prazo_exec": "31/07/2026"
+      },
+      {
+        "macro": "Caixa de passagem",
+        "n": 11,
+        "conc": 8,
+        "andamento": 0,
+        "nao": 3,
+        "pend": 3,
+        "progresso": 73,
+        "areas": 11,
+        "status": "Em andamento",
+        "prazo_exec": "20/09/2026"
+      },
+      {
+        "macro": "Talude",
+        "n": 10,
+        "conc": 0,
+        "andamento": 9,
+        "nao": 1,
+        "pend": 10,
+        "progresso": 45,
+        "areas": 8,
+        "status": "Em andamento",
+        "prazo_exec": "20/09/2026"
+      },
+      {
+        "macro": "Canaleta",
+        "n": 9,
+        "conc": 5,
+        "andamento": 4,
+        "nao": 0,
+        "pend": 4,
+        "progresso": 78,
+        "areas": 8,
+        "status": "Em andamento",
+        "prazo_exec": "09/09/2026"
+      },
+      {
+        "macro": "Impermeabilização",
+        "n": 9,
+        "conc": 2,
+        "andamento": 2,
+        "nao": 5,
+        "pend": 7,
+        "progresso": 33,
+        "areas": 9,
+        "status": "Em andamento",
+        "prazo_exec": "20/09/2026"
+      },
+      {
+        "macro": "Drenagem",
+        "n": 8,
+        "conc": 0,
+        "andamento": 5,
+        "nao": 3,
+        "pend": 8,
+        "progresso": 31,
+        "areas": 4,
+        "status": "Em andamento",
+        "prazo_exec": "07/10/2026"
+      },
+      {
+        "macro": "Bacia de contenção",
+        "n": 7,
+        "conc": 4,
+        "andamento": 0,
+        "nao": 3,
+        "pend": 3,
+        "progresso": 57,
+        "areas": 7,
+        "status": "Em andamento",
+        "prazo_exec": "09/09/2026"
+      },
+      {
+        "macro": "Cercamento",
+        "n": 6,
+        "conc": 2,
+        "andamento": 0,
+        "nao": 4,
+        "pend": 4,
+        "progresso": 33,
+        "areas": 6,
+        "status": "Em andamento",
+        "prazo_exec": "31/07/2026"
+      },
+      {
+        "macro": "Pavimentação",
+        "n": 5,
+        "conc": 0,
+        "andamento": 4,
+        "nao": 1,
+        "pend": 5,
+        "progresso": 40,
+        "areas": 5,
+        "status": "Em andamento",
+        "prazo_exec": "30/09/2026"
+      },
+      {
+        "macro": "Caixa de manobra",
+        "n": 2,
+        "conc": 1,
+        "andamento": 1,
+        "nao": 0,
+        "pend": 1,
+        "progresso": 75,
+        "areas": 2,
+        "status": "Em andamento",
+        "prazo_exec": "20/08/2026"
+      },
+      {
+        "macro": "Não classificado",
+        "n": 2,
+        "conc": 0,
+        "andamento": 1,
+        "nao": 1,
+        "pend": 2,
+        "progresso": 25,
+        "areas": 1,
+        "status": "Em andamento",
+        "prazo_exec": "20/09/2026"
+      },
+      {
+        "macro": "Prédio de apoio",
+        "n": 2,
+        "conc": 0,
+        "andamento": 0,
+        "nao": 2,
+        "pend": 2,
+        "progresso": 0,
+        "areas": 2,
+        "status": "Não iniciada",
+        "prazo_exec": "20/09/2026"
+      },
+      {
+        "macro": "Caixa SAO",
+        "n": 1,
+        "conc": 0,
+        "andamento": 0,
+        "nao": 1,
+        "pend": 1,
+        "progresso": 0,
+        "areas": 1,
+        "status": "Não iniciada",
+        "prazo_exec": "09/09/2026"
+      },
+      {
+        "macro": "Cobertura",
+        "n": 1,
+        "conc": 0,
+        "andamento": 0,
+        "nao": 1,
+        "pend": 1,
+        "progresso": 0,
+        "areas": 1,
+        "status": "Não iniciada",
+        "prazo_exec": "09/09/2026"
+      },
+      {
+        "macro": "Graute",
+        "n": 1,
+        "conc": 0,
+        "andamento": 0,
+        "nao": 1,
+        "pend": 1,
+        "progresso": 0,
+        "areas": 1,
+        "status": "Não iniciada",
+        "prazo_exec": "20/08/2026"
+      },
+      {
+        "macro": "Leitos e cabos",
+        "n": 1,
+        "conc": 0,
+        "andamento": 0,
+        "nao": 1,
+        "pend": 1,
+        "progresso": 0,
+        "areas": 1,
+        "status": "Não iniciada",
+        "prazo_exec": "20/09/2026"
+      },
+      {
+        "macro": "Medidor de Nível",
+        "n": 1,
+        "conc": 0,
+        "andamento": 0,
+        "nao": 1,
+        "pend": 1,
+        "progresso": 0,
+        "areas": 1,
+        "status": "Não iniciada",
+        "prazo_exec": "20/08/2026"
+      },
+      {
+        "macro": "Tubulação",
+        "n": 1,
+        "conc": 0,
+        "andamento": 0,
+        "nao": 1,
+        "pend": 1,
+        "progresso": 0,
+        "areas": 1,
+        "status": "Não iniciada",
+        "prazo_exec": "20/09/2026"
+      }
+    ],
+    "gerente": [
+      {
+        "gerente": "Não informado",
+        "pend": 197,
+        "pct": 100.0
+      }
+    ],
+    "areas": [
+      {
+        "area": "Almoxarifado",
+        "cod": "1",
+        "macro": "Administração",
+        "ilha": "Administração",
+        "processo": "Almoxarifado",
+        "fase": "1",
+        "itens": [
+          {
+            "item_cod": "1.2.20.1.1",
+            "item": "Canaletas simples",
+            "sca_macro": "Canaleta",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": "2026-08-15"
+          },
+          {
+            "item_cod": "1.2.20.1.2",
+            "item": "Caixa de passagem (Estrutura Civil)",
+            "sca_macro": "Caixa de passagem",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.20.2.1",
+            "item": "Caixa de passagem (Grelha)",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          }
+        ],
+        "n_itens": 3,
+        "concluidos": 2,
+        "andamento": 1,
+        "nao_iniciados": 0,
+        "progresso": 83,
+        "status": "Em andamento",
+        "prazo_exec": "15/08/2026",
+        "prazo_prev": "31/07/2026",
+        "fase_bucket": "1",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Almoxarifado/Projeto_01_Slide-02.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Almoxarifado/Projeto_02_Slide-02.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Almoxarifado/Obra_01_Slide-02.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Almoxarifado/Obra_02_Slide-02.jpeg"
+        ],
+        "pend_ppt": [
+          "Grelhas nas caixas de passagem"
+        ],
+        "prazo_replan": "15/08/2026"
+      },
+      {
+        "area": "Armazém de DDGS",
+        "cod": "2",
+        "macro": "DDGSeÓleo",
+        "ilha": "Separação de Sólidos e Secagem de DDGS",
+        "processo": "Armazenamento e Expedição de DDGS",
+        "fase": "1",
+        "itens": [
+          {
+            "item_cod": "1.2.7.1.1",
+            "item": "Canaletas simples",
+            "sca_macro": "Canaleta",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.7.1.2",
+            "item": "Escada Hidráulica no Talude",
+            "sca_macro": "Talude",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.7.1.3",
+            "item": "Talude sem erosão",
+            "sca_macro": "Talude",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          }
+        ],
+        "n_itens": 3,
+        "concluidos": 0,
+        "andamento": 3,
+        "nao_iniciados": 0,
+        "progresso": 50,
+        "status": "Em andamento",
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "fase_bucket": "1",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Armaz%C3%A9m%20de%20DDGS/Projeto_01_Slide-03.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Armaz%C3%A9m%20de%20DDGS/Obra_01_Slide-03.jpeg"
+        ],
+        "pend_ppt": [
+          "Canaletas para água pluvial (Em andamento)"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Armazém de Milho",
+        "cod": "3",
+        "macro": "Grãos",
+        "ilha": "Descarregamento e Armazenamento de Grãos",
+        "processo": "Armazenamento de Grãos",
+        "fase": "1",
+        "itens": [
+          {
+            "item_cod": "1.2.19.1.1",
+            "item": "Canaletas",
+            "sca_macro": "Canaleta",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.19.1.2",
+            "item": "Escada Hidráulica no Talude",
+            "sca_macro": "Talude",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.19.1.3",
+            "item": "Talude sem erosão",
+            "sca_macro": "Talude",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          }
+        ],
+        "n_itens": 3,
+        "concluidos": 0,
+        "andamento": 3,
+        "nao_iniciados": 0,
+        "progresso": 50,
+        "status": "Em andamento",
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "fase_bucket": "1",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Armaz%C3%A9m%20de%20Milho/Projeto_01_Slide-04.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Armaz%C3%A9m%20de%20Milho/Obra_01_Slide-04.jpeg"
+        ],
+        "pend_ppt": [
+          "Finalização das canaletas para água pluvial"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Bacia Pluvial",
+        "cod": "4",
+        "macro": "Geral",
+        "ilha": "Geral",
+        "processo": "Drenagem",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.1.1.1",
+            "item": "Dissipador",
+            "sca_macro": "Drenagem",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.1.1.2",
+            "item": "Vertedouro",
+            "sca_macro": "Drenagem",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.1.1.3",
+            "item": "Monge",
+            "sca_macro": "Drenagem",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.1.1.4",
+            "item": "Taludes com grama",
+            "sca_macro": "Talude",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.1.3.1",
+            "item": "bombas instaladas",
+            "sca_macro": "Sistema de bombas",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.1.1.5",
+            "item": "Conexão com a drenagem da planta",
+            "sca_macro": "Drenagem",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-20",
+            "replan": null
+          }
+        ],
+        "n_itens": 6,
+        "concluidos": 0,
+        "andamento": 2,
+        "nao_iniciados": 4,
+        "progresso": 17,
+        "status": "Em andamento",
+        "prazo_exec": "20/09/2026",
+        "prazo_prev": "20/09/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Bacia%20Pluvial/Projeto_01_Slide-05.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Bacia%20Pluvial/Projeto_02_Slide-05.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Bacia%20Pluvial/Obra_01_Slide-05.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Bacia%20Pluvial/Obra_02_Slide-05.png"
+        ],
+        "pend_ppt": [
+          "1. Completa (Bombas ou Monge c/ Válvulas)",
+          "2. Taludes sem erosão",
+          "3. Conexão com a rede de drenagem da planta",
+          "4. Conexão com o dissipador de água"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Caixa d'água",
+        "cod": "5",
+        "macro": "Utilidades",
+        "ilha": "Estação de Tratamento de Água (ETA)",
+        "processo": "Água Potável",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.14.1.1",
+            "item": "Base para a bomba",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.3.1",
+            "item": "Bomba dosadora",
+            "sca_macro": "Sistema de bombas",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.2",
+            "item": "Abrigo para químicos",
+            "sca_macro": "Prédio de apoio",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.3",
+            "item": "Piso impermeabilizado",
+            "sca_macro": "Impermeabilização",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          }
+        ],
+        "n_itens": 4,
+        "concluidos": 1,
+        "andamento": 1,
+        "nao_iniciados": 2,
+        "progresso": 38,
+        "status": "Em andamento",
+        "prazo_exec": "09/09/2026",
+        "prazo_prev": "09/09/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Caixa%20d'%C3%A1gua/Projeto_01_Slide-06.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Caixa%20d'%C3%A1gua/Obra_01_Slide-06.jpeg"
+        ],
+        "pend_ppt": [
+          "1. Bomba Dosadora",
+          "2. Abrigo para químicos",
+          "3. Piso impermeável"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Caldeira",
+        "cod": "6",
+        "macro": "Utilidades",
+        "ilha": "Geração de Vapor",
+        "processo": "Caldeira",
+        "fase": "1",
+        "itens": [
+          {
+            "item_cod": "1.2.11.1.1",
+            "item": "SUMP - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.11.3.1",
+            "item": "SUMP - Bombas Instaladas",
+            "sca_macro": "Sistema de bombas",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.11.2.1",
+            "item": "SUMP - Grelhas",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.11.5.1",
+            "item": "SUMP - Sistema de Nível",
+            "sca_macro": "Sistema de bombas",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.11.1.2",
+            "item": "Canaletas - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.11.2.2",
+            "item": "Canaletas - Grelhas",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.11.1.3",
+            "item": "Caixa de Manobra - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.11.3.2",
+            "item": "Caixa de Manobra - Válvulas",
+            "sca_macro": "Válvula",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.11.2.3",
+            "item": "Caixa de Manobra - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.11.1.4",
+            "item": "Bacia de Contenção",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-20",
+            "replan": null
+          }
+        ],
+        "n_itens": 10,
+        "concluidos": 4,
+        "andamento": 0,
+        "nao_iniciados": 6,
+        "progresso": 40,
+        "status": "Em andamento",
+        "prazo_exec": "20/07/2026",
+        "prazo_prev": "20/07/2026",
+        "fase_bucket": "1",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Caldeira/Projeto_01_Slide-07.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Caldeira/Projeto_02_Slide-07.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Caldeira/Projeto_03_Slide-07.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Caldeira/Obra_01_Slide-07.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Caldeira/Obra_02_Slide-07.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Caldeira/Obra_03_Slide-07.jpeg"
+        ],
+        "pend_ppt": [
+          "SUMP finalizada (Bomba, base, grade e nível)",
+          "Grelhas nas canaletas",
+          "Caixa de manobra (Válvulas)"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Casa de Força",
+        "cod": "7",
+        "macro": "Utilidades",
+        "ilha": "Geração de Energia",
+        "processo": "Casa de Força",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.12.1.1",
+            "item": "Canaleta - Estrutura Civil",
+            "sca_macro": "Canaleta",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.12.2.1",
+            "item": "Canaleta - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.12.1.2",
+            "item": "Bacia de contenção",
+            "sca_macro": "Bacia de contenção",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.12.1.3",
+            "item": "Caixa de Manobra - Estrutura Civil",
+            "sca_macro": "Caixa de manobra",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.12.3.1",
+            "item": "Caixa de Manobra - Válvulas",
+            "sca_macro": "Válvula",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.12.2.2",
+            "item": "Caixa de Manobra - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.12.1.4",
+            "item": "Canaleta simples - Estrutura Civil",
+            "sca_macro": "Canaleta",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          }
+        ],
+        "n_itens": 7,
+        "concluidos": 3,
+        "andamento": 1,
+        "nao_iniciados": 3,
+        "progresso": 50,
+        "status": "Em andamento",
+        "prazo_exec": "20/08/2026",
+        "prazo_prev": "20/08/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Casa%20de%20For%C3%A7a/Projeto_01_Slide-08.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Casa%20de%20For%C3%A7a/Obra_01_Slide-08.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Casa%20de%20For%C3%A7a/Obra_02_Slide-08.jpeg"
+        ],
+        "pend_ppt": [
+          "1. Canaletas",
+          "2. Grelha nas canaletas",
+          "3. Bacia de contenção (Estrutura fechada)",
+          "4. Caixa de manobra com válvula"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Casa de Bombas - LGE",
+        "cod": "8",
+        "macro": "Etanol",
+        "ilha": "Armazenamento e Expedição de Etanol",
+        "processo": "Armazenamento de Etanol",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.6.1.1",
+            "item": "Taludes Internos",
+            "sca_macro": "Talude",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.6.1.2",
+            "item": "Caixa de Manobra - Estrutura Civil",
+            "sca_macro": "Caixa de manobra",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.6.3.1",
+            "item": "Caixa de Manobra - Válvulas",
+            "sca_macro": "Válvula",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.6.2.1",
+            "item": "Caixa de Manobra - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.6.1.3",
+            "item": "Canaleta (Estrutura Civil)",
+            "sca_macro": "Canaleta",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.6.2.2",
+            "item": "Canaleta (Grelha)",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.6.1.4",
+            "item": "Caixa de Passagem (estrutura civil)",
+            "sca_macro": "Caixa de passagem",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.6.2.3",
+            "item": "Caixa de Passagem (grelha)",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          }
+        ],
+        "n_itens": 8,
+        "concluidos": 3,
+        "andamento": 1,
+        "nao_iniciados": 4,
+        "progresso": 44,
+        "status": "Em andamento",
+        "prazo_exec": "20/08/2026",
+        "prazo_prev": "20/08/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [],
+        "campo": [],
+        "pend_ppt": [],
+        "prazo_replan": null
+      },
+      {
+        "area": "Central de Resíduos",
+        "cod": "9",
+        "macro": "Efluentes",
+        "ilha": "Estação de Tratamento de Efluentes (ETE)",
+        "processo": "Depósito de Resíduos Sólidos",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.22.1.1",
+            "item": "Caixa de Passagem (estrutura civil)",
+            "sca_macro": "Caixa de passagem",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.2.1",
+            "item": "Caixa de Passagem (grelha)",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.1.2",
+            "item": "Bacia de Contenção IBC - Estrutura Civil",
+            "sca_macro": "Prédio de apoio",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.1.3",
+            "item": "Caixa de Manobra - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.3.1",
+            "item": "Caixa de Manobra - Válvulas",
+            "sca_macro": "Válvula",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.2.2",
+            "item": "Caixa de Manobra - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-20",
+            "replan": null
+          }
+        ],
+        "n_itens": 6,
+        "concluidos": 0,
+        "andamento": 0,
+        "nao_iniciados": 6,
+        "progresso": 0,
+        "status": "Não iniciada",
+        "prazo_exec": "20/09/2026",
+        "prazo_prev": "20/09/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Central%20de%20Res%C3%ADduos/Projeto_01_Slide-09.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Central%20de%20Res%C3%ADduos/Obra_01_Slide-09.png"
+        ],
+        "pend_ppt": [
+          "Status: Terraplanagem"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Cozimento",
+        "cod": "10",
+        "macro": "Etanol",
+        "ilha": "Cozimento",
+        "processo": "Liquefação",
+        "fase": "1",
+        "itens": [
+          {
+            "item_cod": "1.2.3.1.1",
+            "item": "SUMP - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-15",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.3.5.1",
+            "item": "SUMP - Bombas Instaladas",
+            "sca_macro": "Sistema de bombas",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-15",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.3.2.1",
+            "item": "SUMP - Grelhas",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-15",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.3.5.2",
+            "item": "SUMP - Sistema de Nível",
+            "sca_macro": "Sistema de bombas",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-15",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.3.1.2",
+            "item": "Canaletas - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-15",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.3.2.2",
+            "item": "Canaletas - Grelhas",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-15",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.3.1.3",
+            "item": "Caixa de Manobra - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-15",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.3.3.1",
+            "item": "Caixa de Manobra - Válvulas",
+            "sca_macro": "Válvula",
+            "disciplina": "Mecânica",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-15",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.3.2.3",
+            "item": "Caixa de Manobra - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-15",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.3.3.2",
+            "item": "Bacia de Contenção",
+            "sca_macro": "Base civil",
+            "disciplina": "Mecânica",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-15",
+            "replan": null
+          }
+        ],
+        "n_itens": 10,
+        "concluidos": 4,
+        "andamento": 1,
+        "nao_iniciados": 5,
+        "progresso": 45,
+        "status": "Em andamento",
+        "prazo_exec": "15/07/2026",
+        "prazo_prev": "15/07/2026",
+        "fase_bucket": "1",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Cozimento/Projeto_01_Slide-10.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Cozimento/Projeto_02_Slide-10.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Cozimento/Obra_01_Slide-10.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Cozimento/Obra_02_Slide-10.jpeg"
+        ],
+        "pend_ppt": [
+          "1. SUMP finalizada (Bomba, base, grade e nível)",
+          "2. Grelhas nas canaletas",
+          "3. Caixa de manobra (Válvulas)"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Destilaria",
+        "cod": "11",
+        "macro": "Etanol",
+        "ilha": "Destilaria",
+        "processo": "Destilaria de Etanol Hidratado",
+        "fase": "1",
+        "itens": [
+          {
+            "item_cod": "1.2.5.1.1",
+            "item": "SUMP - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-15",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.5.5.1",
+            "item": "SUMP - Bombas Instaladas",
+            "sca_macro": "Sistema de bombas",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-15",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.5.2.1",
+            "item": "SUMP - Grelhas",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-15",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.5.5.2",
+            "item": "SUMP - Sistema de Nível",
+            "sca_macro": "Sistema de bombas",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-15",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.5.1.2",
+            "item": "Canaletas - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-15",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.5.2.2",
+            "item": "Canaletas - Grelhas",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-15",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.5.1.3",
+            "item": "Caixa de Manobra - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-15",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.5.3.1",
+            "item": "Caixa de Manobra - Válvulas",
+            "sca_macro": "Válvula",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-15",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.5.2.3",
+            "item": "Caixa de Manobra - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-15",
+            "replan": null
+          }
+        ],
+        "n_itens": 9,
+        "concluidos": 3,
+        "andamento": 0,
+        "nao_iniciados": 6,
+        "progresso": 33,
+        "status": "Em andamento",
+        "prazo_exec": "15/07/2026",
+        "prazo_prev": "15/07/2026",
+        "fase_bucket": "1",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Destilaria/Projeto_01_Slide-11.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Destilaria/Projeto_02_Slide-11.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Destilaria/Projeto_03_Slide-11.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Destilaria/Obra_01_Slide-11.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Destilaria/Obra_02_Slide-11.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Destilaria/Obra_03_Slide-11.jpeg"
+        ],
+        "pend_ppt": [
+          "1. SUMP finalizada (Bomba, base, grade e nível)",
+          "2. Grelhas nas canaletas",
+          "3. Caixa de manobra (Válvulas)"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Dorna Volante",
+        "cod": "13",
+        "macro": "Etanol",
+        "ilha": "Destilaria",
+        "processo": "Dorna Volante",
+        "fase": "1",
+        "itens": [
+          {
+            "item_cod": "1.2.5.1.4",
+            "item": "SUMP - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.5.5.3",
+            "item": "SUMP - Bombas Instaladas",
+            "sca_macro": "Sistema de bombas",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.5.2.4",
+            "item": "SUMP - Grelhas",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.5.5.4",
+            "item": "SUMP - Sistema de Nível",
+            "sca_macro": "Sistema de bombas",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.5.1.5",
+            "item": "Caixa de Manobra - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.5.3.2",
+            "item": "Caixa de Manobra - Válvulas",
+            "sca_macro": "Válvula",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.5.2.5",
+            "item": "Caixa de Manobra - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.5.3.3",
+            "item": "Bacia de Contenção",
+            "sca_macro": "Base civil",
+            "disciplina": "Mecânica",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-20",
+            "replan": null
+          }
+        ],
+        "n_itens": 8,
+        "concluidos": 3,
+        "andamento": 0,
+        "nao_iniciados": 5,
+        "progresso": 38,
+        "status": "Em andamento",
+        "prazo_exec": "20/07/2026",
+        "prazo_prev": "20/07/2026",
+        "fase_bucket": "1",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Dorna%20Volante/Projeto_01_Slide-12.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Dorna%20Volante/Obra_01_Slide-12.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Dorna%20Volante/Obra_02_Slide-12.jpeg"
+        ],
+        "pend_ppt": [
+          "1. SUMP finalizada (Bomba, base, grade e nível)",
+          "2. Grelhas nas canaletas",
+          "3. Caixa de manobra (Válvulas)",
+          "4. Bacia de Contenção"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Elevatórias",
+        "cod": "14",
+        "macro": "Efluentes",
+        "ilha": "Estação de Tratamento de Efluentes (ETE)",
+        "processo": "Rede de Esgoto e do Resíduo do Processo Industrial",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.22.1.4",
+            "item": "Base das bombas",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.1.5",
+            "item": "Graute das bases",
+            "sca_macro": "Graute",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.3.2",
+            "item": "bombas instaladas",
+            "sca_macro": "Sistema de bombas",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.1.6",
+            "item": "Fosso - estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.3.3",
+            "item": "Linha de escorva",
+            "sca_macro": "Sistema de bombas",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.5.1",
+            "item": "Medidor de nível",
+            "sca_macro": "Medidor de Nível",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.5.2",
+            "item": "Ligação via COI",
+            "sca_macro": "Sistema de bombas",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          }
+        ],
+        "n_itens": 7,
+        "concluidos": 0,
+        "andamento": 1,
+        "nao_iniciados": 6,
+        "progresso": 7,
+        "status": "Em andamento",
+        "prazo_exec": "20/08/2026",
+        "prazo_prev": "20/08/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [],
+        "campo": [],
+        "pend_ppt": [],
+        "prazo_replan": null
+      },
+      {
+        "area": "ETA (Osmose)",
+        "cod": "15",
+        "macro": "Utilidades",
+        "ilha": "Estação de Tratamento de Água (ETA)",
+        "processo": "Osmose",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.14.1.4",
+            "item": "Canaletas - Estrutura Civil",
+            "sca_macro": "Canaleta",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.2.1",
+            "item": "Canaletas - Grelhas",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.5",
+            "item": "Caixa de Manobra - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.3.2",
+            "item": "Caixa de Manobra - Válvulas",
+            "sca_macro": "Válvula",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.2.2",
+            "item": "Caixa de Manobra - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.6",
+            "item": "Caixa de passagem - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.2.3",
+            "item": "Caixa de passagem - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.7",
+            "item": "Bacia de contenção",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          }
+        ],
+        "n_itens": 8,
+        "concluidos": 1,
+        "andamento": 3,
+        "nao_iniciados": 4,
+        "progresso": 31,
+        "status": "Em andamento",
+        "prazo_exec": "20/08/2026",
+        "prazo_prev": "20/08/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/ETA%20(Osmose)/Projeto_01_Slide-13.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/ETA%20(Osmose)/Projeto_02_Slide-13.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/ETA%20(Osmose)/Obra_01_Slide-13.png"
+        ],
+        "pend_ppt": [
+          "1. SCA não iniciados, concretando Bases."
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "ETE",
+        "cod": "16",
+        "macro": "Efluentes",
+        "ilha": "Estação de Tratamento de Efluentes (ETE)",
+        "processo": "Lagoas (Tratamento de Efluentes)",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.22.1.7",
+            "item": "Lagoa de segurança",
+            "sca_macro": "Drenagem",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.1.8",
+            "item": "Canaletas - Estrutura Civil",
+            "sca_macro": "Canaleta",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.2.3",
+            "item": "Canaletas - Grelhas",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.1.9",
+            "item": "Caixa de Manobra - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.3.4",
+            "item": "Caixa de Manobra - Válvulas",
+            "sca_macro": "Válvula",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.2.4",
+            "item": "Caixa de Manobra - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.1.10",
+            "item": "Caixa de passagem - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.2.5",
+            "item": "Caixa de passagem - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.1.11",
+            "item": "Bacia de Conteção - Tanques",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.1.12",
+            "item": "Bacia de contenção - Químicos",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.1.13",
+            "item": "Canaleta simples - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          }
+        ],
+        "n_itens": 11,
+        "concluidos": 1,
+        "andamento": 6,
+        "nao_iniciados": 4,
+        "progresso": 36,
+        "status": "Em andamento",
+        "prazo_exec": "09/09/2026",
+        "prazo_prev": "09/09/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [],
+        "campo": [],
+        "pend_ppt": [],
+        "prazo_replan": null
+      },
+      {
+        "area": "Expedição de Etanol",
+        "cod": "17",
+        "macro": "Etanol",
+        "ilha": "Armazenamento e Expedição de Etanol",
+        "processo": "Expedição de Etanol",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.6.1.5",
+            "item": "Caixa de Manobra - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.6.3.2",
+            "item": "Caixa de Manobra - Válvulas",
+            "sca_macro": "Válvula",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.6.2.4",
+            "item": "Caixa de Manobra - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.6.1.6",
+            "item": "Caixa de passagem - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.6.2.5",
+            "item": "Caixa de passagem - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.6.1.7",
+            "item": "Canaleta simples - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          }
+        ],
+        "n_itens": 6,
+        "concluidos": 2,
+        "andamento": 1,
+        "nao_iniciados": 3,
+        "progresso": 42,
+        "status": "Em andamento",
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Expedi%C3%A7%C3%A3o%20de%20Etanol/Projeto_01_Slide-14.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Expedi%C3%A7%C3%A3o%20de%20Etanol/Obra_01_Slide-14.png"
+        ],
+        "pend_ppt": [
+          "1. SCA Não Iniciado"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Fábrica de Óleo",
+        "cod": "18",
+        "macro": "DDGSeÓleo",
+        "ilha": "Fábrica de Óleo",
+        "processo": "Extração de Óleo (Tricanter)",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.9.1.1",
+            "item": "SUMP - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-22",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.9.5.1",
+            "item": "SUMP - Bombas Instaladas",
+            "sca_macro": "Sistema de bombas",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-22",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.9.2.1",
+            "item": "SUMP - Grelhas",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-22",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.9.5.2",
+            "item": "SUMP - Sistema de Nível",
+            "sca_macro": "Sistema de bombas",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-22",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.9.1.2",
+            "item": "Canaletas - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-22",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.9.2.2",
+            "item": "Canaletas - Grelhas",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-22",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.9.1.3",
+            "item": "Caixa de Manobra - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-22",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.9.3.1",
+            "item": "Caixa de Manobra - Válvulas",
+            "sca_macro": "Válvula",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-22",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.9.2.3",
+            "item": "Caixa de Manobra - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-22",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.9.1.4",
+            "item": "Bacia de Contenção",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-22",
+            "replan": null
+          }
+        ],
+        "n_itens": 10,
+        "concluidos": 0,
+        "andamento": 4,
+        "nao_iniciados": 6,
+        "progresso": 20,
+        "status": "Em andamento",
+        "prazo_exec": "22/08/2026",
+        "prazo_prev": "22/08/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [],
+        "campo": [],
+        "pend_ppt": [],
+        "prazo_replan": null
+      },
+      {
+        "area": "Fermentação",
+        "cod": "19",
+        "macro": "Etanol",
+        "ilha": "Fermentação",
+        "processo": "Dornas de Fermentação",
+        "fase": "1",
+        "itens": [
+          {
+            "item_cod": "1.2.4.1.1",
+            "item": "SUMP - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-22",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.4.5.1",
+            "item": "SUMP - Bombas Instaladas",
+            "sca_macro": "Sistema de bombas",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-22",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.4.2.1",
+            "item": "SUMP - Grelhas",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-22",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.4.5.2",
+            "item": "SUMP - Sistema de Nível",
+            "sca_macro": "Sistema de bombas",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-22",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.4.1.2",
+            "item": "Caixa de Manobra - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-22",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.4.3.1",
+            "item": "Caixa de Manobra - Válvulas",
+            "sca_macro": "Válvula",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-22",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.4.2.2",
+            "item": "Caixa de Manobra - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-22",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.4.1.3",
+            "item": "Bacia de Contenção",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-22",
+            "replan": null
+          }
+        ],
+        "n_itens": 8,
+        "concluidos": 3,
+        "andamento": 0,
+        "nao_iniciados": 5,
+        "progresso": 38,
+        "status": "Em andamento",
+        "prazo_exec": "22/07/2026",
+        "prazo_prev": "22/07/2026",
+        "fase_bucket": "1",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Fermenta%C3%A7%C3%A3o/Projeto_01_Slide-15.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Fermenta%C3%A7%C3%A3o/Projeto_02_Slide-15.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Fermenta%C3%A7%C3%A3o/Obra_01_Slide-15.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Fermenta%C3%A7%C3%A3o/Obra_02_Slide-15.jpeg"
+        ],
+        "pend_ppt": [
+          "SUMP finalizada (Bomba, base, grade e nível)"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Fertirrigação",
+        "cod": "20",
+        "macro": "Efluentes",
+        "ilha": "Estação de Tratamento de Efluentes (ETE)",
+        "processo": "Fertirrigação",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.22.1.14",
+            "item": "Infra civil",
+            "sca_macro": "Não classificado",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.2.6",
+            "item": "Infra metálica (tubulações)",
+            "sca_macro": "Tubulação",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.1.15",
+            "item": "Base dos canhões",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.3.5",
+            "item": "Canhão finalizado",
+            "sca_macro": "Não classificado",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.22.4.1",
+            "item": "Operando via COI",
+            "sca_macro": "Leitos e cabos",
+            "disciplina": "Elétrica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-20",
+            "replan": null
+          }
+        ],
+        "n_itens": 5,
+        "concluidos": 0,
+        "andamento": 1,
+        "nao_iniciados": 4,
+        "progresso": 10,
+        "status": "Em andamento",
+        "prazo_exec": "20/09/2026",
+        "prazo_prev": "20/09/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Fertirriga%C3%A7%C3%A3o/Projeto_01_Slide-16.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Fertirriga%C3%A7%C3%A3o/Obra_01_Slide-16.png"
+        ],
+        "pend_ppt": [
+          "1. Não Iniciado"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Moinho",
+        "cod": "21",
+        "macro": "Etanol",
+        "ilha": "Moinho de Grãos",
+        "processo": "Moinho de Grãos",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.2.1.1",
+            "item": "SUMP - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.2.5.1",
+            "item": "SUMP - Bombas Instaladas",
+            "sca_macro": "Sistema de bombas",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.2.2.1",
+            "item": "SUMP - Grelhas",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.2.5.2",
+            "item": "SUMP - Sistema de Nível",
+            "sca_macro": "Sistema de bombas",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.2.1.2",
+            "item": "Canaletas - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.2.2.2",
+            "item": "Canaletas - Grelhas",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.2.1.3",
+            "item": "Caixa de Manobra - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.2.3.1",
+            "item": "Caixa de Manobra - Válvulas",
+            "sca_macro": "Válvula",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.2.2.3",
+            "item": "Caixa de Manobra - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.2.1.4",
+            "item": "Bacia de Contenção",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          }
+        ],
+        "n_itens": 10,
+        "concluidos": 4,
+        "andamento": 0,
+        "nao_iniciados": 6,
+        "progresso": 40,
+        "status": "Em andamento",
+        "prazo_exec": "09/09/2026",
+        "prazo_prev": "09/09/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Moinho/Projeto_01_Slide-17.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Moinho/Projeto_02_Slide-17.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Moinho/Obra_01_Slide-17.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Moinho/Obra_02_Slide-17.jpeg"
+        ],
+        "pend_ppt": [
+          "SUMP finalizada (Bomba, base, grade e nível)",
+          "Grelhas nas canaletas",
+          "Caixa de manobra (Válvulas)"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Oficina",
+        "cod": "23",
+        "macro": "Administração",
+        "ilha": "Administração",
+        "processo": "Manutenção Industrial (Oficina Mecânica)",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.20.1.3",
+            "item": "Canaleta simples - Estrutura Civil",
+            "sca_macro": "Canaleta",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.20.1.4",
+            "item": "Caixa de passagem - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.20.2.2",
+            "item": "Caixa de passagem - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.20.1.5",
+            "item": "Baia de químicos - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.20.1.6",
+            "item": "Baia de químicos - Canaletas Simples",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.20.1.7",
+            "item": "Bacia de Contenção Tanque 15m³ - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.20.3.1",
+            "item": "Bacia de Contenção Tanque 15m³ - Válvula",
+            "sca_macro": "Válvula",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          }
+        ],
+        "n_itens": 7,
+        "concluidos": 4,
+        "andamento": 0,
+        "nao_iniciados": 3,
+        "progresso": 57,
+        "status": "Em andamento",
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Projeto_01_Slide-18.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Projeto_02_Slide-18.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Projeto_03_Slide-18.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Projeto_04_Slide-18.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Projeto_05_Slide-18.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Projeto_06_Slide-18.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Obra_01_Slide-18.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Obra_02_Slide-18.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Obra_03_Slide-18.jpeg"
+        ],
+        "pend_ppt": [
+          "Grelha nas caixas de passagens;",
+          "Bacia de contenção com válvula para tanque de combustível."
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Pátio de Biomassa (Stacker)",
+        "cod": "24",
+        "macro": "Utilidades",
+        "ilha": "Biomassa",
+        "processo": "Armazenamento de Biomassa",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.10.1.1",
+            "item": "Piso impermeabilizado",
+            "sca_macro": "Impermeabilização",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.10.1.2",
+            "item": "Rede de drenagem",
+            "sca_macro": "Drenagem",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.10.2.1",
+            "item": "Cobertura",
+            "sca_macro": "Cobertura",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          }
+        ],
+        "n_itens": 3,
+        "concluidos": 0,
+        "andamento": 2,
+        "nao_iniciados": 1,
+        "progresso": 33,
+        "status": "Em andamento",
+        "prazo_exec": "09/09/2026",
+        "prazo_prev": "09/09/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/P%C3%A1tio%20de%20Biomassa%20(Stacker)/Projeto_01_Slide-19.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/P%C3%A1tio%20de%20Biomassa%20(Stacker)/Obra_01_Slide-19.png"
+        ],
+        "pend_ppt": [
+          "1. Impermeabilização do pátio",
+          "2. Rede de drenagem",
+          "3. Cobertura da biomassa"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Pátio de Cinzas",
+        "cod": "25",
+        "macro": "Utilidades",
+        "ilha": "Geração de Vapor",
+        "processo": "Caldeira de Cinzas",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.11.1.5",
+            "item": "Taludes",
+            "sca_macro": "Talude",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.11.1.6",
+            "item": "Piso impermeabilizado",
+            "sca_macro": "Impermeabilização",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.11.1.7",
+            "item": "Rampa para carregamento",
+            "sca_macro": "Pavimentação",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-20",
+            "replan": null
+          }
+        ],
+        "n_itens": 3,
+        "concluidos": 0,
+        "andamento": 0,
+        "nao_iniciados": 3,
+        "progresso": 0,
+        "status": "Não iniciada",
+        "prazo_exec": "20/09/2026",
+        "prazo_prev": "20/09/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/P%C3%A1tio%20de%20Cinzas/Projeto_01_Slide-20.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/P%C3%A1tio%20de%20Cinzas/Obra_01_Slide-20.png"
+        ],
+        "pend_ppt": [
+          "1. Não Iniciado"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Pavimentação",
+        "cod": "26",
+        "macro": "Geral",
+        "ilha": "Geral",
+        "processo": "Pavimentação",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.1.1.6",
+            "item": "Concretagem dos caminhos, ruas, fluxos de caminhões",
+            "sca_macro": "Pavimentação",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-30",
+            "replan": null
+          }
+        ],
+        "n_itens": 1,
+        "concluidos": 0,
+        "andamento": 1,
+        "nao_iniciados": 0,
+        "progresso": 50,
+        "status": "Em andamento",
+        "prazo_exec": "30/09/2026",
+        "prazo_prev": "30/09/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [],
+        "campo": [],
+        "pend_ppt": [],
+        "prazo_replan": null
+      },
+      {
+        "area": "Poço 01 - Estrutura",
+        "cod": "27",
+        "macro": "Utilidades",
+        "ilha": "Estação de Tratamento de Água (ETA)",
+        "processo": "Poços Artesianos",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.14.5.1",
+            "item": "Hidrômetro",
+            "sca_macro": "Instrumento",
+            "disciplina": "Instrumentação",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.5.2",
+            "item": "Horímetro",
+            "sca_macro": "Instrumento",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.8",
+            "item": "Base da bomba (pelo menos 1x1m)",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.9",
+            "item": "Piso impermeabilizado",
+            "sca_macro": "Impermeabilização",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.10",
+            "item": "Saída de coleta",
+            "sca_macro": "Tubos e conexões",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.11",
+            "item": "Tubo guia",
+            "sca_macro": "Tubos e conexões",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.12",
+            "item": "Cercamento com portão",
+            "sca_macro": "Cercamento",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          }
+        ],
+        "n_itens": 7,
+        "concluidos": 5,
+        "andamento": 0,
+        "nao_iniciados": 2,
+        "progresso": 71,
+        "status": "Em andamento",
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2001%20-%20Estrutura/Projeto_01_Slide-21.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2001%20-%20Estrutura/Obra_01_Slide-21.jpeg"
+        ],
+        "pend_ppt": [
+          "P.01:",
+          "Horímetro",
+          "Saída de Água para coleta"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Poço 02 - Estrutura",
+        "cod": "28",
+        "macro": "Utilidades",
+        "ilha": "Estação de Tratamento de Água (ETA)",
+        "processo": "Poços Artesianos",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.14.5.3",
+            "item": "Hidrômetro",
+            "sca_macro": "Instrumento",
+            "disciplina": "Instrumentação",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.5.4",
+            "item": "Horímetro",
+            "sca_macro": "Instrumento",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.13",
+            "item": "Base da bomba (pelo menos 1x1m)",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.14",
+            "item": "Piso impermeabilizado",
+            "sca_macro": "Impermeabilização",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.15",
+            "item": "Saída de coleta",
+            "sca_macro": "Tubos e conexões",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.16",
+            "item": "Tubo guia",
+            "sca_macro": "Tubos e conexões",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.17",
+            "item": "Cercamento com portão",
+            "sca_macro": "Cercamento",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          }
+        ],
+        "n_itens": 7,
+        "concluidos": 6,
+        "andamento": 0,
+        "nao_iniciados": 1,
+        "progresso": 86,
+        "status": "Em andamento",
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2002%20-%20Estrutura/Projeto_01_Slide-22.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2002%20-%20Estrutura/Obra_01_Slide-22.jpeg"
+        ],
+        "pend_ppt": [
+          "P.02:",
+          "1. Horímetro"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Poço 03 - Estrutura",
+        "cod": "29",
+        "macro": "Utilidades",
+        "ilha": "Estação de Tratamento de Água (ETA)",
+        "processo": "Poços Artesianos",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.14.5.5",
+            "item": "Hidrômetro",
+            "sca_macro": "Instrumento",
+            "disciplina": "Instrumentação",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.5.6",
+            "item": "Horímetro",
+            "sca_macro": "Instrumento",
+            "disciplina": "Instrumentação",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.18",
+            "item": "Base da bomba (pelo menos 1x1m)",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.19",
+            "item": "Piso impermeabilizado",
+            "sca_macro": "Impermeabilização",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.20",
+            "item": "Saída de coleta",
+            "sca_macro": "Tubos e conexões",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.21",
+            "item": "Tubo guia",
+            "sca_macro": "Tubos e conexões",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.22",
+            "item": "Cercamento com portão",
+            "sca_macro": "Cercamento",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          }
+        ],
+        "n_itens": 7,
+        "concluidos": 3,
+        "andamento": 2,
+        "nao_iniciados": 2,
+        "progresso": 57,
+        "status": "Em andamento",
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2003%20-%20Estrutura/Projeto_01_Slide-23.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2003%20-%20Estrutura/Obra_01_Slide-23.jpeg"
+        ],
+        "pend_ppt": [
+          "P.03:",
+          "1. Hidrômetro",
+          "2. Horímetro",
+          "3. Laje Sanitária",
+          "4. Cercamento com portão"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Poço 04 - Estrutura",
+        "cod": "30",
+        "macro": "Utilidades",
+        "ilha": "Estação de Tratamento de Água (ETA)",
+        "processo": "Poços Artesianos",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.14.5.7",
+            "item": "Hidrômetro",
+            "sca_macro": "Instrumento",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.5.8",
+            "item": "Horímetro",
+            "sca_macro": "Instrumento",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.23",
+            "item": "Base da bomba (pelo menos 1x1m)",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.24",
+            "item": "Piso impermeabilizado",
+            "sca_macro": "Impermeabilização",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.25",
+            "item": "Saída de coleta",
+            "sca_macro": "Tubos e conexões",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.26",
+            "item": "Tubo guia",
+            "sca_macro": "Tubos e conexões",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.27",
+            "item": "Cercamento com portão",
+            "sca_macro": "Cercamento",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          }
+        ],
+        "n_itens": 7,
+        "concluidos": 2,
+        "andamento": 0,
+        "nao_iniciados": 5,
+        "progresso": 29,
+        "status": "Em andamento",
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2004%20-%20Estrutura/Projeto_01_Slide-24.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2004%20-%20Estrutura/Obra_01_Slide-24.jpeg"
+        ],
+        "pend_ppt": [
+          "P.04:",
+          "1. Hidrômetro",
+          "2. Horímetro",
+          "3. Laje Sanitária",
+          "4. Cercamento com portão",
+          "5. Saída de água para coleta"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Poço 05 - Estrutura",
+        "cod": "31",
+        "macro": "Utilidades",
+        "ilha": "Estação de Tratamento de Água (ETA)",
+        "processo": "Poços Artesianos",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.14.5.9",
+            "item": "Hidrômetro",
+            "sca_macro": "Instrumento",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.5.10",
+            "item": "Horímetro",
+            "sca_macro": "Instrumento",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.28",
+            "item": "Base da bomba (pelo menos 1x1m)",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.29",
+            "item": "Piso impermeabilizado",
+            "sca_macro": "Impermeabilização",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.30",
+            "item": "Saída de coleta",
+            "sca_macro": "Tubos e conexões",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.31",
+            "item": "Tubo guia",
+            "sca_macro": "Tubos e conexões",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.32",
+            "item": "Cercamento com portão",
+            "sca_macro": "Cercamento",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          }
+        ],
+        "n_itens": 7,
+        "concluidos": 2,
+        "andamento": 0,
+        "nao_iniciados": 5,
+        "progresso": 29,
+        "status": "Em andamento",
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2005%20-%20Estrutura/Projeto_01_Slide-25.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2005%20-%20Estrutura/Obra_01_Slide-25.jpeg"
+        ],
+        "pend_ppt": [
+          "P.05:",
+          "1. Hidrômetro",
+          "2. Horímetro",
+          "3. Laje Sanitária",
+          "4. Cercamento com portão",
+          "5. Saída de água para coleta"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Poço 06 - Estrutura",
+        "cod": "32",
+        "macro": "Utilidades",
+        "ilha": "Estação de Tratamento de Água (ETA)",
+        "processo": "Poços Artesianos",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.14.5.11",
+            "item": "Hidrômetro",
+            "sca_macro": "Instrumento",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.5.12",
+            "item": "Horímetro",
+            "sca_macro": "Instrumento",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.33",
+            "item": "Base da bomba (pelo menos 1x1m)",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.34",
+            "item": "Piso impermeabilizado",
+            "sca_macro": "Impermeabilização",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.35",
+            "item": "Saída de coleta",
+            "sca_macro": "Tubos e conexões",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.36",
+            "item": "Tubo guia",
+            "sca_macro": "Tubos e conexões",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.14.1.37",
+            "item": "Cercamento com portão",
+            "sca_macro": "Cercamento",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          }
+        ],
+        "n_itens": 7,
+        "concluidos": 2,
+        "andamento": 0,
+        "nao_iniciados": 5,
+        "progresso": 29,
+        "status": "Em andamento",
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2006%20-%20Estrutura/Projeto_01_Slide-26.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2006%20-%20Estrutura/Obra_01_Slide-26.jpeg"
+        ],
+        "pend_ppt": [
+          "P.06:",
+          "1. Hidrômetro",
+          "2. Horímetro",
+          "3. Laje Sanitária",
+          "4. Cercamento com portão",
+          "5. Saída de água para coleta"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Drenagem",
+        "cod": "34",
+        "macro": "Geral",
+        "ilha": "Geral",
+        "processo": "Drenagem",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.1.1.7",
+            "item": "Caixas de drenagem",
+            "sca_macro": "Drenagem",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-10-07",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.1.1.8",
+            "item": "Interligação nas lagoas",
+            "sca_macro": "Drenagem",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-10-07",
+            "replan": null
+          }
+        ],
+        "n_itens": 2,
+        "concluidos": 0,
+        "andamento": 2,
+        "nao_iniciados": 0,
+        "progresso": 50,
+        "status": "Em andamento",
+        "prazo_exec": "07/10/2026",
+        "prazo_prev": "07/10/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [],
+        "campo": [],
+        "pend_ppt": [],
+        "prazo_replan": null
+      },
+      {
+        "area": "Sala dos Compressores",
+        "cod": "35",
+        "macro": "Utilidades",
+        "ilha": "Sistema de Geração de Ar Comprimido",
+        "processo": "Geração e Distribuição de Ar Comprimido",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.13.1.1",
+            "item": "Bacia de contenção",
+            "sca_macro": "Bacia de contenção",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-15",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.13.1.2",
+            "item": "Caixa de passagem - Estrutura Civil",
+            "sca_macro": "Caixa de passagem",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-15",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.13.2.1",
+            "item": "Caixa de passagem - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-15",
+            "replan": null
+          }
+        ],
+        "n_itens": 3,
+        "concluidos": 0,
+        "andamento": 0,
+        "nao_iniciados": 3,
+        "progresso": 0,
+        "status": "Não iniciada",
+        "prazo_exec": "15/08/2026",
+        "prazo_prev": "15/08/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Sala%20dos%20Compressores/Projeto_01_Slide-27.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Sala%20dos%20Compressores/Obra_01_Slide-27.jpeg"
+        ],
+        "pend_ppt": [
+          "Bacia de Contenção;",
+          "2 Caixas de Passagem com Grelhas"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Sala Elétricas - SE",
+        "cod": "36",
+        "macro": "Utilidades",
+        "ilha": "Geração de Energia",
+        "processo": "Subestação e Distribuição de Energia",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.12.1.5",
+            "item": "Caixa de passagem - Estrutura Civil",
+            "sca_macro": "Caixa de passagem",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.12.2.3",
+            "item": "Caixa de passagem - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          }
+        ],
+        "n_itens": 2,
+        "concluidos": 0,
+        "andamento": 0,
+        "nao_iniciados": 2,
+        "progresso": 0,
+        "status": "Não iniciada",
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Sala%20El%C3%A9tricas%20-%20SE/Projeto_01_Slide-28.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Sala%20El%C3%A9tricas%20-%20SE/Obra_01_Slide-28.jpeg"
+        ],
+        "pend_ppt": [
+          "Bacia de Contenção;",
+          "Caixa de passagem;",
+          "Grelhas."
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Secador de DDGS",
+        "cod": "37",
+        "macro": "DDGSeÓleo",
+        "ilha": "Separação de Sólidos e Secagem de DDGS",
+        "processo": "Secadores de DDGS",
+        "fase": "1",
+        "itens": [
+          {
+            "item_cod": "1.2.7.1.4",
+            "item": "SUMP - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-10",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.7.5.1",
+            "item": "SUMP - Bombas Instaladas",
+            "sca_macro": "Sistema de bombas",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-10",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.7.2.1",
+            "item": "SUMP - Grelhas",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-10",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.7.5.2",
+            "item": "SUMP - Sistema de Nível",
+            "sca_macro": "Sistema de bombas",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-10",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.7.1.5",
+            "item": "Canaletas - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-10",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.7.2.2",
+            "item": "Canaletas - Grelhas",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-10",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.7.1.6",
+            "item": "Caixa de Manobra - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-10",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.7.3.1",
+            "item": "Caixa de Manobra - Válvulas",
+            "sca_macro": "Válvula",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-10",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.7.2.3",
+            "item": "Caixa de Manobra - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-10",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.7.1.7",
+            "item": "Bacia de Contenção",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-10",
+            "replan": null
+          }
+        ],
+        "n_itens": 10,
+        "concluidos": 4,
+        "andamento": 0,
+        "nao_iniciados": 6,
+        "progresso": 40,
+        "status": "Em andamento",
+        "prazo_exec": "10/07/2026",
+        "prazo_prev": "10/07/2026",
+        "fase_bucket": "1",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Secador%20de%20DDGS/Projeto_01_Slide-29.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Secador%20de%20DDGS/Projeto_02_Slide-29.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Secador%20de%20DDGS/Obra_01_Slide-29.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Secador%20de%20DDGS/Obra_02_Slide-29.jpeg"
+        ],
+        "pend_ppt": [
+          "1. Sump Finalizada (Bomba, base, grade e nível);",
+          "2. Caixa de manobra com válvulas",
+          "3. Canaletas",
+          "4. Grelha nas canaletas",
+          "5.Bacia de contenção"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Motor LCI",
+        "cod": "38",
+        "macro": "Utilidades",
+        "ilha": "Sistema de Combate a Incêndio",
+        "processo": "SPCI",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.16.1.1",
+            "item": "Caixa de Manobra - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": null,
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.16.3.1",
+            "item": "Caixa de Manobra - Válvulas",
+            "sca_macro": "Válvula",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": null,
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.16.2.1",
+            "item": "Caixa de Manobra - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": null,
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.16.1.2",
+            "item": "Caixa de passagem - Estrutura Civil",
+            "sca_macro": "Caixa de passagem",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": null,
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.16.2.2",
+            "item": "Caixa de passagem - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": null,
+            "replan": null
+          }
+        ],
+        "n_itens": 5,
+        "concluidos": 2,
+        "andamento": 0,
+        "nao_iniciados": 3,
+        "progresso": 40,
+        "status": "Em andamento",
+        "prazo_exec": "A verificar",
+        "prazo_prev": "A verificar",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Motor%20LCI/Projeto_01_Slide-30.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Motor%20LCI/Obra_01_Slide-30.jpeg"
+        ],
+        "pend_ppt": [
+          "1. Caixa de manobra com válvulas",
+          "2. Grelhas da caixa de manobra e passagem"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Subestação",
+        "cod": "39",
+        "macro": "Utilidades",
+        "ilha": "Geração de Energia",
+        "processo": "Subestação e Distribuição de Energia",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.12.4.1",
+            "item": "Caixa SAO - Estrutura Civil",
+            "sca_macro": "Caixa SAO",
+            "disciplina": "Elétrica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.12.4.2",
+            "item": "Bacia de contenção Trafo - Estrutura Civil",
+            "sca_macro": "Bacia de contenção",
+            "disciplina": "Elétrica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          }
+        ],
+        "n_itens": 2,
+        "concluidos": 0,
+        "andamento": 0,
+        "nao_iniciados": 2,
+        "progresso": 0,
+        "status": "Não iniciada",
+        "prazo_exec": "09/09/2026",
+        "prazo_prev": "09/09/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [],
+        "campo": [],
+        "pend_ppt": [],
+        "prazo_replan": null
+      },
+      {
+        "area": "Tanques de Etanol",
+        "cod": "40",
+        "macro": "Etanol",
+        "ilha": "Armazenamento e Expedição de Etanol",
+        "processo": "Armazenamento de Etanol",
+        "fase": "1",
+        "itens": [
+          {
+            "item_cod": "1.2.6.1.8",
+            "item": "Taludes sem erosão",
+            "sca_macro": "Talude",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.6.1.9",
+            "item": "Caixa de Manobra - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.6.3.3",
+            "item": "Caixa de Manobra - Válvulas",
+            "sca_macro": "Válvula",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.6.2.6",
+            "item": "Caixa de Manobra - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.6.1.10",
+            "item": "Caixa de passagem - Estrutura Civil",
+            "sca_macro": "Caixa de passagem",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.6.2.7",
+            "item": "Caixa de passagem - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.6.1.11",
+            "item": "Piso impermeabilizado/Compactado",
+            "sca_macro": "Pavimentação",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          }
+        ],
+        "n_itens": 7,
+        "concluidos": 2,
+        "andamento": 2,
+        "nao_iniciados": 3,
+        "progresso": 43,
+        "status": "Em andamento",
+        "prazo_exec": "09/09/2026",
+        "prazo_prev": "09/09/2026",
+        "fase_bucket": "1",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Etanol/Projeto_01_Slide-31.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Etanol/Obra_01_Slide-31.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Etanol/Obra_02_Slide-31.jpeg"
+        ],
+        "pend_ppt": [
+          "Válvulas das caixas de manobras;",
+          "Grelhas;",
+          "Bacias de contenção;",
+          "Piso compactado ou concretado;",
+          "Caixa de manobra e de passagem do tanque maior"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Tanques de Medição",
+        "cod": "41",
+        "macro": "Etanol",
+        "ilha": "Armazenamento e Expedição de Etanol",
+        "processo": "Tanques de Medição",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.6.1.12",
+            "item": "Taludes sem erosão",
+            "sca_macro": "Talude",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.6.1.13",
+            "item": "Caixa de Manobra - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.6.3.4",
+            "item": "Caixa de Manobra - Válvulas",
+            "sca_macro": "Válvula",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.6.2.8",
+            "item": "Caixa de Manobra - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.6.1.14",
+            "item": "Caixa de passagem - Estrutura Civil",
+            "sca_macro": "Caixa de passagem",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.6.2.9",
+            "item": "Caixa de passagem - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.6.1.15",
+            "item": "Piso impermeabilizado/Compactado",
+            "sca_macro": "Pavimentação",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          }
+        ],
+        "n_itens": 7,
+        "concluidos": 2,
+        "andamento": 2,
+        "nao_iniciados": 3,
+        "progresso": 43,
+        "status": "Em andamento",
+        "prazo_exec": "20/08/2026",
+        "prazo_prev": "20/08/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Medi%C3%A7%C3%A3o/Projeto_01_Slide-33.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Medi%C3%A7%C3%A3o/Obra_01_Slide-33.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Medi%C3%A7%C3%A3o/Obra_02_Slide-33.png"
+        ],
+        "pend_ppt": [
+          "Válvulas das caixas de manobras;",
+          "Grelhas;",
+          "Bacias de contenção;",
+          "Piso compactado ou concretado."
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Tanques de Óleo",
+        "cod": "42",
+        "macro": "DDGSeÓleo",
+        "ilha": "Fábrica de Óleo",
+        "processo": "Armazenamento de Óleo",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.9.1.5",
+            "item": "Taludes sem erosão",
+            "sca_macro": "Talude",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.9.1.6",
+            "item": "Caixa de Manobra - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.9.3.2",
+            "item": "Caixa de Manobra - Válvulas",
+            "sca_macro": "Válvula",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.9.2.4",
+            "item": "Caixa de Manobra - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.9.1.7",
+            "item": "Caixa de passagem - Estrutura Civil",
+            "sca_macro": "Caixa de passagem",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.9.2.5",
+            "item": "Caixa de passagem - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.9.1.8",
+            "item": "Piso impermeabilizado/Compactado",
+            "sca_macro": "Pavimentação",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-08-20",
+            "replan": null
+          }
+        ],
+        "n_itens": 7,
+        "concluidos": 2,
+        "andamento": 2,
+        "nao_iniciados": 3,
+        "progresso": 43,
+        "status": "Em andamento",
+        "prazo_exec": "20/08/2026",
+        "prazo_prev": "20/08/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20%C3%93leo/Projeto_01_Slide-32.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20%C3%93leo/Obra_01_Slide-32.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20%C3%93leo/Obra_02_Slide-32.jpeg"
+        ],
+        "pend_ppt": [
+          "Válvulas das caixas de manobras;",
+          "Grelhas;",
+          "Bacias de contenção;",
+          "Piso compactado ou concretado."
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Tanques de Químicos",
+        "cod": "43",
+        "macro": "Administração",
+        "ilha": "Administração",
+        "processo": "Almoxarifado",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.20.1.8",
+            "item": "Caixa de Manobra - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.20.3.2",
+            "item": "Caixa de Manobra - Válvulas",
+            "sca_macro": "Válvula",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.20.2.3",
+            "item": "Caixa de Manobra - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.20.1.9",
+            "item": "Caixa de passagem - Estrutura Civil",
+            "sca_macro": "Caixa de passagem",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.20.2.4",
+            "item": "Caixa de passagem - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.20.1.10",
+            "item": "Bacia de contenção",
+            "sca_macro": "Bacia de contenção",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          }
+        ],
+        "n_itens": 6,
+        "concluidos": 3,
+        "andamento": 0,
+        "nao_iniciados": 3,
+        "progresso": 50,
+        "status": "Em andamento",
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Qu%C3%ADmicos/Projeto_01_Slide-34.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Qu%C3%ADmicos/Projeto_02_Slide-34.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Qu%C3%ADmicos/Obra_01_Slide-34.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Qu%C3%ADmicos/Obra_02_Slide-34.jpeg"
+        ],
+        "pend_ppt": [
+          "Grelha das caixas de passagem;",
+          "Válvula da caixa de manobra;",
+          "Grelhas;",
+          "Piso impermeável."
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Tombador",
+        "cod": "44",
+        "macro": "Grãos",
+        "ilha": "Descarregamento e Armazenamento de Grãos",
+        "processo": "Tombador",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.19.1.4",
+            "item": "Bacia de contenção Pistões - Estrutura Civil",
+            "sca_macro": "Bacia de contenção",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": null,
+            "replan": null
+          }
+        ],
+        "n_itens": 1,
+        "concluidos": 1,
+        "andamento": 0,
+        "nao_iniciados": 0,
+        "progresso": 100,
+        "status": "Concluída",
+        "prazo_exec": "A verificar",
+        "prazo_prev": "A verificar",
+        "fase_bucket": "Ambas",
+        "projeto": [],
+        "campo": [],
+        "pend_ppt": [],
+        "prazo_replan": null
+      },
+      {
+        "area": "Torre de Resfriamento",
+        "cod": "45",
+        "macro": "Utilidades",
+        "ilha": "Sistema de Refrigeração de Água",
+        "processo": "Torres de Resfriamento de Água",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.15.1.1",
+            "item": "Bacia de contenção SKID - Estrutura Civil",
+            "sca_macro": "Bacia de contenção",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.15.1.2",
+            "item": "Caixa de Manobra - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.15.3.1",
+            "item": "Caixa de Manobra - Válvulas",
+            "sca_macro": "Válvula",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.15.2.1",
+            "item": "Caixa de Manobra - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-09-09",
+            "replan": null
+          }
+        ],
+        "n_itens": 4,
+        "concluidos": 1,
+        "andamento": 0,
+        "nao_iniciados": 3,
+        "progresso": 25,
+        "status": "Em andamento",
+        "prazo_exec": "09/09/2026",
+        "prazo_prev": "09/09/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Torre%20de%20Resfriamento/Projeto_01_Slide-37.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Torre%20de%20Resfriamento/Obra_01_Slide-37.png"
+        ],
+        "pend_ppt": [
+          "Skid de dosagem para abrigo de produtos químicos, não iniciado."
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Vinhaça Fina",
+        "cod": "46",
+        "macro": "DDGSeÓleo",
+        "ilha": "Sistema de Evaporação de Vinhaça",
+        "processo": "Armazenamento de Vinhaça Fina",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.8.1.1",
+            "item": "Bacia de contenção - Estrutura Civil",
+            "sca_macro": "Bacia de contenção",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.8.1.2",
+            "item": "Caixa de passagem - Estrutura Civil",
+            "sca_macro": "Caixa de passagem",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.8.2.1",
+            "item": "Caixa de passagem - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          }
+        ],
+        "n_itens": 3,
+        "concluidos": 2,
+        "andamento": 0,
+        "nao_iniciados": 1,
+        "progresso": 67,
+        "status": "Em andamento",
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Vinha%C3%A7a%20Fina/Projeto_01_Slide-35.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Vinha%C3%A7a%20Fina/Obra_01_Slide-35.jpeg"
+        ],
+        "pend_ppt": [
+          "Grelha da caixa de passagem;"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Vinhaça Grossa",
+        "cod": "47",
+        "macro": "DDGSeÓleo",
+        "ilha": "Separação de Sólidos e Secagem de DDGS",
+        "processo": "Sistema de Vinhaça Grossa e Xarope",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.7.1.8",
+            "item": "SUMP - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.7.5.3",
+            "item": "SUMP - Bombas Instaladas",
+            "sca_macro": "Sistema de bombas",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.7.2.4",
+            "item": "SUMP - Grelhas",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.7.5.4",
+            "item": "SUMP - Sistema de Nível",
+            "sca_macro": "Sistema de bombas",
+            "disciplina": "Instrumentação",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.7.1.9",
+            "item": "Canaletas - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.7.2.5",
+            "item": "Canaletas - Grelhas",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.7.1.10",
+            "item": "Caixa de Manobra - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.7.3.2",
+            "item": "Caixa de Manobra - Válvulas",
+            "sca_macro": "Válvula",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.7.2.6",
+            "item": "Caixa de Manobra - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.7.1.11",
+            "item": "Bacia de Contenção",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Concluído",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": "2026-07-31",
+            "replan": null
+          }
+        ],
+        "n_itens": 10,
+        "concluidos": 4,
+        "andamento": 0,
+        "nao_iniciados": 6,
+        "progresso": 40,
+        "status": "Em andamento",
+        "prazo_exec": "31/07/2026",
+        "prazo_prev": "31/07/2026",
+        "fase_bucket": "Ambas",
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Vinha%C3%A7a%20Grossa/Projeto_01_Slide-36.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Vinha%C3%A7a%20Grossa/Projeto_02_Slide-36.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Vinha%C3%A7a%20Grossa/Obra_01_Slide-36.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Vinha%C3%A7a%20Grossa/Obra_02_Slide-36.jpeg"
+        ],
+        "pend_ppt": [
+          "1. Sump Finalizada (Bomba, base, grade e nível);",
+          "2. Caixa de manobra com válvulas",
+          "3. Canaletas",
+          "4. Grelha nas canaletas"
+        ],
+        "prazo_replan": null
+      },
+      {
+        "area": "Chillers",
+        "cod": "48",
+        "macro": "Utilidades",
+        "ilha": "Sistema de Refrigeração de Água",
+        "processo": "Chillers",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.15.1.3",
+            "item": "Canaletas - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": null,
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.15.2.2",
+            "item": "Canaletas - Grelhas",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": null,
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.15.1.4",
+            "item": "Caixa de Manobra - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": null,
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.15.3.2",
+            "item": "Caixa de Manobra - Válvulas",
+            "sca_macro": "Válvula",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": null,
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.15.2.3",
+            "item": "Caixa de Manobra - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": null,
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.15.1.5",
+            "item": "Bacia de Contenção",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": null,
+            "replan": null
+          }
+        ],
+        "n_itens": 6,
+        "concluidos": 0,
+        "andamento": 3,
+        "nao_iniciados": 3,
+        "progresso": 25,
+        "status": "Em andamento",
+        "prazo_exec": "A verificar",
+        "prazo_prev": "A verificar",
+        "fase_bucket": "Ambas",
+        "projeto": [],
+        "campo": [],
+        "pend_ppt": [],
+        "prazo_replan": null
+      },
+      {
+        "area": "Descarga de Soda",
+        "cod": "22",
+        "macro": "Administração",
+        "ilha": "Administração",
+        "processo": "Depósito de Produtos Químicos",
+        "fase": "Ambas",
+        "itens": [
+          {
+            "item_cod": "1.2.20.1.11",
+            "item": "Canaleta - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": null,
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.20.1.12",
+            "item": "Canaleta - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Civil",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": null,
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.20.1.13",
+            "item": "Caixa de Manobra - Estrutura Civil",
+            "sca_macro": "Base civil",
+            "disciplina": "Civil",
+            "situacao": "Em andamento",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": null,
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.20.3.3",
+            "item": "Caixa de Manobra - Válvulas",
+            "sca_macro": "Válvula",
+            "disciplina": "Mecânica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": null,
+            "replan": null
+          },
+          {
+            "item_cod": "1.2.20.2.5",
+            "item": "Caixa de Manobra - Grelha",
+            "sca_macro": "Grelha",
+            "disciplina": "Metálica",
+            "situacao": "Não iniciado",
+            "supervisor": "Não informado",
+            "gerente": "Não informado",
+            "previsto": null,
+            "replan": null
+          }
+        ],
+        "n_itens": 5,
+        "concluidos": 0,
+        "andamento": 2,
+        "nao_iniciados": 3,
+        "progresso": 20,
+        "status": "Em andamento",
+        "prazo_exec": "A verificar",
+        "prazo_prev": "A verificar",
+        "fase_bucket": "Ambas",
+        "projeto": [],
+        "campo": [],
+        "pend_ppt": [],
+        "prazo_replan": null
+      }
+    ]
+  },
+  "documents": {
+    "source": "Checklist LO · LO_CHECKLIST_RVD.xlsx",
+    "deadline": "31/08/2026",
+    "columns": {
+      "area": "Setor responsável",
+      "manager": "Liderança responsável",
+      "comments": "Observações"
+    },
+    "filterLabels": {
+      "area": "Todos os setores responsáveis",
+      "manager": "Todas as lideranças responsáveis"
+    },
+    "doneLabel": "Entregues",
+    "rows": [
+      {
+        "description": "Requerimento modelo padrão SEMMA, devidamente preenchido e assinado",
+        "area": "Licenciamento",
+        "manager": "Gustavo Simoni",
+        "status": "Pendente",
+        "comments": "Prazo para protocolo 06/09/2026"
+      },
+      {
+        "description": "Cópia dos documentos Pessoais (RG e CPF) dos proprietários e representantes legais",
+        "area": "Licenciamento",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "Protocolo realizado no 1° processo"
+      },
+      {
+        "description": "Comprovante de quitação da taxa (Documento Único de Arrecadação Municipal - DUAM)",
+        "area": "Licenciamento",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "Taxa de toda área paga no 1° processo"
+      },
+      {
+        "description": "Contrato Social, última alteração, se for o caso",
+        "area": "Societario",
+        "manager": "Leonardo Nepomuceno",
+        "status": "Entregue",
+        "comments": "Protocolo realizado no 1° processo"
+      },
+      {
+        "description": "Comprovante de endereço do proprietário, localizado em zona urbana, atualizado",
+        "area": "Societario",
+        "manager": "Leonardo Nepomuceno",
+        "status": "Entregue",
+        "comments": "Protocolo realizado no 1° processo"
+      },
+      {
+        "description": "Procuração pública ou particular com firma reconhecida ou validado pelo agente administrativo desta secretaria ou com assinatura digital válida, se o requerimento não for assinado pelo titular do processo (validade de dois anos)",
+        "area": "Licenciamento",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "Protocolo realizado no 1° processo"
+      },
+      {
+        "description": "Certidão de Inteiro Teor, atualizada (máximo de 90 dias)",
+        "area": "Licenciamento",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "Protocolo realizado no 1° processo"
+      },
+      {
+        "description": "Recibo de inscrição do imóvel rural no CAR, em se tratando de área rural, condizente com as informações prestadas",
+        "area": "Ágrario",
+        "manager": "Lucas Luiz Rosa",
+        "status": "Entregue",
+        "comments": "Imóvel industrial, não tem necessidade mais de CAR"
+      },
+      {
+        "description": "Contrato de arrendamento, comodato, anuência ou similar, se for o caso",
+        "area": "Societario",
+        "manager": "Leonardo Nepomuceno",
+        "status": "Entregue",
+        "comments": "Protocolo realizado no 1° processo"
+      },
+      {
+        "description": "Certidão de Uso do Solo Rural, emitida por esta Secretaria",
+        "area": "Licenciamento",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "Protocolo realizado no 1° processo"
+      },
+      {
+        "description": "Publicação do pedido de licenciamento (Resolução CONAMA 006/1986), publicadas em um jornal de grande circulação local e no Diário Oficial do Estado de Goiás (original ou cópia autenticada)",
+        "area": "Licenciamento",
+        "manager": "Gustavo Simoni",
+        "status": "Pendente",
+        "comments": ""
+      },
+      {
+        "description": "Outorga do Direito de Uso da Água",
+        "area": "Licenciamento",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "3 portarias de outorgas emitidas + 2 em andamento"
+      },
+      {
+        "description": "Projetos arquitetônicos e hidrossanitários (planta baixa e cortes), acompanhados de memoriais descritivos e de cálculo, com Anotação de Responsabilidade Técnica (ART), caso os projetos e memoriais apresentados no âmbito do processo de licença de instalação tenham sido alterados",
+        "area": "Engenharia",
+        "manager": "Leila Midori",
+        "status": "Pendente",
+        "comments": "Confirmar se houve alterações do Stacker pra ca. Entregar até 31/08/2026"
+      },
+      {
+        "description": "Relatório de Monitoramento Ambiental (RMA), acompanhado da respectiva Anotação de Responsabilidade Técnica (ART), conforme o Termo de Referência desta Secretaria",
+        "area": "Licenciamento",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "Finalizado"
+      },
+      {
+        "description": "Plano de Gerenciamento de Resíduos Sólidos (PGRS), acompanhado da respectiva Anotação de Responsabilidade Técnica (ART), conforme a Instrução Normativa nº 07/2011 – SEMARH",
+        "area": "Licenciamento",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "Protocolo realizado no 1° processo"
+      },
+      {
+        "description": "Mapa geral da propriedade em SIRGAS 2000 atualizado e georreferenciado em arquivo digital (formato Shapefile, Kmz), com ART, contemplando no mínimo a locação de todos os elementos e estruturas das atividades, áreas de Reserva Legal, as Áreas de Preservação Permanente (APP) e demais áreas de relevante interesse ambiental",
+        "area": "Licenciamento",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "Protocolo realizado no 1° processo"
+      },
+      {
+        "description": "Cópia dos contratos de prestação de serviços firmados entre o empreendedor e as empresas responsáveis pela coleta, transporte, tratamento e destinação final dos resíduos Classe I (perigosos) e resíduos Classe II (não perigosos)",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "Protocolo realizado no 1° processo"
+      },
+      {
+        "description": "Cópia das licenças/autorizações ambientais vigentes das empresas responsáveis pela coleta, transporte, tratamento e destinação final dos resíduos Classe I (perigosos) e resíduos Classe II (não perigosos)",
+        "area": "Meio Ambiente",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "Protocolo realizado no 1° processo"
+      },
+      {
+        "description": "Declaração de Inexigibilidade de Licenciamento Ambiental para consumidor de lenha (exótica) e/ou carvão, emitida pela SEMAD",
+        "area": "Licenciamento",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "Protocolo realizado no 1° processo"
+      },
+      {
+        "description": "Certificado de Conformidade vigente, emitido pelo Corpo de Bombeiros Militar do Estado de Goiás",
+        "area": "SSO",
+        "manager": "Danilo Johann",
+        "status": "Pendente",
+        "comments": "Aguardando emissão para protocolo"
+      },
+      {
+        "description": "Autorização para instalação e operação da atividade de produção de biocombustíveis, conforme disposições da Resolução ANP nº 987, de 11 de agosto de 2025",
+        "area": "Assuntos Regulatórios",
+        "manager": "Alan Pedrosa",
+        "status": "Entregue",
+        "comments": "Autorização para instalação/construção enviada."
+      },
+      {
+        "description": "Fichas de Informação de Segurança de Produtos Químicos (FISPQ) de todos os produtos químicos a serem utilizados no processo produtivo. Os arquivos poderão ser apresentados em arquivo digital",
+        "area": "Qualidade",
+        "manager": "Natiela Nicolodi",
+        "status": "Entregue",
+        "comments": "Protocolo realizado no 1° processo"
+      },
+      {
+        "description": "Apresentar os certificados e/ou autorizações para uso de produtos químicos controlados, emitidos pela Polícia Federal e/ou Exército",
+        "area": "Qualidade",
+        "manager": "Natiela Nicolodi",
+        "status": "Entregue",
+        "comments": "Na pasta desde 10/07/2026"
+      },
+      {
+        "description": "Relatório de atendimento de todas as exigências técnicas constantes na Licença de Instalação, se for o caso",
+        "area": "Licenciamento",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "Protocolo realizado no 1° processo"
+      },
+      {
+        "description": "Plano de Suprimento Sustentavel",
+        "area": "Licenciamento",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "Protocolo realizado no 1° processo"
+      },
+      {
+        "description": "Projeto de fertirrigação",
+        "area": "Licenciamento",
+        "manager": "Gustavo Simoni",
+        "status": "Entregue",
+        "comments": "Protocolo realizado 09/07/2026"
+      }
+    ]
+  }
+}

@@ -1,0 +1,768 @@
+{
+  "schemaVersion": 1,
+  "imagens": [
+    {
+      "unidade": "rio-verde",
+      "area": "Almoxarifado",
+      "arquivo": "Obra_01_Slide-02.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Almoxarifado/Obra_01_Slide-02.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Almoxarifado",
+      "arquivo": "Obra_02_Slide-02.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Almoxarifado/Obra_02_Slide-02.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Almoxarifado",
+      "arquivo": "Projeto_01_Slide-02.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Almoxarifado/Projeto_01_Slide-02.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Almoxarifado",
+      "arquivo": "Projeto_02_Slide-02.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Almoxarifado/Projeto_02_Slide-02.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Armazém de DDGS",
+      "arquivo": "Obra_01_Slide-03.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Armaz%C3%A9m%20de%20DDGS/Obra_01_Slide-03.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Armazém de DDGS",
+      "arquivo": "Projeto_01_Slide-03.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Armaz%C3%A9m%20de%20DDGS/Projeto_01_Slide-03.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Armazém de Milho",
+      "arquivo": "Obra_01_Slide-04.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Armaz%C3%A9m%20de%20Milho/Obra_01_Slide-04.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Armazém de Milho",
+      "arquivo": "Projeto_01_Slide-04.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Armaz%C3%A9m%20de%20Milho/Projeto_01_Slide-04.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Bacia Pluvial",
+      "arquivo": "Obra_01_Slide-05.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Bacia%20Pluvial/Obra_01_Slide-05.png",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Bacia Pluvial",
+      "arquivo": "Obra_02_Slide-05.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Bacia%20Pluvial/Obra_02_Slide-05.png",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Bacia Pluvial",
+      "arquivo": "Projeto_01_Slide-05.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Bacia%20Pluvial/Projeto_01_Slide-05.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Bacia Pluvial",
+      "arquivo": "Projeto_02_Slide-05.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Bacia%20Pluvial/Projeto_02_Slide-05.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Caixa d'água",
+      "arquivo": "Obra_01_Slide-06.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Caixa%20d'%C3%A1gua/Obra_01_Slide-06.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Caixa d'água",
+      "arquivo": "Projeto_01_Slide-06.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Caixa%20d'%C3%A1gua/Projeto_01_Slide-06.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Caldeira",
+      "arquivo": "Obra_01_Slide-07.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Caldeira/Obra_01_Slide-07.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Caldeira",
+      "arquivo": "Obra_02_Slide-07.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Caldeira/Obra_02_Slide-07.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Caldeira",
+      "arquivo": "Obra_03_Slide-07.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Caldeira/Obra_03_Slide-07.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Caldeira",
+      "arquivo": "Projeto_01_Slide-07.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Caldeira/Projeto_01_Slide-07.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Caldeira",
+      "arquivo": "Projeto_02_Slide-07.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Caldeira/Projeto_02_Slide-07.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Caldeira",
+      "arquivo": "Projeto_03_Slide-07.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Caldeira/Projeto_03_Slide-07.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Casa de Força",
+      "arquivo": "Obra_01_Slide-08.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Casa%20de%20For%C3%A7a/Obra_01_Slide-08.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Casa de Força",
+      "arquivo": "Obra_02_Slide-08.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Casa%20de%20For%C3%A7a/Obra_02_Slide-08.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Casa de Força",
+      "arquivo": "Projeto_01_Slide-08.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Casa%20de%20For%C3%A7a/Projeto_01_Slide-08.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Central de Resíduos",
+      "arquivo": "Obra_01_Slide-09.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Central%20de%20Res%C3%ADduos/Obra_01_Slide-09.png",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Central de Resíduos",
+      "arquivo": "Projeto_01_Slide-09.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Central%20de%20Res%C3%ADduos/Projeto_01_Slide-09.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Cozimento",
+      "arquivo": "Obra_01_Slide-10.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Cozimento/Obra_01_Slide-10.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Cozimento",
+      "arquivo": "Obra_02_Slide-10.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Cozimento/Obra_02_Slide-10.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Cozimento",
+      "arquivo": "Projeto_01_Slide-10.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Cozimento/Projeto_01_Slide-10.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Cozimento",
+      "arquivo": "Projeto_02_Slide-10.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Cozimento/Projeto_02_Slide-10.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Destilaria",
+      "arquivo": "Obra_01_Slide-11.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Destilaria/Obra_01_Slide-11.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Destilaria",
+      "arquivo": "Obra_02_Slide-11.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Destilaria/Obra_02_Slide-11.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Destilaria",
+      "arquivo": "Obra_03_Slide-11.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Destilaria/Obra_03_Slide-11.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Destilaria",
+      "arquivo": "Projeto_01_Slide-11.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Destilaria/Projeto_01_Slide-11.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Destilaria",
+      "arquivo": "Projeto_02_Slide-11.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Destilaria/Projeto_02_Slide-11.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Destilaria",
+      "arquivo": "Projeto_03_Slide-11.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Destilaria/Projeto_03_Slide-11.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Dorna Volante",
+      "arquivo": "Obra_01_Slide-12.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Dorna%20Volante/Obra_01_Slide-12.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Dorna Volante",
+      "arquivo": "Obra_02_Slide-12.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Dorna%20Volante/Obra_02_Slide-12.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Dorna Volante",
+      "arquivo": "Projeto_01_Slide-12.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Dorna%20Volante/Projeto_01_Slide-12.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "ETA (Osmose)",
+      "arquivo": "Obra_01_Slide-13.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/ETA%20(Osmose)/Obra_01_Slide-13.png",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "ETA (Osmose)",
+      "arquivo": "Projeto_01_Slide-13.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/ETA%20(Osmose)/Projeto_01_Slide-13.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "ETA (Osmose)",
+      "arquivo": "Projeto_02_Slide-13.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/ETA%20(Osmose)/Projeto_02_Slide-13.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Expedição de Etanol",
+      "arquivo": "Obra_01_Slide-14.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Expedi%C3%A7%C3%A3o%20de%20Etanol/Obra_01_Slide-14.png",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Expedição de Etanol",
+      "arquivo": "Projeto_01_Slide-14.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Expedi%C3%A7%C3%A3o%20de%20Etanol/Projeto_01_Slide-14.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Fermentação",
+      "arquivo": "Obra_01_Slide-15.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Fermenta%C3%A7%C3%A3o/Obra_01_Slide-15.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Fermentação",
+      "arquivo": "Obra_02_Slide-15.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Fermenta%C3%A7%C3%A3o/Obra_02_Slide-15.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Fermentação",
+      "arquivo": "Projeto_01_Slide-15.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Fermenta%C3%A7%C3%A3o/Projeto_01_Slide-15.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Fermentação",
+      "arquivo": "Projeto_02_Slide-15.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Fermenta%C3%A7%C3%A3o/Projeto_02_Slide-15.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Fertirrigação",
+      "arquivo": "Obra_01_Slide-16.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Fertirriga%C3%A7%C3%A3o/Obra_01_Slide-16.png",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Fertirrigação",
+      "arquivo": "Projeto_01_Slide-16.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Fertirriga%C3%A7%C3%A3o/Projeto_01_Slide-16.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Moinho",
+      "arquivo": "Obra_01_Slide-17.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Moinho/Obra_01_Slide-17.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Moinho",
+      "arquivo": "Obra_02_Slide-17.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Moinho/Obra_02_Slide-17.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Moinho",
+      "arquivo": "Projeto_01_Slide-17.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Moinho/Projeto_01_Slide-17.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Moinho",
+      "arquivo": "Projeto_02_Slide-17.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Moinho/Projeto_02_Slide-17.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Motor LCI",
+      "arquivo": "Obra_01_Slide-30.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Motor%20LCI/Obra_01_Slide-30.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Motor LCI",
+      "arquivo": "Projeto_01_Slide-30.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Motor%20LCI/Projeto_01_Slide-30.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Oficina",
+      "arquivo": "Obra_01_Slide-18.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Obra_01_Slide-18.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Oficina",
+      "arquivo": "Obra_02_Slide-18.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Obra_02_Slide-18.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Oficina",
+      "arquivo": "Obra_03_Slide-18.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Obra_03_Slide-18.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Oficina",
+      "arquivo": "Projeto_01_Slide-18.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Projeto_01_Slide-18.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Oficina",
+      "arquivo": "Projeto_02_Slide-18.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Projeto_02_Slide-18.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Oficina",
+      "arquivo": "Projeto_03_Slide-18.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Projeto_03_Slide-18.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Oficina",
+      "arquivo": "Projeto_04_Slide-18.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Projeto_04_Slide-18.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Oficina",
+      "arquivo": "Projeto_05_Slide-18.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Projeto_05_Slide-18.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Oficina",
+      "arquivo": "Projeto_06_Slide-18.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Projeto_06_Slide-18.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Pátio de Biomassa (Stacker)",
+      "arquivo": "Obra_01_Slide-19.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/P%C3%A1tio%20de%20Biomassa%20(Stacker)/Obra_01_Slide-19.png",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Pátio de Biomassa (Stacker)",
+      "arquivo": "Projeto_01_Slide-19.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/P%C3%A1tio%20de%20Biomassa%20(Stacker)/Projeto_01_Slide-19.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Pátio de Cinzas",
+      "arquivo": "Obra_01_Slide-20.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/P%C3%A1tio%20de%20Cinzas/Obra_01_Slide-20.png",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Pátio de Cinzas",
+      "arquivo": "Projeto_01_Slide-20.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/P%C3%A1tio%20de%20Cinzas/Projeto_01_Slide-20.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Poço 01 - Estrutura",
+      "arquivo": "Obra_01_Slide-21.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2001%20-%20Estrutura/Obra_01_Slide-21.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Poço 01 - Estrutura",
+      "arquivo": "Projeto_01_Slide-21.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2001%20-%20Estrutura/Projeto_01_Slide-21.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Poço 02 - Estrutura",
+      "arquivo": "Obra_01_Slide-22.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2002%20-%20Estrutura/Obra_01_Slide-22.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Poço 02 - Estrutura",
+      "arquivo": "Projeto_01_Slide-22.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2002%20-%20Estrutura/Projeto_01_Slide-22.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Poço 03 - Estrutura",
+      "arquivo": "Obra_01_Slide-23.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2003%20-%20Estrutura/Obra_01_Slide-23.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Poço 03 - Estrutura",
+      "arquivo": "Projeto_01_Slide-23.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2003%20-%20Estrutura/Projeto_01_Slide-23.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Poço 04 - Estrutura",
+      "arquivo": "Obra_01_Slide-24.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2004%20-%20Estrutura/Obra_01_Slide-24.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Poço 04 - Estrutura",
+      "arquivo": "Projeto_01_Slide-24.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2004%20-%20Estrutura/Projeto_01_Slide-24.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Poço 05 - Estrutura",
+      "arquivo": "Obra_01_Slide-25.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2005%20-%20Estrutura/Obra_01_Slide-25.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Poço 05 - Estrutura",
+      "arquivo": "Projeto_01_Slide-25.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2005%20-%20Estrutura/Projeto_01_Slide-25.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Poço 06 - Estrutura",
+      "arquivo": "Obra_01_Slide-26.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2006%20-%20Estrutura/Obra_01_Slide-26.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Poço 06 - Estrutura",
+      "arquivo": "Projeto_01_Slide-26.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2006%20-%20Estrutura/Projeto_01_Slide-26.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Sala dos Compressores",
+      "arquivo": "Obra_01_Slide-27.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Sala%20dos%20Compressores/Obra_01_Slide-27.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Sala dos Compressores",
+      "arquivo": "Projeto_01_Slide-27.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Sala%20dos%20Compressores/Projeto_01_Slide-27.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Sala Elétricas - SE",
+      "arquivo": "Obra_01_Slide-28.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Sala%20El%C3%A9tricas%20-%20SE/Obra_01_Slide-28.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Sala Elétricas - SE",
+      "arquivo": "Projeto_01_Slide-28.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Sala%20El%C3%A9tricas%20-%20SE/Projeto_01_Slide-28.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Secador de DDGS",
+      "arquivo": "Obra_01_Slide-29.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Secador%20de%20DDGS/Obra_01_Slide-29.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Secador de DDGS",
+      "arquivo": "Obra_02_Slide-29.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Secador%20de%20DDGS/Obra_02_Slide-29.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Secador de DDGS",
+      "arquivo": "Projeto_01_Slide-29.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Secador%20de%20DDGS/Projeto_01_Slide-29.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Secador de DDGS",
+      "arquivo": "Projeto_02_Slide-29.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Secador%20de%20DDGS/Projeto_02_Slide-29.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Tanques de Etanol",
+      "arquivo": "Obra_01_Slide-31.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Etanol/Obra_01_Slide-31.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Tanques de Etanol",
+      "arquivo": "Obra_02_Slide-31.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Etanol/Obra_02_Slide-31.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Tanques de Etanol",
+      "arquivo": "Projeto_01_Slide-31.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Etanol/Projeto_01_Slide-31.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Tanques de Medição",
+      "arquivo": "Obra_01_Slide-33.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Medi%C3%A7%C3%A3o/Obra_01_Slide-33.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Tanques de Medição",
+      "arquivo": "Obra_02_Slide-33.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Medi%C3%A7%C3%A3o/Obra_02_Slide-33.png",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Tanques de Medição",
+      "arquivo": "Projeto_01_Slide-33.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Medi%C3%A7%C3%A3o/Projeto_01_Slide-33.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Tanques de Óleo",
+      "arquivo": "Obra_01_Slide-32.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20%C3%93leo/Obra_01_Slide-32.png",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Tanques de Óleo",
+      "arquivo": "Obra_02_Slide-32.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20%C3%93leo/Obra_02_Slide-32.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Tanques de Óleo",
+      "arquivo": "Projeto_01_Slide-32.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20%C3%93leo/Projeto_01_Slide-32.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Tanques de Químicos",
+      "arquivo": "Obra_01_Slide-34.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Qu%C3%ADmicos/Obra_01_Slide-34.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Tanques de Químicos",
+      "arquivo": "Obra_02_Slide-34.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Qu%C3%ADmicos/Obra_02_Slide-34.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Tanques de Químicos",
+      "arquivo": "Projeto_01_Slide-34.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Qu%C3%ADmicos/Projeto_01_Slide-34.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Tanques de Químicos",
+      "arquivo": "Projeto_02_Slide-34.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Tanques%20de%20Qu%C3%ADmicos/Projeto_02_Slide-34.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Torre de Resfriamento",
+      "arquivo": "Obra_01_Slide-37.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Torre%20de%20Resfriamento/Obra_01_Slide-37.png",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Torre de Resfriamento",
+      "arquivo": "Projeto_01_Slide-37.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Torre%20de%20Resfriamento/Projeto_01_Slide-37.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Vinhaça Fina",
+      "arquivo": "Obra_01_Slide-35.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Vinha%C3%A7a%20Fina/Obra_01_Slide-35.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Vinhaça Fina",
+      "arquivo": "Projeto_01_Slide-35.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Vinha%C3%A7a%20Fina/Projeto_01_Slide-35.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Vinhaça Grossa",
+      "arquivo": "Obra_01_Slide-36.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Vinha%C3%A7a%20Grossa/Obra_01_Slide-36.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Vinhaça Grossa",
+      "arquivo": "Obra_02_Slide-36.jpeg",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Vinha%C3%A7a%20Grossa/Obra_02_Slide-36.jpeg",
+      "classificacao": "Obra"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Vinhaça Grossa",
+      "arquivo": "Projeto_01_Slide-36.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Vinha%C3%A7a%20Grossa/Projeto_01_Slide-36.png",
+      "classificacao": "Projeto"
+    },
+    {
+      "unidade": "rio-verde",
+      "area": "Vinhaça Grossa",
+      "arquivo": "Projeto_02_Slide-36.png",
+      "caminho": "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Vinha%C3%A7a%20Grossa/Projeto_02_Slide-36.png",
+      "classificacao": "Projeto"
+    }
+  ]
+}

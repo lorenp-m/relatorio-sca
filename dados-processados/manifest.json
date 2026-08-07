@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "units": {
+    "nova-mutum": "nova-mutum.json",
+    "rondonopolis": "rondonopolis.json",
+    "rio-verde": "rio-verde.json"
+  }
+}

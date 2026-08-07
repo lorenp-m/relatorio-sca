@@ -1,0 +1,53 @@
+{
+  "label": "Rondonópolis / MT",
+  "operational": {
+    "meta": {
+      "unidade": "Rondonópolis / MT",
+      "fases": "—",
+      "conteudo": "Sistemas de Controle Ambiental (SCA)",
+      "responsavel": "Não informado",
+      "atualizacao": "Sem dados disponíveis",
+      "prazo_protocolo": "—",
+      "prazo_docs": "—",
+      "vistoria": "—",
+      "termino": "—"
+    },
+    "totais": {
+      "total_areas": 0,
+      "ilhas": 0,
+      "total_scas": 0,
+      "areas_andamento": 0,
+      "areas_nao_iniciadas": 0,
+      "areas_concluidas": 0,
+      "itens_concluidos": 0,
+      "itens_andamento": 0,
+      "itens_nao_iniciados": 0
+    },
+    "fase": {},
+    "reprog": {
+      "scas": 0,
+      "pct": 0,
+      "total": 0
+    },
+    "macro": [],
+    "disciplina": [],
+    "sca_macro": [],
+    "gerente": [],
+    "areas": []
+  },
+  "documents": {
+    "source": "Base documental não disponibilizada",
+    "deadline": "—",
+    "columns": {
+      "area": "Setor responsável",
+      "manager": "Responsabilidade",
+      "comments": "Observações"
+    },
+    "filterLabels": {
+      "area": "Todos os setores responsáveis",
+      "manager": "Todas as responsabilidades"
+    },
+    "doneLabel": "Entregues",
+    "rows": []
+  }
+}
