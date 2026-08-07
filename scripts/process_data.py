@@ -146,7 +146,7 @@ def value_at(row: tuple[Any, ...], index: int | None) -> Any:
 
 def classify_image(name: str) -> str:
     token = key(Path(name).stem)
-    if re.search(r"(^| )(projetos?|3d|3 d|renders?|renderizacao|renderizacoes|modelagem|modelagens|maquetes?)( |$)", token):
+    if re.search(r"projetos?|3d|3 d|renders?|renderizacao|renderizacoes|modelagem|modelagens|maquetes?", token):
         return "Projeto"
     return "Obra"
 
