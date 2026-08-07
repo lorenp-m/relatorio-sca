@@ -29,7 +29,7 @@ function renderMast(){
     <div class="hcard"><b>Término previsto da execução</b><div class="d">${esc(m.termino)}</div><small>maior prazo entre os SCAs</small></div>
     <div class="hcard"><b>Data da vistoria</b><div class="d">${esc(m.vistoria)}</div><small>referência de criticidade</small></div>`;
   asof1.textContent="Atualizado em "+m.atualizacao; asof2.textContent="Atualizado em "+m.atualizacao; asof3.textContent="Atualizado em "+m.atualizacao;
-  methodo.innerHTML=`<b style="color:var(--navy)">Metodologia:</b> progresso estimado por área a partir do checklist (Não iniciado 0% · Em andamento 50% · Concluído 100%). "Previsão inicial" = maior data da coluna Previsto da área; quando houver valor na coluna Replan, ele será apresentado como "Replanejado". A classificação Crítico/Atenção considera a margem até a vistoria (${esc(m.vistoria)}). O "Detalhamento por SCA" agrega os itens pela coluna SCA Macro e apresenta a maior previsão efetiva do grupo como "Previsão de término".`;
+  methodo.innerHTML=`<b style="color:var(--navy)">Metodologia:</b> progresso estimado por área a partir do checklist (Não iniciado 0% · Em andamento 50% · Concluído 100%). "Previsão inicial" = maior data da coluna Previsto da área; quando houver valor na coluna Replan, ele será apresentado como "Replanejado". A classificação Alta/Moderada/Baixa considera a margem até a vistoria (${esc(m.vistoria)}). O "Detalhamento por SCA" agrega os itens pela coluna SCA Macro e apresenta a maior previsão efetiva do grupo como "Previsão de término".`;
 }
 
 function donut(pct,size){const r=size/2-8,c=2*Math.PI*r,off=c*(1-pct/100);
@@ -106,22 +106,25 @@ function renderGer(){
     <span class="manager-name">${esc(g.gerente)}</span><b>${g.pend}</b>
     <small>${g.pct}% do total de SCAs pendentes</small></div>`).join('');
 }
-function classify(a){const d=parseBR(a.prazo_replan||a.prazo_prev);if(!d)return"Atenção";
-  const marg=(VISTORIA-d)/86400000;return marg<30?"Crítico":"Atenção";}
-function classifySCA(m){const d=parseBR(m.prazo_exec);if(!d)return"Atenção";
-  const marg=(VISTORIA-d)/86400000;return marg<30?"Crítico":"Atenção";}
+function classifyDate(d){if(!d)return"Moderada";const marg=(VISTORIA-d)/86400000;return marg<30?"Alta":marg<45?"Moderada":"Baixa";}
+function classify(a){return classifyDate(parseBR(a.prazo_replan||a.prazo_prev));}
+function classifySCA(m){return classifyDate(parseBR(m.prazo_exec));}
+function criticRank(cls){return cls==="Alta"?0:cls==="Moderada"?1:2;}
+function criticVisual(cls){return cls==="Alta"?"crit":cls==="Baixa"?"low":"att";}
 function renderCriteria(){criteria.innerHTML=`<b>Critério de classificação</b> — pela previsão efetiva da ilha (Replanejado quando houver; caso contrário, Previsão inicial), tendo a <b>data da vistoria (${esc(DADOS.meta.vistoria)})</b> como referência: 
-  <span class="k crit">Crítico</span> prazo vencido ou com menos de 30 dias de margem até a vistoria; 
-  <span class="k att">Atenção</span> prazo a cumprir, com 30 dias ou mais de margem.`;}
+  <span class="k crit">Alta</span> previsão posterior à vistoria ou com menos de 30 dias de margem; 
+  <span class="k att">Moderada</span> previsão com 30 dias ou mais e menos de 45 dias de margem; 
+  <span class="k low">Baixa</span> previsão com 45 dias ou mais de margem até a vistoria.`;}
 function renderCriteriaSCA(){document.getElementById("criteriaSCA").innerHTML=`<b>Critério de classificação</b> — pela <b>Previsão de término</b> do SCA, tendo a <b>data da vistoria (${esc(DADOS.meta.vistoria)})</b> como referência: 
-  <span class="k crit">Crítico</span> previsão posterior à vistoria ou com menos de 30 dias de margem; 
-  <span class="k att">Atenção</span> previsão com 30 dias ou mais de margem até a vistoria.`;}
+  <span class="k crit">Alta</span> previsão posterior à vistoria ou com menos de 30 dias de margem; 
+  <span class="k att">Moderada</span> previsão com 30 dias ou mais e menos de 45 dias de margem; 
+  <span class="k low">Baixa</span> previsão com 45 dias ou mais de margem até a vistoria.`;}
 function renderAttention(){
   const list=DADOS.areas.filter(a=>a.status!=="Concluída").map(a=>({...a,cls:classify(a)}))
-    .sort((x,y)=>((x.cls==="Crítico"?0:1)-(y.cls==="Crítico"?0:1))||(y.n_itens-x.n_itens));
+    .sort((x,y)=>(criticRank(x.cls)-criticRank(y.cls))||(y.n_itens-x.n_itens));
   attention.innerHTML=list.map(a=>{
     const items=a.itens.map(i=>`<li><span class="sdot" style="background:${sitColor(i.situacao)}"></span><span>${esc(i.item||'—')}</span></li>`).join('');
-    return `<div class="att ${a.cls==='Crítico'?'crit':''}"><div class="tag">${a.cls}</div>
+    return `<div class="att ${criticVisual(a.cls)}"><div class="tag">${a.cls}</div>
       <h4>${esc(a.area)}</h4><div class="m">${a.n_itens} SCAs · prazo ${esc(a.prazo_prev)}</div>
       <ul>${items}</ul></div>`;}).join('');
 }
@@ -132,14 +135,14 @@ function renderTable(){
   const q=norm(document.getElementById('q').value),fs=document.getElementById('fStatus').value,fm=sel.value;
   let rows=DADOS.sca_macro.filter(m=>(!q||norm(m.macro).includes(q))&&(!fs||m.status===fs)&&(!fm||m.macro===fm));
   const ord={"Não iniciada":0,"Em andamento":1,"Concluída":2};
-  rows=[...rows].sort((x,y)=>{let A,B;if(sortK==="status"){A=ord[x.status];B=ord[y.status];}else if(sortK==="criticidade"){A=classifySCA(x)==="Crítico"?0:1;B=classifySCA(y)==="Crítico"?0:1;}else if(sortK==="macro"){A=norm(x.macro);B=norm(y.macro);}else if(sortK==="prazo_exec"){A=parseBR(x.prazo_exec)||0;B=parseBR(y.prazo_exec)||0;}else{A=x[sortK];B=y[sortK];}return A<B?-sortDir:A>B?sortDir:0;});
+  rows=[...rows].sort((x,y)=>{let A,B;if(sortK==="status"){A=ord[x.status];B=ord[y.status];}else if(sortK==="criticidade"){A=criticRank(classifySCA(x));B=criticRank(classifySCA(y));}else if(sortK==="macro"){A=norm(x.macro);B=norm(y.macro);}else if(sortK==="prazo_exec"){A=parseBR(x.prazo_exec)||0;B=parseBR(y.prazo_exec)||0;}else{A=x[sortK];B=y[sortK];}return A<B?-sortDir:A>B?sortDir:0;});
   document.querySelector('#tbl tbody').innerHTML=rows.map(m=>{const s=statusMeta(m.status),crit=classifySCA(m);
     return `<tr><td><div class="areaName">${esc(m.macro)}</div><div class="areaCod">${m.conc} concl. · ${m.andamento} em and. · ${m.nao} não inic.</div></td>
       <td><span class="chip ${s.c}">${m.status}</span></td>
       <td><div class="pcell"><div class="pbar"><span style="width:${m.progresso}%;background:${progColor(m.progresso)}"></span></div><b class="mono">${m.progresso}%</b></div></td>
       <td class="mono">${m.n}</td>
       <td class="mono">${m.areas}</td><td class="mono">${esc(m.prazo_exec)}</td>
-      <td><span class="chip ${crit==='Crítico'?'s-red':'s-amber'}">${crit}</span></td></tr>`;}).join('');
+      <td><span class="chip ${crit==='Alta'?'s-red':crit==='Baixa'?'s-green':'s-amber'}">${crit}</span></td></tr>`;}).join('');
   document.getElementById('tblCount').textContent=`${rows.length} de ${DADOS.sca_macro.length} SCA`;
   document.querySelectorAll('#tbl thead th').forEach(th=>{th.classList.remove('asc','desc');if(th.dataset.k===sortK)th.classList.add(sortDir>0?'asc':'desc');});
 }
@@ -156,7 +159,7 @@ function renderDetFilters(){
   const sups=uniq(a=>a.itens.map(i=>i.supervisor));
   const gers=uniq(a=>a.itens.map(i=>i.gerente));
   const mk=(id,lab,opts,val)=>`<select data-sel="${id}"><option value="">${lab}: todos</option>${opts.map(o=>`<option ${o===val?'selected':''}>${esc(o)}</option>`).join('')}</select>`;
-  detSelbar.innerHTML=mk("ilha","Ilha de processo",ilhas,selIlha)+mk("disc","Disciplina",discs,selDisc)+mk("sup","Supervisor responsável",sups,selSup)+mk("ger","Gerente responsável",gers,selGer)+mk("crit","Criticidade",["Crítico","Atenção"],selCrit);
+  detSelbar.innerHTML=mk("ilha","Ilha de processo",ilhas,selIlha)+mk("disc","Disciplina",discs,selDisc)+mk("sup","Supervisor responsável",sups,selSup)+mk("ger","Gerente responsável",gers,selGer)+mk("crit","Criticidade",["Alta","Moderada","Baixa"],selCrit);
   detSelbar.querySelectorAll('select').forEach(s=>s.onchange=()=>{const k=s.dataset.sel;if(k==="ilha")selIlha=s.value;if(k==="disc")selDisc=s.value;if(k==="sup")selSup=s.value;if(k==="ger")selGer=s.value;if(k==="crit")selCrit=s.value;renderDetail();});
 }
 function renderDetail(){
@@ -182,9 +185,9 @@ function renderDetail(){
       ${campo.length?`<div class="galrow"><div class="gallab campo">CAMPO</div><div class="galimgs">${campo.map((s2,i)=>img(s2,a.area+' — campo '+(i+1))).join('')}</div></div>`:''}</div>`;
     }else gal=`<div class="nogal">🖼️ Sem registro fotográfico nesta atualização</div>`;
     const pptNote=a.pend_ppt&&a.pend_ppt.length?`<h5>Nota de campo</h5><div style="font-size:11.5px;line-height:1.35;color:#42505e">${esc(a.pend_ppt.join(' · '))}</div>`:'';
-    return `<div class="area-card"><div class="ac-head ${crit==='Crítico'?'crit-bg':'att-bg'}"><div class="tt"><h3>${esc(a.area)}</h3>
+    return `<div class="area-card"><div class="ac-head ${crit==='Alta'?'crit-bg':crit==='Baixa'?'low-bg':'att-bg'}"><div class="tt"><h3>${esc(a.area)}</h3>
         <div class="cod">Cód. ${esc(a.cod)}${a.fase?' · Fase '+esc(a.fase):''} · Previsão inicial ${esc(a.prazo_prev)}${a.prazo_replan?' · Replanejado '+esc(a.prazo_replan):''}</div></div>
-        <span class="crit-tag ${crit==='Crítico'?'crit':'att'}">${crit}</span>
+        <span class="crit-tag ${criticVisual(crit)}">${crit}</span>
         <span class="chip ${s.c}">${a.status}</span>
         <div class="prg"><div class="num" style="color:${progColor(a.progresso)}">${a.progresso}%</div><div class="lab">Progresso</div></div></div>
       <div class="ac-body"><div class="ac-info">
@@ -233,7 +236,7 @@ function plantLatestDate(areas){
 }
 function plantIslandClass(areas){
   if(areas.length&&areas.every(a=>a.status==="Concluída"))return"Concluído";
-  return areas.some(a=>classify(a)==="Crítico")?"Crítico":"Atenção";
+  const classes=areas.map(classify);return classes.includes("Alta")?"Alta":classes.includes("Moderada")?"Moderada":"Baixa";
 }
 function plantTooltipHTML(area){
   const ref=PLANT_REF[area.area],members=plantIslandAreas(ref.island),cls=plantIslandClass(members);
@@ -259,7 +262,7 @@ function plantShow(zone,ev,pin){
   document.querySelectorAll('#plantOverlay .plant-zone').forEach(z=>z.classList.toggle('active',z===zone));
   const tip=document.getElementById('plantTip'),content=area?plantTooltipHTML(area):(zone.dataset.groupProcess==='1'?plantTooltipProcessStatic(zone.dataset.process,currentUnit):(zone.dataset.groupIsland==='1'?plantTooltipIslandStatic(zone.dataset.island,currentUnit):plantTooltipStatic(zone)));
   plantPinned=!!pin;
-  tip.className='plant-tooltip on'+(content.cls==='Crítico'?' crit':content.cls==='Concluído'?' done':content.cls==='Sem dados'?' neutral':'')+(plantPinned?' pinned':'');
+  tip.className='plant-tooltip on'+(content.cls==='Alta'?' crit':content.cls==='Baixa'?' low':content.cls==='Concluído'?' done':content.cls==='Sem dados'?' neutral':'')+(plantPinned?' pinned':'');
   tip.innerHTML=content.html;
   if(ev)plantMoveTip(ev);else{
     const zr=zone.getBoundingClientRect();

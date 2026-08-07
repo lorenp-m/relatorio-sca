@@ -122,12 +122,15 @@ body{font-family:"Montserrat","Segoe UI",system-ui,-apple-system,Roboto,Helvetic
 .criteria .k::before{content:"";width:9px;height:9px;border-radius:50%}
 .criteria .k.crit{color:var(--red)} .criteria .k.crit::before{background:var(--red)}
 .criteria .k.att{color:var(--amber)} .criteria .k.att::before{background:var(--amber)}
+.criteria .k.low{color:var(--green)} .criteria .k.low::before{background:var(--green)}
 .att-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
 .att{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;box-shadow:var(--shadow);position:relative;overflow:hidden}
 .att::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--amber)}
 .att.crit::before{background:var(--red)}
+.att.low::before{background:var(--green)}
 .att .tag{font-size:9.5px;font-weight:800;letter-spacing:1.4px;text-transform:uppercase;color:var(--amber)}
 .att.crit .tag{color:var(--red)}
+.att.low .tag{color:var(--green)}
 .att h4{margin:4px 0 2px;font-size:15px;color:var(--navy)}
 .att .m{font-size:12px;color:var(--muted)}
 .att ul{margin:9px 0 0;padding-left:17px;border-top:1px dashed var(--line);padding-top:8px}
@@ -172,8 +175,10 @@ tbody tr:hover{background:#F8FAFC}
 .ac-head .crit-tag{display:inline-flex;align-items:center;justify-content:center;padding:4px 9px;border-radius:999px;font-size:9.5px;font-weight:800;letter-spacing:1px;text-transform:uppercase;white-space:nowrap;flex:none}
 .ac-head .crit-tag.crit{color:var(--red);background:#FBECEA;border:1px solid color-mix(in srgb,var(--red) 24%,transparent)}
 .ac-head .crit-tag.att{color:#A25D00;background:#FFF7E6;border:1px solid color-mix(in srgb,var(--amber) 30%,transparent)}
+.ac-head .crit-tag.low{color:var(--green);background:#EAF7EF;border:1px solid color-mix(in srgb,var(--green) 28%,transparent)}
 .ac-head.crit-bg{background:color-mix(in srgb,var(--red) 8%,#fff);border-bottom-color:color-mix(in srgb,var(--red) 18%,var(--line2))}
 .ac-head.att-bg{background:color-mix(in srgb,var(--amber) 10%,#fff);border-bottom-color:color-mix(in srgb,var(--amber) 22%,var(--line2))}
+.ac-head.low-bg{background:color-mix(in srgb,var(--green) 8%,#fff);border-bottom-color:color-mix(in srgb,var(--green) 18%,var(--line2))}
 .ac-head .prg .num{font-size:22px;font-weight:800} .ac-head .prg .lab{font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--muted);font-weight:700}
 .ac-body{display:grid;grid-template-columns:360px 1fr}
 .ac-info{padding:16px 18px;border-right:1px solid var(--line2)}
@@ -450,9 +455,11 @@ tbody tr:hover{background:#F8FAFC}
 #page3 .plant-tooltip.neutral .tag{background:#EEF2F6;color:#475569}
 #page3 .plant-tooltip.on{display:block}
 #page3 .plant-tooltip.crit{border-left-color:var(--red)}
+#page3 .plant-tooltip.low{border-left-color:var(--green)}
 #page3 .plant-tooltip.done{border-left-color:var(--green)}
 #page3 .plant-tooltip .tag{display:inline-block;padding:3px 7px;border-radius:6px;background:#FFF1F0;color:var(--red);font-size:9px;font-weight:800;letter-spacing:.45px;text-transform:uppercase;margin-bottom:6px}
 #page3 .plant-tooltip:not(.crit):not(.done) .tag{background:#FFF7E6;color:#A25D00}
+#page3 .plant-tooltip.low .tag{background:#EAF7EF;color:var(--green)}
 #page3 .plant-tooltip.done .tag{background:#EAF8EF;color:#237A43}
 #page3 .plant-tooltip h4{margin:0 0 4px;font-size:14px;line-height:1.25;color:var(--navy)}
 #page3 .plant-tooltip .m{font-size:10.5px;color:var(--muted);margin-bottom:8px}
