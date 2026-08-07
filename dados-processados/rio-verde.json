@@ -6,7 +6,7 @@
       "fases": "1 e 2",
       "conteudo": "Sistemas de Controle Ambiental (SCA)",
       "responsavel": "Diego Santos da Silva",
-      "atualizacao": "31/07/2026",
+      "atualizacao": "06/08/2026",
       "prazo_protocolo": "31/08/2026",
       "prazo_docs": "31/08/2026",
       "vistoria": "06/10/2026",
@@ -16,12 +16,12 @@
       "total_areas": 46,
       "ilhas": 19,
       "total_scas": 278,
-      "areas_andamento": 40,
-      "areas_nao_iniciadas": 5,
+      "areas_andamento": 41,
+      "areas_nao_iniciadas": 4,
       "areas_concluidas": 1,
       "itens_concluidos": 81,
-      "itens_andamento": 47,
-      "itens_nao_iniciados": 150
+      "itens_andamento": 41,
+      "itens_nao_iniciados": 156
     },
     "fase": {
       "1": {
@@ -36,9 +36,9 @@
       }
     },
     "reprog": {
-      "scas": 1,
-      "pct": 0.4,
-      "total": 1
+      "scas": 278,
+      "pct": 100.0,
+      "total": 278
     },
     "macro": [
       {
@@ -53,7 +53,7 @@
         "macro": "Etanol",
         "n": 73,
         "conc": 26,
-        "progresso": 40,
+        "progresso": 39,
         "pct_conc": 35.6,
         "pendentes": 47
       },
@@ -61,7 +61,7 @@
         "macro": "DDGSeÓleo",
         "n": 43,
         "conc": 12,
-        "progresso": 38,
+        "progresso": 36,
         "pct_conc": 27.9,
         "pendentes": 31
       },
@@ -69,7 +69,7 @@
         "macro": "Efluentes",
         "n": 29,
         "conc": 1,
-        "progresso": 17,
+        "progresso": 16,
         "pct_conc": 3.4,
         "pendentes": 28
       },
@@ -77,7 +77,7 @@
         "macro": "Administração",
         "n": 21,
         "conc": 9,
-        "progresso": 50,
+        "progresso": 48,
         "pct_conc": 42.9,
         "pendentes": 12
       },
@@ -85,7 +85,7 @@
         "macro": "Geral",
         "n": 9,
         "conc": 0,
-        "progresso": 28,
+        "progresso": 33,
         "pct_conc": 0.0,
         "pendentes": 9
       },
@@ -103,33 +103,33 @@
         "disciplina": "Civil",
         "n": 151,
         "conc": 77,
-        "andamento": 43,
-        "nao": 31,
-        "progresso": 65
+        "andamento": 39,
+        "nao": 35,
+        "progresso": 64
       },
       {
         "disciplina": "Metálica",
         "n": 61,
         "conc": 0,
-        "andamento": 1,
-        "nao": 60,
-        "progresso": 1
-      },
-      {
-        "disciplina": "Mecânica",
-        "n": 32,
-        "conc": 2,
-        "andamento": 1,
-        "nao": 29,
-        "progresso": 8
+        "andamento": 0,
+        "nao": 61,
+        "progresso": 0
       },
       {
         "disciplina": "Instrumentação",
-        "n": 31,
+        "n": 32,
         "conc": 2,
         "andamento": 2,
-        "nao": 27,
-        "progresso": 10
+        "nao": 28,
+        "progresso": 9
+      },
+      {
+        "disciplina": "Mecânica",
+        "n": 31,
+        "conc": 2,
+        "andamento": 0,
+        "nao": 29,
+        "progresso": 6
       },
       {
         "disciplina": "Elétrica",
@@ -443,7 +443,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": "2026-08-15"
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.20.1.2",
@@ -454,27 +454,27 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.20.2.1",
             "item": "Caixa de passagem (Grelha)",
             "sca_macro": "Grelha",
             "disciplina": "Metálica",
-            "situacao": "Em andamento",
+            "situacao": "Não iniciado",
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           }
         ],
         "n_itens": 3,
         "concluidos": 2,
-        "andamento": 1,
-        "nao_iniciados": 0,
-        "progresso": 83,
+        "andamento": 0,
+        "nao_iniciados": 1,
+        "progresso": 67,
         "status": "Em andamento",
-        "prazo_exec": "15/08/2026",
+        "prazo_exec": "31/07/2026",
         "prazo_prev": "31/07/2026",
         "fase_bucket": "1",
         "projeto": [
@@ -488,7 +488,7 @@
         "pend_ppt": [
           "Grelhas nas caixas de passagem"
         ],
-        "prazo_replan": "15/08/2026"
+        "prazo_replan": "31/07/2026"
       },
       {
         "area": "Armazém de DDGS",
@@ -507,7 +507,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.7.1.2",
@@ -518,7 +518,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.7.1.3",
@@ -529,7 +529,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           }
         ],
         "n_itens": 3,
@@ -545,12 +545,13 @@
           "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Armaz%C3%A9m%20de%20DDGS/Projeto_01_Slide-03.png"
         ],
         "campo": [
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Armaz%C3%A9m%20de%20DDGS/Obra_01_Slide-03.jpeg"
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Armaz%C3%A9m%20de%20DDGS/Obra_01_Slide-03.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Armaz%C3%A9m%20de%20DDGS/Obra_02-06-08.jpeg"
         ],
         "pend_ppt": [
           "Canaletas para água pluvial (Em andamento)"
         ],
-        "prazo_replan": null
+        "prazo_replan": "31/07/2026"
       },
       {
         "area": "Armazém de Milho",
@@ -569,7 +570,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.19.1.2",
@@ -580,7 +581,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.19.1.3",
@@ -591,7 +592,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           }
         ],
         "n_itens": 3,
@@ -604,15 +605,19 @@
         "prazo_prev": "31/07/2026",
         "fase_bucket": "1",
         "projeto": [
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Armaz%C3%A9m%20de%20Milho/Projeto_01_Slide-04.png"
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Armaz%C3%A9m%20de%20Milho/Projeto_01_Slide-04.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Armaz%C3%A9m%20de%20Milho/Projeto_Talude%20e%20canaleta%20Armazem_Projeto3D.png"
         ],
         "campo": [
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Armaz%C3%A9m%20de%20Milho/Obra_01_Slide-04.jpeg"
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Armaz%C3%A9m%20de%20Milho/Canaleta%20entre%20Armaz%C3%A9ns-06-08.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Armaz%C3%A9m%20de%20Milho/Canaletas%20Laterais_06-08.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Armaz%C3%A9m%20de%20Milho/Escadas%20Hidr%C3%A1ulicas%20Taludes%20-%2006-08.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Armaz%C3%A9m%20de%20Milho/Talude%20e%20escada%20hidr%C3%A1ulica%20-%2006-08.jpeg"
         ],
         "pend_ppt": [
           "Finalização das canaletas para água pluvial"
         ],
-        "prazo_replan": null
+        "prazo_replan": "31/07/2026"
       },
       {
         "area": "Bacia Pluvial",
@@ -631,7 +636,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-20",
-            "replan": null
+            "replan": "2026-09-20"
           },
           {
             "item_cod": "1.2.1.1.2",
@@ -642,18 +647,18 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-20",
-            "replan": null
+            "replan": "2026-09-20"
           },
           {
             "item_cod": "1.2.1.1.3",
             "item": "Monge",
             "sca_macro": "Drenagem",
             "disciplina": "Civil",
-            "situacao": "Não iniciado",
+            "situacao": "Em andamento",
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-20",
-            "replan": null
+            "replan": "2026-08-19"
           },
           {
             "item_cod": "1.2.1.1.4",
@@ -664,7 +669,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-20",
-            "replan": null
+            "replan": "2026-09-20"
           },
           {
             "item_cod": "1.2.1.3.1",
@@ -675,7 +680,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-20",
-            "replan": null
+            "replan": "2026-09-20"
           },
           {
             "item_cod": "1.2.1.1.5",
@@ -686,25 +691,27 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-20",
-            "replan": null
+            "replan": "2026-08-30"
           }
         ],
         "n_itens": 6,
         "concluidos": 0,
-        "andamento": 2,
-        "nao_iniciados": 4,
-        "progresso": 17,
+        "andamento": 3,
+        "nao_iniciados": 3,
+        "progresso": 25,
         "status": "Em andamento",
         "prazo_exec": "20/09/2026",
         "prazo_prev": "20/09/2026",
         "fase_bucket": "Ambas",
         "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Bacia%20Pluvial/Monge_Lagoa_Pluvial-Projeto3D.png",
           "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Bacia%20Pluvial/Projeto_01_Slide-05.png",
           "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Bacia%20Pluvial/Projeto_02_Slide-05.png"
         ],
         "campo": [
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Bacia%20Pluvial/Obra_01_Slide-05.png",
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Bacia%20Pluvial/Obra_02_Slide-05.png"
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Bacia%20Pluvial/Lagoa_Pluvial_1-06-08.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Bacia%20Pluvial/Monge_Lagoa_Pluvial1.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Bacia%20Pluvial/Obra_01_Slide-05.png"
         ],
         "pend_ppt": [
           "1. Completa (Bombas ou Monge c/ Válvulas)",
@@ -712,7 +719,7 @@
           "3. Conexão com a rede de drenagem da planta",
           "4. Conexão com o dissipador de água"
         ],
-        "prazo_replan": null
+        "prazo_replan": "20/09/2026"
       },
       {
         "area": "Caixa d'água",
@@ -731,7 +738,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-09"
           },
           {
             "item_cod": "1.2.14.3.1",
@@ -742,7 +749,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-01"
           },
           {
             "item_cod": "1.2.14.1.2",
@@ -753,25 +760,25 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-09"
           },
           {
             "item_cod": "1.2.14.1.3",
             "item": "Piso impermeabilizado",
             "sca_macro": "Impermeabilização",
             "disciplina": "Civil",
-            "situacao": "Em andamento",
+            "situacao": "Não iniciado",
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-09"
           }
         ],
         "n_itens": 4,
         "concluidos": 1,
-        "andamento": 1,
-        "nao_iniciados": 2,
-        "progresso": 38,
+        "andamento": 0,
+        "nao_iniciados": 3,
+        "progresso": 25,
         "status": "Em andamento",
         "prazo_exec": "09/09/2026",
         "prazo_prev": "09/09/2026",
@@ -780,14 +787,14 @@
           "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Caixa%20d'%C3%A1gua/Projeto_01_Slide-06.png"
         ],
         "campo": [
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Caixa%20d'%C3%A1gua/Obra_01_Slide-06.jpeg"
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Caixa%20d'%C3%A1gua/Caixa_D%C3%A1gua_06-08.jpeg"
         ],
         "pend_ppt": [
           "1. Bomba Dosadora",
           "2. Abrigo para químicos",
           "3. Piso impermeável"
         ],
-        "prazo_replan": null
+        "prazo_replan": "09/09/2026"
       },
       {
         "area": "Caldeira",
@@ -806,18 +813,18 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-20",
-            "replan": null
+            "replan": "2026-07-20"
           },
           {
             "item_cod": "1.2.11.3.1",
             "item": "SUMP - Bombas Instaladas",
             "sca_macro": "Sistema de bombas",
-            "disciplina": "Mecânica",
+            "disciplina": "Instrumentação",
             "situacao": "Não iniciado",
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-20",
-            "replan": null
+            "replan": "2026-07-20"
           },
           {
             "item_cod": "1.2.11.2.1",
@@ -828,7 +835,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-20",
-            "replan": null
+            "replan": "2026-07-20"
           },
           {
             "item_cod": "1.2.11.5.1",
@@ -839,7 +846,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-20",
-            "replan": null
+            "replan": "2026-07-20"
           },
           {
             "item_cod": "1.2.11.1.2",
@@ -850,7 +857,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-20",
-            "replan": null
+            "replan": "2026-07-20"
           },
           {
             "item_cod": "1.2.11.2.2",
@@ -861,7 +868,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-20",
-            "replan": null
+            "replan": "2026-07-20"
           },
           {
             "item_cod": "1.2.11.1.3",
@@ -872,7 +879,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-20",
-            "replan": null
+            "replan": "2026-07-20"
           },
           {
             "item_cod": "1.2.11.3.2",
@@ -883,7 +890,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-20",
-            "replan": null
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.11.2.3",
@@ -894,7 +901,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-20",
-            "replan": null
+            "replan": "2026-07-20"
           },
           {
             "item_cod": "1.2.11.1.4",
@@ -905,7 +912,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-20",
-            "replan": null
+            "replan": "2026-07-20"
           }
         ],
         "n_itens": 10,
@@ -914,7 +921,7 @@
         "nao_iniciados": 6,
         "progresso": 40,
         "status": "Em andamento",
-        "prazo_exec": "20/07/2026",
+        "prazo_exec": "30/08/2026",
         "prazo_prev": "20/07/2026",
         "fase_bucket": "1",
         "projeto": [
@@ -932,7 +939,7 @@
           "Grelhas nas canaletas",
           "Caixa de manobra (Válvulas)"
         ],
-        "prazo_replan": null
+        "prazo_replan": "30/08/2026"
       },
       {
         "area": "Casa de Força",
@@ -951,7 +958,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.12.2.1",
@@ -962,7 +969,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.12.1.2",
@@ -973,18 +980,18 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.12.1.3",
             "item": "Caixa de Manobra - Estrutura Civil",
             "sca_macro": "Caixa de manobra",
             "disciplina": "Civil",
-            "situacao": "Em andamento",
+            "situacao": "Não iniciado",
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.12.3.1",
@@ -995,7 +1002,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.12.2.2",
@@ -1006,7 +1013,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.12.1.4",
@@ -1017,24 +1024,25 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           }
         ],
         "n_itens": 7,
         "concluidos": 3,
-        "andamento": 1,
-        "nao_iniciados": 3,
-        "progresso": 50,
+        "andamento": 0,
+        "nao_iniciados": 4,
+        "progresso": 43,
         "status": "Em andamento",
-        "prazo_exec": "20/08/2026",
+        "prazo_exec": "30/08/2026",
         "prazo_prev": "20/08/2026",
         "fase_bucket": "Ambas",
         "projeto": [
           "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Casa%20de%20For%C3%A7a/Projeto_01_Slide-08.png"
         ],
         "campo": [
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Casa%20de%20For%C3%A7a/Obra_01_Slide-08.jpeg",
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Casa%20de%20For%C3%A7a/Obra_02_Slide-08.jpeg"
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Casa%20de%20For%C3%A7a/Canaleta_estrutura%20civil-06-08.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Casa%20de%20For%C3%A7a/Canaleta%20Simples_Casa%20de%20For%C3%A7a-06-08.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Casa%20de%20For%C3%A7a/Local%20da%20caixa%20de%20manobra_a%20construir.jpeg"
         ],
         "pend_ppt": [
           "1. Canaletas",
@@ -1042,7 +1050,7 @@
           "3. Bacia de contenção (Estrutura fechada)",
           "4. Caixa de manobra com válvula"
         ],
-        "prazo_replan": null
+        "prazo_replan": "30/08/2026"
       },
       {
         "area": "Casa de Bombas - LGE",
@@ -1061,7 +1069,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.6.1.2",
@@ -1072,7 +1080,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.6.3.1",
@@ -1083,7 +1091,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.6.2.1",
@@ -1094,7 +1102,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.6.1.3",
@@ -1105,7 +1113,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.6.2.2",
@@ -1116,7 +1124,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.6.1.4",
@@ -1127,7 +1135,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.6.2.3",
@@ -1138,7 +1146,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           }
         ],
         "n_itens": 8,
@@ -1147,13 +1155,13 @@
         "nao_iniciados": 4,
         "progresso": 44,
         "status": "Em andamento",
-        "prazo_exec": "20/08/2026",
+        "prazo_exec": "30/08/2026",
         "prazo_prev": "20/08/2026",
         "fase_bucket": "Ambas",
         "projeto": [],
         "campo": [],
         "pend_ppt": [],
-        "prazo_replan": null
+        "prazo_replan": "30/08/2026"
       },
       {
         "area": "Central de Resíduos",
@@ -1172,7 +1180,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-20",
-            "replan": null
+            "replan": "2026-09-07"
           },
           {
             "item_cod": "1.2.22.2.1",
@@ -1183,7 +1191,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-20",
-            "replan": null
+            "replan": "2026-09-20"
           },
           {
             "item_cod": "1.2.22.1.2",
@@ -1194,7 +1202,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-20",
-            "replan": null
+            "replan": "2026-09-07"
           },
           {
             "item_cod": "1.2.22.1.3",
@@ -1205,7 +1213,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-20",
-            "replan": null
+            "replan": "2026-09-07"
           },
           {
             "item_cod": "1.2.22.3.1",
@@ -1216,7 +1224,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-20",
-            "replan": null
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.22.2.2",
@@ -1227,7 +1235,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-20",
-            "replan": null
+            "replan": "2026-09-20"
           }
         ],
         "n_itens": 6,
@@ -1243,12 +1251,12 @@
           "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Central%20de%20Res%C3%ADduos/Projeto_01_Slide-09.png"
         ],
         "campo": [
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Central%20de%20Res%C3%ADduos/Obra_01_Slide-09.png"
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Central%20de%20Res%C3%ADduos/Central_de_res%C3%ADduos-06-08.png"
         ],
         "pend_ppt": [
           "Status: Terraplanagem"
         ],
-        "prazo_replan": null
+        "prazo_replan": "20/09/2026"
       },
       {
         "area": "Cozimento",
@@ -1267,7 +1275,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-15",
-            "replan": null
+            "replan": "2026-07-15"
           },
           {
             "item_cod": "1.2.3.5.1",
@@ -1278,7 +1286,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-15",
-            "replan": null
+            "replan": "2026-07-15"
           },
           {
             "item_cod": "1.2.3.2.1",
@@ -1289,7 +1297,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-15",
-            "replan": null
+            "replan": "2026-07-15"
           },
           {
             "item_cod": "1.2.3.5.2",
@@ -1300,7 +1308,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-15",
-            "replan": null
+            "replan": "2026-07-15"
           },
           {
             "item_cod": "1.2.3.1.2",
@@ -1311,7 +1319,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-15",
-            "replan": null
+            "replan": "2026-07-15"
           },
           {
             "item_cod": "1.2.3.2.2",
@@ -1322,7 +1330,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-15",
-            "replan": null
+            "replan": "2026-07-15"
           },
           {
             "item_cod": "1.2.3.1.3",
@@ -1333,18 +1341,18 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-15",
-            "replan": null
+            "replan": "2026-07-15"
           },
           {
             "item_cod": "1.2.3.3.1",
             "item": "Caixa de Manobra - Válvulas",
             "sca_macro": "Válvula",
             "disciplina": "Mecânica",
-            "situacao": "Em andamento",
+            "situacao": "Não iniciado",
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-15",
-            "replan": null
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.3.2.3",
@@ -1355,7 +1363,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-15",
-            "replan": null
+            "replan": "2026-07-15"
           },
           {
             "item_cod": "1.2.3.3.2",
@@ -1366,16 +1374,16 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-15",
-            "replan": null
+            "replan": "2026-07-15"
           }
         ],
         "n_itens": 10,
         "concluidos": 4,
-        "andamento": 1,
-        "nao_iniciados": 5,
-        "progresso": 45,
+        "andamento": 0,
+        "nao_iniciados": 6,
+        "progresso": 40,
         "status": "Em andamento",
-        "prazo_exec": "15/07/2026",
+        "prazo_exec": "30/08/2026",
         "prazo_prev": "15/07/2026",
         "fase_bucket": "1",
         "projeto": [
@@ -1391,7 +1399,7 @@
           "2. Grelhas nas canaletas",
           "3. Caixa de manobra (Válvulas)"
         ],
-        "prazo_replan": null
+        "prazo_replan": "30/08/2026"
       },
       {
         "area": "Destilaria",
@@ -1410,7 +1418,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-15",
-            "replan": null
+            "replan": "2026-07-15"
           },
           {
             "item_cod": "1.2.5.5.1",
@@ -1421,7 +1429,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-15",
-            "replan": null
+            "replan": "2026-07-15"
           },
           {
             "item_cod": "1.2.5.2.1",
@@ -1432,7 +1440,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-15",
-            "replan": null
+            "replan": "2026-07-15"
           },
           {
             "item_cod": "1.2.5.5.2",
@@ -1443,7 +1451,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-15",
-            "replan": null
+            "replan": "2026-07-15"
           },
           {
             "item_cod": "1.2.5.1.2",
@@ -1454,7 +1462,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-15",
-            "replan": null
+            "replan": "2026-07-15"
           },
           {
             "item_cod": "1.2.5.2.2",
@@ -1465,7 +1473,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-15",
-            "replan": null
+            "replan": "2026-07-15"
           },
           {
             "item_cod": "1.2.5.1.3",
@@ -1476,7 +1484,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-15",
-            "replan": null
+            "replan": "2026-07-15"
           },
           {
             "item_cod": "1.2.5.3.1",
@@ -1487,7 +1495,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-15",
-            "replan": null
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.5.2.3",
@@ -1498,7 +1506,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-15",
-            "replan": null
+            "replan": "2026-07-15"
           }
         ],
         "n_itens": 9,
@@ -1507,7 +1515,7 @@
         "nao_iniciados": 6,
         "progresso": 33,
         "status": "Em andamento",
-        "prazo_exec": "15/07/2026",
+        "prazo_exec": "30/08/2026",
         "prazo_prev": "15/07/2026",
         "fase_bucket": "1",
         "projeto": [
@@ -1525,7 +1533,7 @@
           "2. Grelhas nas canaletas",
           "3. Caixa de manobra (Válvulas)"
         ],
-        "prazo_replan": null
+        "prazo_replan": "30/08/2026"
       },
       {
         "area": "Dorna Volante",
@@ -1544,7 +1552,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-20",
-            "replan": null
+            "replan": "2026-07-20"
           },
           {
             "item_cod": "1.2.5.5.3",
@@ -1555,7 +1563,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-20",
-            "replan": null
+            "replan": "2026-07-20"
           },
           {
             "item_cod": "1.2.5.2.4",
@@ -1566,7 +1574,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-20",
-            "replan": null
+            "replan": "2026-07-20"
           },
           {
             "item_cod": "1.2.5.5.4",
@@ -1577,7 +1585,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-20",
-            "replan": null
+            "replan": "2026-07-20"
           },
           {
             "item_cod": "1.2.5.1.5",
@@ -1588,7 +1596,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-20",
-            "replan": null
+            "replan": "2026-07-20"
           },
           {
             "item_cod": "1.2.5.3.2",
@@ -1599,7 +1607,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-20",
-            "replan": null
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.5.2.5",
@@ -1610,7 +1618,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-20",
-            "replan": null
+            "replan": "2026-07-20"
           },
           {
             "item_cod": "1.2.5.3.3",
@@ -1621,7 +1629,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-20",
-            "replan": null
+            "replan": "2026-07-20"
           }
         ],
         "n_itens": 8,
@@ -1630,7 +1638,7 @@
         "nao_iniciados": 5,
         "progresso": 38,
         "status": "Em andamento",
-        "prazo_exec": "20/07/2026",
+        "prazo_exec": "30/08/2026",
         "prazo_prev": "20/07/2026",
         "fase_bucket": "1",
         "projeto": [
@@ -1646,7 +1654,7 @@
           "3. Caixa de manobra (Válvulas)",
           "4. Bacia de Contenção"
         ],
-        "prazo_replan": null
+        "prazo_replan": "30/08/2026"
       },
       {
         "area": "Elevatórias",
@@ -1665,7 +1673,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.22.1.5",
@@ -1676,7 +1684,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.22.3.2",
@@ -1687,7 +1695,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.22.1.6",
@@ -1698,7 +1706,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.22.3.3",
@@ -1709,7 +1717,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.22.5.1",
@@ -1720,7 +1728,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.22.5.2",
@@ -1731,7 +1739,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           }
         ],
         "n_itens": 7,
@@ -1746,7 +1754,7 @@
         "projeto": [],
         "campo": [],
         "pend_ppt": [],
-        "prazo_replan": null
+        "prazo_replan": "20/08/2026"
       },
       {
         "area": "ETA (Osmose)",
@@ -1765,7 +1773,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.14.2.1",
@@ -1776,7 +1784,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.14.1.5",
@@ -1787,7 +1795,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.14.3.2",
@@ -1798,7 +1806,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.14.2.2",
@@ -1809,7 +1817,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.14.1.6",
@@ -1820,7 +1828,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.14.2.3",
@@ -1831,7 +1839,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.14.1.7",
@@ -1842,7 +1850,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           }
         ],
         "n_itens": 8,
@@ -1851,20 +1859,21 @@
         "nao_iniciados": 4,
         "progresso": 31,
         "status": "Em andamento",
-        "prazo_exec": "20/08/2026",
+        "prazo_exec": "30/08/2026",
         "prazo_prev": "20/08/2026",
         "fase_bucket": "Ambas",
         "projeto": [
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/ETA%20(Osmose)/Projeto_01_Slide-13.png",
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/ETA%20(Osmose)/Projeto_02_Slide-13.png"
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/ETA%20(Osmose)/Projeto_Canaletas_Osmose_06-08.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/ETA%20(Osmose)/Projeto_Canaletas_Osmose_projeto3D.png"
         ],
         "campo": [
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/ETA%20(Osmose)/Obra_01_Slide-13.png"
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/ETA%20(Osmose)/Canaletas_Osmose_06-08%20(2).jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/ETA%20(Osmose)/Canaletas_Osmose_06-08.jpeg"
         ],
         "pend_ppt": [
           "1. SCA não iniciados, concretando Bases."
         ],
-        "prazo_replan": null
+        "prazo_replan": "30/08/2026"
       },
       {
         "area": "ETE",
@@ -1883,7 +1892,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-09"
           },
           {
             "item_cod": "1.2.22.1.8",
@@ -1894,7 +1903,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.22.2.3",
@@ -1905,7 +1914,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-09"
           },
           {
             "item_cod": "1.2.22.1.9",
@@ -1916,7 +1925,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.22.3.4",
@@ -1927,7 +1936,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.22.2.4",
@@ -1938,7 +1947,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-09"
           },
           {
             "item_cod": "1.2.22.1.10",
@@ -1949,7 +1958,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.22.2.5",
@@ -1960,7 +1969,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-09"
           },
           {
             "item_cod": "1.2.22.1.11",
@@ -1971,7 +1980,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.22.1.12",
@@ -1982,7 +1991,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-09"
           },
           {
             "item_cod": "1.2.22.1.13",
@@ -1993,7 +2002,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-08-30"
           }
         ],
         "n_itens": 11,
@@ -2008,7 +2017,7 @@
         "projeto": [],
         "campo": [],
         "pend_ppt": [],
-        "prazo_replan": null
+        "prazo_replan": "09/09/2026"
       },
       {
         "area": "Expedição de Etanol",
@@ -2027,7 +2036,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.6.3.2",
@@ -2038,7 +2047,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.6.2.4",
@@ -2049,7 +2058,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.6.1.6",
@@ -2060,7 +2069,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.6.2.5",
@@ -2071,39 +2080,41 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.6.1.7",
             "item": "Canaleta simples - Estrutura Civil",
             "sca_macro": "Base civil",
             "disciplina": "Civil",
-            "situacao": "Em andamento",
+            "situacao": "Não iniciado",
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           }
         ],
         "n_itens": 6,
         "concluidos": 2,
-        "andamento": 1,
-        "nao_iniciados": 3,
-        "progresso": 42,
+        "andamento": 0,
+        "nao_iniciados": 4,
+        "progresso": 33,
         "status": "Em andamento",
-        "prazo_exec": "31/07/2026",
+        "prazo_exec": "30/08/2026",
         "prazo_prev": "31/07/2026",
         "fase_bucket": "Ambas",
         "projeto": [
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Expedi%C3%A7%C3%A3o%20de%20Etanol/Projeto_01_Slide-14.png"
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Expedi%C3%A7%C3%A3o%20de%20Etanol/Projeto_Caixa%20de%20Manobra_ExpEtanol_Projeto3D.png"
         ],
         "campo": [
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Expedi%C3%A7%C3%A3o%20de%20Etanol/Obra_01_Slide-14.png"
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Expedi%C3%A7%C3%A3o%20de%20Etanol/Caixa%20de%20Manobra_06-08.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Expedi%C3%A7%C3%A3o%20de%20Etanol/Caixa%20de%20Passagem_06-08.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Expedi%C3%A7%C3%A3o%20de%20Etanol/Caixa%20de%20Passagem_ExpEtanol_06-08.png"
         ],
         "pend_ppt": [
           "1. SCA Não Iniciado"
         ],
-        "prazo_replan": null
+        "prazo_replan": "30/08/2026"
       },
       {
         "area": "Fábrica de Óleo",
@@ -2122,7 +2133,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-22",
-            "replan": null
+            "replan": "2026-08-22"
           },
           {
             "item_cod": "1.2.9.5.1",
@@ -2133,7 +2144,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-22",
-            "replan": null
+            "replan": "2026-08-22"
           },
           {
             "item_cod": "1.2.9.2.1",
@@ -2144,7 +2155,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-22",
-            "replan": null
+            "replan": "2026-08-22"
           },
           {
             "item_cod": "1.2.9.5.2",
@@ -2155,7 +2166,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-22",
-            "replan": null
+            "replan": "2026-08-22"
           },
           {
             "item_cod": "1.2.9.1.2",
@@ -2166,7 +2177,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-22",
-            "replan": null
+            "replan": "2026-08-22"
           },
           {
             "item_cod": "1.2.9.2.2",
@@ -2177,18 +2188,18 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-22",
-            "replan": null
+            "replan": "2026-08-22"
           },
           {
             "item_cod": "1.2.9.1.3",
             "item": "Caixa de Manobra - Estrutura Civil",
             "sca_macro": "Base civil",
             "disciplina": "Civil",
-            "situacao": "Em andamento",
+            "situacao": "Não iniciado",
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-22",
-            "replan": null
+            "replan": "2026-08-22"
           },
           {
             "item_cod": "1.2.9.3.1",
@@ -2199,7 +2210,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-22",
-            "replan": null
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.9.2.3",
@@ -2210,33 +2221,39 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-22",
-            "replan": null
+            "replan": "2026-08-22"
           },
           {
             "item_cod": "1.2.9.1.4",
             "item": "Bacia de Contenção",
             "sca_macro": "Base civil",
             "disciplina": "Civil",
-            "situacao": "Em andamento",
+            "situacao": "Não iniciado",
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-22",
-            "replan": null
+            "replan": "2026-08-22"
           }
         ],
         "n_itens": 10,
         "concluidos": 0,
-        "andamento": 4,
-        "nao_iniciados": 6,
-        "progresso": 20,
+        "andamento": 2,
+        "nao_iniciados": 8,
+        "progresso": 10,
         "status": "Em andamento",
-        "prazo_exec": "22/08/2026",
+        "prazo_exec": "30/08/2026",
         "prazo_prev": "22/08/2026",
         "fase_bucket": "Ambas",
-        "projeto": [],
-        "campo": [],
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/F%C3%A1brica%20de%20%C3%93leo/Projeto%20F%C3%A1brica%20de%20%C3%B3leo%20-%201.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/F%C3%A1brica%20de%20%C3%93leo/Projeto%20F%C3%A1brica%20de%20%C3%B3leo%20-%202.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/F%C3%A1brica%20de%20%C3%93leo/WhatsApp%20Image%202026-08-06%20at%2013.32.51%20(1).jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/F%C3%A1brica%20de%20%C3%93leo/WhatsApp%20Image%202026-08-06%20at%2013.32.51%20(2).jpeg"
+        ],
         "pend_ppt": [],
-        "prazo_replan": null
+        "prazo_replan": "30/08/2026"
       },
       {
         "area": "Fermentação",
@@ -2255,7 +2272,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-22",
-            "replan": null
+            "replan": "2026-07-22"
           },
           {
             "item_cod": "1.2.4.5.1",
@@ -2266,7 +2283,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-22",
-            "replan": null
+            "replan": "2026-07-22"
           },
           {
             "item_cod": "1.2.4.2.1",
@@ -2277,7 +2294,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-22",
-            "replan": null
+            "replan": "2026-07-22"
           },
           {
             "item_cod": "1.2.4.5.2",
@@ -2288,7 +2305,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-22",
-            "replan": null
+            "replan": "2026-07-22"
           },
           {
             "item_cod": "1.2.4.1.2",
@@ -2299,7 +2316,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-22",
-            "replan": null
+            "replan": "2026-07-22"
           },
           {
             "item_cod": "1.2.4.3.1",
@@ -2310,7 +2327,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-22",
-            "replan": null
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.4.2.2",
@@ -2321,7 +2338,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-22",
-            "replan": null
+            "replan": "2026-07-22"
           },
           {
             "item_cod": "1.2.4.1.3",
@@ -2332,7 +2349,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-22",
-            "replan": null
+            "replan": "2026-07-22"
           }
         ],
         "n_itens": 8,
@@ -2341,7 +2358,7 @@
         "nao_iniciados": 5,
         "progresso": 38,
         "status": "Em andamento",
-        "prazo_exec": "22/07/2026",
+        "prazo_exec": "30/08/2026",
         "prazo_prev": "22/07/2026",
         "fase_bucket": "1",
         "projeto": [
@@ -2355,7 +2372,7 @@
         "pend_ppt": [
           "SUMP finalizada (Bomba, base, grade e nível)"
         ],
-        "prazo_replan": null
+        "prazo_replan": "30/08/2026"
       },
       {
         "area": "Fertirrigação",
@@ -2370,11 +2387,11 @@
             "item": "Infra civil",
             "sca_macro": "Não classificado",
             "disciplina": "Civil",
-            "situacao": "Em andamento",
+            "situacao": "Não iniciado",
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-20",
-            "replan": null
+            "replan": "2026-09-20"
           },
           {
             "item_cod": "1.2.22.2.6",
@@ -2385,7 +2402,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-20",
-            "replan": null
+            "replan": "2026-09-20"
           },
           {
             "item_cod": "1.2.22.1.15",
@@ -2396,7 +2413,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-20",
-            "replan": null
+            "replan": "2026-09-20"
           },
           {
             "item_cod": "1.2.22.3.5",
@@ -2407,7 +2424,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-20",
-            "replan": null
+            "replan": "2026-09-20"
           },
           {
             "item_cod": "1.2.22.4.1",
@@ -2418,15 +2435,15 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-20",
-            "replan": null
+            "replan": "2026-09-20"
           }
         ],
         "n_itens": 5,
         "concluidos": 0,
-        "andamento": 1,
-        "nao_iniciados": 4,
-        "progresso": 10,
-        "status": "Em andamento",
+        "andamento": 0,
+        "nao_iniciados": 5,
+        "progresso": 0,
+        "status": "Não iniciada",
         "prazo_exec": "20/09/2026",
         "prazo_prev": "20/09/2026",
         "fase_bucket": "Ambas",
@@ -2439,7 +2456,7 @@
         "pend_ppt": [
           "1. Não Iniciado"
         ],
-        "prazo_replan": null
+        "prazo_replan": "20/09/2026"
       },
       {
         "area": "Moinho",
@@ -2458,7 +2475,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.2.5.1",
@@ -2469,7 +2486,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.2.2.1",
@@ -2480,7 +2497,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.2.5.2",
@@ -2491,7 +2508,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.2.1.2",
@@ -2502,7 +2519,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.2.2.2",
@@ -2513,7 +2530,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-09"
           },
           {
             "item_cod": "1.2.2.1.3",
@@ -2524,7 +2541,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-09"
           },
           {
             "item_cod": "1.2.2.3.1",
@@ -2535,7 +2552,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.2.2.3",
@@ -2546,7 +2563,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-09"
           },
           {
             "item_cod": "1.2.2.1.4",
@@ -2557,7 +2574,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-09"
           }
         ],
         "n_itens": 10,
@@ -2582,7 +2599,7 @@
           "Grelhas nas canaletas",
           "Caixa de manobra (Válvulas)"
         ],
-        "prazo_replan": null
+        "prazo_replan": "09/09/2026"
       },
       {
         "area": "Oficina",
@@ -2601,7 +2618,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.20.1.4",
@@ -2612,7 +2629,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.20.2.2",
@@ -2623,7 +2640,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.20.1.5",
@@ -2634,7 +2651,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.20.1.6",
@@ -2645,7 +2662,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.20.1.7",
@@ -2656,7 +2673,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.20.3.1",
@@ -2667,7 +2684,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           }
         ],
         "n_itens": 7,
@@ -2682,7 +2699,6 @@
         "projeto": [
           "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Projeto_01_Slide-18.png",
           "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Projeto_02_Slide-18.png",
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Projeto_03_Slide-18.png",
           "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Projeto_04_Slide-18.png",
           "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Projeto_05_Slide-18.png",
           "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Projeto_06_Slide-18.png"
@@ -2690,13 +2706,14 @@
         "campo": [
           "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Obra_01_Slide-18.jpeg",
           "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Obra_02_Slide-18.jpeg",
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Obra_03_Slide-18.jpeg"
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/Obra_03_Slide-18.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Oficina/tanque%20Combust%C3%ADvel-06-08.jpeg"
         ],
         "pend_ppt": [
           "Grelha nas caixas de passagens;",
           "Bacia de contenção com válvula para tanque de combustível."
         ],
-        "prazo_replan": null
+        "prazo_replan": "31/07/2026"
       },
       {
         "area": "Pátio de Biomassa (Stacker)",
@@ -2711,11 +2728,11 @@
             "item": "Piso impermeabilizado",
             "sca_macro": "Impermeabilização",
             "disciplina": "Civil",
-            "situacao": "Em andamento",
+            "situacao": "Não iniciado",
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-09"
           },
           {
             "item_cod": "1.2.10.1.2",
@@ -2726,7 +2743,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-09"
           },
           {
             "item_cod": "1.2.10.2.1",
@@ -2737,30 +2754,30 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-09"
           }
         ],
         "n_itens": 3,
         "concluidos": 0,
-        "andamento": 2,
-        "nao_iniciados": 1,
-        "progresso": 33,
+        "andamento": 1,
+        "nao_iniciados": 2,
+        "progresso": 17,
         "status": "Em andamento",
         "prazo_exec": "09/09/2026",
         "prazo_prev": "09/09/2026",
         "fase_bucket": "Ambas",
         "projeto": [
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/P%C3%A1tio%20de%20Biomassa%20(Stacker)/Projeto_01_Slide-19.png"
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/P%C3%A1tio%20de%20Biomassa%20(Stacker)/Stacker_Projeto3D.png"
         ],
         "campo": [
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/P%C3%A1tio%20de%20Biomassa%20(Stacker)/Obra_01_Slide-19.png"
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/P%C3%A1tio%20de%20Biomassa%20(Stacker)/Stacker_06-08.png"
         ],
         "pend_ppt": [
           "1. Impermeabilização do pátio",
           "2. Rede de drenagem",
           "3. Cobertura da biomassa"
         ],
-        "prazo_replan": null
+        "prazo_replan": "09/09/2026"
       },
       {
         "area": "Pátio de Cinzas",
@@ -2779,18 +2796,18 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-20",
-            "replan": null
+            "replan": "2026-09-20"
           },
           {
             "item_cod": "1.2.11.1.6",
             "item": "Piso impermeabilizado",
             "sca_macro": "Impermeabilização",
             "disciplina": "Civil",
-            "situacao": "Não iniciado",
+            "situacao": "Em andamento",
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-20",
-            "replan": null
+            "replan": "2026-09-20"
           },
           {
             "item_cod": "1.2.11.1.7",
@@ -2801,28 +2818,26 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-20",
-            "replan": null
+            "replan": "2026-09-20"
           }
         ],
         "n_itens": 3,
         "concluidos": 0,
-        "andamento": 0,
-        "nao_iniciados": 3,
-        "progresso": 0,
-        "status": "Não iniciada",
+        "andamento": 1,
+        "nao_iniciados": 2,
+        "progresso": 17,
+        "status": "Em andamento",
         "prazo_exec": "20/09/2026",
         "prazo_prev": "20/09/2026",
         "fase_bucket": "Ambas",
         "projeto": [
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/P%C3%A1tio%20de%20Cinzas/Projeto_01_Slide-20.png"
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/P%C3%A1tio%20de%20Cinzas/P%C3%A1tio%20de%20Cinzas_Projeto3D.png"
         ],
-        "campo": [
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/P%C3%A1tio%20de%20Cinzas/Obra_01_Slide-20.png"
-        ],
+        "campo": [],
         "pend_ppt": [
           "1. Não Iniciado"
         ],
-        "prazo_replan": null
+        "prazo_replan": "20/09/2026"
       },
       {
         "area": "Pavimentação",
@@ -2841,7 +2856,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-30",
-            "replan": null
+            "replan": "2026-09-30"
           }
         ],
         "n_itens": 1,
@@ -2856,7 +2871,7 @@
         "projeto": [],
         "campo": [],
         "pend_ppt": [],
-        "prazo_replan": null
+        "prazo_replan": "30/09/2026"
       },
       {
         "area": "Poço 01 - Estrutura",
@@ -2875,7 +2890,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-08-15"
           },
           {
             "item_cod": "1.2.14.5.2",
@@ -2886,7 +2901,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-08-15"
           },
           {
             "item_cod": "1.2.14.1.8",
@@ -2897,7 +2912,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.9",
@@ -2908,7 +2923,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.10",
@@ -2919,7 +2934,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.11",
@@ -2930,7 +2945,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.12",
@@ -2941,7 +2956,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           }
         ],
         "n_itens": 7,
@@ -2950,7 +2965,7 @@
         "nao_iniciados": 2,
         "progresso": 71,
         "status": "Em andamento",
-        "prazo_exec": "31/07/2026",
+        "prazo_exec": "15/08/2026",
         "prazo_prev": "31/07/2026",
         "fase_bucket": "Ambas",
         "projeto": [
@@ -2964,7 +2979,7 @@
           "Horímetro",
           "Saída de Água para coleta"
         ],
-        "prazo_replan": null
+        "prazo_replan": "15/08/2026"
       },
       {
         "area": "Poço 02 - Estrutura",
@@ -2983,7 +2998,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.5.4",
@@ -2994,7 +3009,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.13",
@@ -3005,7 +3020,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.14",
@@ -3016,7 +3031,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.15",
@@ -3027,7 +3042,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.16",
@@ -3038,7 +3053,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.17",
@@ -3049,7 +3064,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           }
         ],
         "n_itens": 7,
@@ -3071,7 +3086,7 @@
           "P.02:",
           "1. Horímetro"
         ],
-        "prazo_replan": null
+        "prazo_replan": "31/07/2026"
       },
       {
         "area": "Poço 03 - Estrutura",
@@ -3090,7 +3105,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-08-04"
           },
           {
             "item_cod": "1.2.14.5.6",
@@ -3101,7 +3116,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-08-04"
           },
           {
             "item_cod": "1.2.14.1.18",
@@ -3112,7 +3127,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.19",
@@ -3123,7 +3138,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.20",
@@ -3134,7 +3149,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.21",
@@ -3145,7 +3160,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.22",
@@ -3156,7 +3171,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           }
         ],
         "n_itens": 7,
@@ -3165,13 +3180,15 @@
         "nao_iniciados": 2,
         "progresso": 57,
         "status": "Em andamento",
-        "prazo_exec": "31/07/2026",
+        "prazo_exec": "04/08/2026",
         "prazo_prev": "31/07/2026",
         "fase_bucket": "Ambas",
         "projeto": [
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2003%20-%20Estrutura/Projeto_01_Slide-23.png"
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2003%20-%20Estrutura/Projeto_01_Slide-23.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2003%20-%20Estrutura/Projeto_po%C3%A7o%2003_06-08.png"
         ],
         "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2003%20-%20Estrutura/Medidor%20de%20vaz%C3%A3o_Po%C3%A7o03_06-08.jpeg",
           "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Po%C3%A7o%2003%20-%20Estrutura/Obra_01_Slide-23.jpeg"
         ],
         "pend_ppt": [
@@ -3181,7 +3198,7 @@
           "3. Laje Sanitária",
           "4. Cercamento com portão"
         ],
-        "prazo_replan": null
+        "prazo_replan": "04/08/2026"
       },
       {
         "area": "Poço 04 - Estrutura",
@@ -3200,7 +3217,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-09-01"
           },
           {
             "item_cod": "1.2.14.5.8",
@@ -3211,7 +3228,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-09-01"
           },
           {
             "item_cod": "1.2.14.1.23",
@@ -3222,7 +3239,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.24",
@@ -3233,7 +3250,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.25",
@@ -3244,7 +3261,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.26",
@@ -3255,7 +3272,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.27",
@@ -3266,7 +3283,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           }
         ],
         "n_itens": 7,
@@ -3275,7 +3292,7 @@
         "nao_iniciados": 5,
         "progresso": 29,
         "status": "Em andamento",
-        "prazo_exec": "31/07/2026",
+        "prazo_exec": "01/09/2026",
         "prazo_prev": "31/07/2026",
         "fase_bucket": "Ambas",
         "projeto": [
@@ -3292,7 +3309,7 @@
           "4. Cercamento com portão",
           "5. Saída de água para coleta"
         ],
-        "prazo_replan": null
+        "prazo_replan": "01/09/2026"
       },
       {
         "area": "Poço 05 - Estrutura",
@@ -3311,7 +3328,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.5.10",
@@ -3322,7 +3339,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.28",
@@ -3333,7 +3350,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.29",
@@ -3344,7 +3361,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.30",
@@ -3355,7 +3372,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.31",
@@ -3366,7 +3383,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.32",
@@ -3377,7 +3394,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           }
         ],
         "n_itens": 7,
@@ -3403,7 +3420,7 @@
           "4. Cercamento com portão",
           "5. Saída de água para coleta"
         ],
-        "prazo_replan": null
+        "prazo_replan": "31/07/2026"
       },
       {
         "area": "Poço 06 - Estrutura",
@@ -3422,7 +3439,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.5.12",
@@ -3433,7 +3450,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.33",
@@ -3444,7 +3461,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.34",
@@ -3455,7 +3472,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.35",
@@ -3466,7 +3483,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.36",
@@ -3477,7 +3494,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.14.1.37",
@@ -3488,7 +3505,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           }
         ],
         "n_itens": 7,
@@ -3514,7 +3531,7 @@
           "4. Cercamento com portão",
           "5. Saída de água para coleta"
         ],
-        "prazo_replan": null
+        "prazo_replan": "31/07/2026"
       },
       {
         "area": "Drenagem",
@@ -3533,7 +3550,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-10-07",
-            "replan": null
+            "replan": "2026-10-07"
           },
           {
             "item_cod": "1.2.1.1.8",
@@ -3544,7 +3561,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-10-07",
-            "replan": null
+            "replan": "2026-08-30"
           }
         ],
         "n_itens": 2,
@@ -3559,7 +3576,7 @@
         "projeto": [],
         "campo": [],
         "pend_ppt": [],
-        "prazo_replan": null
+        "prazo_replan": "07/10/2026"
       },
       {
         "area": "Sala dos Compressores",
@@ -3574,11 +3591,11 @@
             "item": "Bacia de contenção",
             "sca_macro": "Bacia de contenção",
             "disciplina": "Civil",
-            "situacao": "Não iniciado",
+            "situacao": "Em andamento",
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-15",
-            "replan": null
+            "replan": "2026-08-15"
           },
           {
             "item_cod": "1.2.13.1.2",
@@ -3589,7 +3606,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-15",
-            "replan": null
+            "replan": "2026-08-15"
           },
           {
             "item_cod": "1.2.13.2.1",
@@ -3600,15 +3617,15 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-15",
-            "replan": null
+            "replan": "2026-08-15"
           }
         ],
         "n_itens": 3,
         "concluidos": 0,
-        "andamento": 0,
-        "nao_iniciados": 3,
-        "progresso": 0,
-        "status": "Não iniciada",
+        "andamento": 1,
+        "nao_iniciados": 2,
+        "progresso": 17,
+        "status": "Em andamento",
         "prazo_exec": "15/08/2026",
         "prazo_prev": "15/08/2026",
         "fase_bucket": "Ambas",
@@ -3622,7 +3639,7 @@
           "Bacia de Contenção;",
           "2 Caixas de Passagem com Grelhas"
         ],
-        "prazo_replan": null
+        "prazo_replan": "15/08/2026"
       },
       {
         "area": "Sala Elétricas - SE",
@@ -3641,7 +3658,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.12.2.3",
@@ -3652,7 +3669,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           }
         ],
         "n_itens": 2,
@@ -3675,7 +3692,7 @@
           "Caixa de passagem;",
           "Grelhas."
         ],
-        "prazo_replan": null
+        "prazo_replan": "31/07/2026"
       },
       {
         "area": "Secador de DDGS",
@@ -3694,7 +3711,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-10",
-            "replan": null
+            "replan": "2026-07-10"
           },
           {
             "item_cod": "1.2.7.5.1",
@@ -3705,7 +3722,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-10",
-            "replan": null
+            "replan": "2026-07-10"
           },
           {
             "item_cod": "1.2.7.2.1",
@@ -3716,7 +3733,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-10",
-            "replan": null
+            "replan": "2026-07-10"
           },
           {
             "item_cod": "1.2.7.5.2",
@@ -3727,7 +3744,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-10",
-            "replan": null
+            "replan": "2026-07-10"
           },
           {
             "item_cod": "1.2.7.1.5",
@@ -3738,7 +3755,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-10",
-            "replan": null
+            "replan": "2026-07-10"
           },
           {
             "item_cod": "1.2.7.2.2",
@@ -3749,7 +3766,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-10",
-            "replan": null
+            "replan": "2026-07-10"
           },
           {
             "item_cod": "1.2.7.1.6",
@@ -3760,7 +3777,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-10",
-            "replan": null
+            "replan": "2026-07-10"
           },
           {
             "item_cod": "1.2.7.3.1",
@@ -3771,7 +3788,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-10",
-            "replan": null
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.7.2.3",
@@ -3782,7 +3799,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-10",
-            "replan": null
+            "replan": "2026-07-10"
           },
           {
             "item_cod": "1.2.7.1.7",
@@ -3793,7 +3810,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-10",
-            "replan": null
+            "replan": "2026-07-10"
           }
         ],
         "n_itens": 10,
@@ -3802,16 +3819,17 @@
         "nao_iniciados": 6,
         "progresso": 40,
         "status": "Em andamento",
-        "prazo_exec": "10/07/2026",
+        "prazo_exec": "30/08/2026",
         "prazo_prev": "10/07/2026",
         "fase_bucket": "1",
         "projeto": [
           "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Secador%20de%20DDGS/Projeto_01_Slide-29.png",
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Secador%20de%20DDGS/Projeto_02_Slide-29.png"
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Secador%20de%20DDGS/Projeto_02_Slide-29.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Secador%20de%20DDGS/Projeto_Canaletas_SecadorDDGS_06-08.png"
         ],
         "campo": [
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Secador%20de%20DDGS/Obra_01_Slide-29.jpeg",
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Secador%20de%20DDGS/Obra_02_Slide-29.jpeg"
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Secador%20de%20DDGS/Obra_02_Slide-29.jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Secador%20de%20DDGS/SCA_SecadorDDGS_06-08.jpeg"
         ],
         "pend_ppt": [
           "1. Sump Finalizada (Bomba, base, grade e nível);",
@@ -3820,7 +3838,7 @@
           "4. Grelha nas canaletas",
           "5.Bacia de contenção"
         ],
-        "prazo_replan": null
+        "prazo_replan": "30/08/2026"
       },
       {
         "area": "Motor LCI",
@@ -3838,8 +3856,8 @@
             "situacao": "Concluído",
             "supervisor": "Não informado",
             "gerente": "Não informado",
-            "previsto": null,
-            "replan": null
+            "previsto": "2026-07-31",
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.16.3.1",
@@ -3849,8 +3867,8 @@
             "situacao": "Não iniciado",
             "supervisor": "Não informado",
             "gerente": "Não informado",
-            "previsto": null,
-            "replan": null
+            "previsto": "2026-07-31",
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.16.2.1",
@@ -3860,8 +3878,8 @@
             "situacao": "Não iniciado",
             "supervisor": "Não informado",
             "gerente": "Não informado",
-            "previsto": null,
-            "replan": null
+            "previsto": "2026-07-31",
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.16.1.2",
@@ -3871,8 +3889,8 @@
             "situacao": "Concluído",
             "supervisor": "Não informado",
             "gerente": "Não informado",
-            "previsto": null,
-            "replan": null
+            "previsto": "2026-07-31",
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.16.2.2",
@@ -3882,8 +3900,8 @@
             "situacao": "Não iniciado",
             "supervisor": "Não informado",
             "gerente": "Não informado",
-            "previsto": null,
-            "replan": null
+            "previsto": "2026-07-31",
+            "replan": "2026-07-31"
           }
         ],
         "n_itens": 5,
@@ -3892,20 +3910,22 @@
         "nao_iniciados": 3,
         "progresso": 40,
         "status": "Em andamento",
-        "prazo_exec": "A verificar",
-        "prazo_prev": "A verificar",
+        "prazo_exec": "30/08/2026",
+        "prazo_prev": "31/07/2026",
         "fase_bucket": "Ambas",
         "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Motor%20LCI/CAIXA%20DE%20MANOBRA_LCI_PROJETO_06-08.png",
           "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Motor%20LCI/Projeto_01_Slide-30.png"
         ],
         "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Motor%20LCI/caixa%20de%20manobra_MOTOR_LCI_06-08.jpeg",
           "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Motor%20LCI/Obra_01_Slide-30.jpeg"
         ],
         "pend_ppt": [
           "1. Caixa de manobra com válvulas",
           "2. Grelhas da caixa de manobra e passagem"
         ],
-        "prazo_replan": null
+        "prazo_replan": "30/08/2026"
       },
       {
         "area": "Subestação",
@@ -3924,7 +3944,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-17"
           },
           {
             "item_cod": "1.2.12.4.2",
@@ -3935,7 +3955,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-17"
           }
         ],
         "n_itens": 2,
@@ -3944,13 +3964,13 @@
         "nao_iniciados": 2,
         "progresso": 0,
         "status": "Não iniciada",
-        "prazo_exec": "09/09/2026",
+        "prazo_exec": "17/09/2026",
         "prazo_prev": "09/09/2026",
         "fase_bucket": "Ambas",
         "projeto": [],
         "campo": [],
         "pend_ppt": [],
-        "prazo_replan": null
+        "prazo_replan": "17/09/2026"
       },
       {
         "area": "Tanques de Etanol",
@@ -3969,7 +3989,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-09"
           },
           {
             "item_cod": "1.2.6.1.9",
@@ -3980,7 +4000,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-09"
           },
           {
             "item_cod": "1.2.6.3.3",
@@ -3991,7 +4011,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.6.2.6",
@@ -4002,7 +4022,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-09"
           },
           {
             "item_cod": "1.2.6.1.10",
@@ -4013,7 +4033,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-09"
           },
           {
             "item_cod": "1.2.6.2.7",
@@ -4024,7 +4044,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-09"
           },
           {
             "item_cod": "1.2.6.1.11",
@@ -4035,7 +4055,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-09"
           }
         ],
         "n_itens": 7,
@@ -4061,7 +4081,7 @@
           "Piso compactado ou concretado;",
           "Caixa de manobra e de passagem do tanque maior"
         ],
-        "prazo_replan": null
+        "prazo_replan": "09/09/2026"
       },
       {
         "area": "Tanques de Medição",
@@ -4080,7 +4100,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.6.1.13",
@@ -4091,7 +4111,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.6.3.4",
@@ -4102,7 +4122,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.6.2.8",
@@ -4113,7 +4133,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.6.1.14",
@@ -4124,7 +4144,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.6.2.9",
@@ -4135,7 +4155,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.6.1.15",
@@ -4146,7 +4166,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           }
         ],
         "n_itens": 7,
@@ -4155,7 +4175,7 @@
         "nao_iniciados": 3,
         "progresso": 43,
         "status": "Em andamento",
-        "prazo_exec": "20/08/2026",
+        "prazo_exec": "30/08/2026",
         "prazo_prev": "20/08/2026",
         "fase_bucket": "Ambas",
         "projeto": [
@@ -4171,7 +4191,7 @@
           "Bacias de contenção;",
           "Piso compactado ou concretado."
         ],
-        "prazo_replan": null
+        "prazo_replan": "30/08/2026"
       },
       {
         "area": "Tanques de Óleo",
@@ -4190,7 +4210,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.9.1.6",
@@ -4201,7 +4221,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.9.3.2",
@@ -4212,7 +4232,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.9.2.4",
@@ -4223,7 +4243,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.9.1.7",
@@ -4234,7 +4254,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.9.2.5",
@@ -4245,7 +4265,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           },
           {
             "item_cod": "1.2.9.1.8",
@@ -4256,7 +4276,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-08-20",
-            "replan": null
+            "replan": "2026-08-20"
           }
         ],
         "n_itens": 7,
@@ -4265,7 +4285,7 @@
         "nao_iniciados": 3,
         "progresso": 43,
         "status": "Em andamento",
-        "prazo_exec": "20/08/2026",
+        "prazo_exec": "30/08/2026",
         "prazo_prev": "20/08/2026",
         "fase_bucket": "Ambas",
         "projeto": [
@@ -4281,7 +4301,7 @@
           "Bacias de contenção;",
           "Piso compactado ou concretado."
         ],
-        "prazo_replan": null
+        "prazo_replan": "30/08/2026"
       },
       {
         "area": "Tanques de Químicos",
@@ -4300,7 +4320,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.20.3.2",
@@ -4311,7 +4331,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.20.2.3",
@@ -4322,7 +4342,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.20.1.9",
@@ -4333,7 +4353,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.20.2.4",
@@ -4344,7 +4364,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.20.1.10",
@@ -4355,7 +4375,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           }
         ],
         "n_itens": 6,
@@ -4364,7 +4384,7 @@
         "nao_iniciados": 3,
         "progresso": 50,
         "status": "Em andamento",
-        "prazo_exec": "31/07/2026",
+        "prazo_exec": "30/08/2026",
         "prazo_prev": "31/07/2026",
         "fase_bucket": "Ambas",
         "projeto": [
@@ -4381,7 +4401,7 @@
           "Grelhas;",
           "Piso impermeável."
         ],
-        "prazo_replan": null
+        "prazo_replan": "30/08/2026"
       },
       {
         "area": "Tombador",
@@ -4434,7 +4454,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-09"
           },
           {
             "item_cod": "1.2.15.1.2",
@@ -4445,7 +4465,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-09"
           },
           {
             "item_cod": "1.2.15.3.1",
@@ -4456,7 +4476,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.15.2.1",
@@ -4467,7 +4487,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-09-09",
-            "replan": null
+            "replan": "2026-09-09"
           }
         ],
         "n_itens": 4,
@@ -4480,15 +4500,17 @@
         "prazo_prev": "09/09/2026",
         "fase_bucket": "Ambas",
         "projeto": [
-          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Torre%20de%20Resfriamento/Projeto_01_Slide-37.png"
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Torre%20de%20Resfriamento/Projeto_01_Slide-37.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Torre%20de%20Resfriamento/Projeto_Caixa%20de%20Manobra_Torres_Projeto3D.jpeg.png"
         ],
         "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Torre%20de%20Resfriamento/Caixa%20de%20Manobra_Torres_06-08.jpeg",
           "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Torre%20de%20Resfriamento/Obra_01_Slide-37.png"
         ],
         "pend_ppt": [
           "Skid de dosagem para abrigo de produtos químicos, não iniciado."
         ],
-        "prazo_replan": null
+        "prazo_replan": "09/09/2026"
       },
       {
         "area": "Vinhaça Fina",
@@ -4507,7 +4529,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.8.1.2",
@@ -4518,7 +4540,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.8.2.1",
@@ -4529,7 +4551,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           }
         ],
         "n_itens": 3,
@@ -4550,7 +4572,7 @@
         "pend_ppt": [
           "Grelha da caixa de passagem;"
         ],
-        "prazo_replan": null
+        "prazo_replan": "31/07/2026"
       },
       {
         "area": "Vinhaça Grossa",
@@ -4569,7 +4591,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.7.5.3",
@@ -4580,7 +4602,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.7.2.4",
@@ -4591,7 +4613,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.7.5.4",
@@ -4602,7 +4624,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.7.1.9",
@@ -4613,7 +4635,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.7.2.5",
@@ -4624,7 +4646,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.7.1.10",
@@ -4635,7 +4657,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.7.3.2",
@@ -4646,7 +4668,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.7.2.6",
@@ -4657,7 +4679,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.7.1.11",
@@ -4668,7 +4690,7 @@
             "supervisor": "Não informado",
             "gerente": "Não informado",
             "previsto": "2026-07-31",
-            "replan": null
+            "replan": "2026-07-31"
           }
         ],
         "n_itens": 10,
@@ -4677,7 +4699,7 @@
         "nao_iniciados": 6,
         "progresso": 40,
         "status": "Em andamento",
-        "prazo_exec": "31/07/2026",
+        "prazo_exec": "30/08/2026",
         "prazo_prev": "31/07/2026",
         "fase_bucket": "Ambas",
         "projeto": [
@@ -4694,7 +4716,7 @@
           "3. Canaletas",
           "4. Grelha nas canaletas"
         ],
-        "prazo_replan": null
+        "prazo_replan": "30/08/2026"
       },
       {
         "area": "Chillers",
@@ -4712,8 +4734,8 @@
             "situacao": "Em andamento",
             "supervisor": "Não informado",
             "gerente": "Não informado",
-            "previsto": null,
-            "replan": null
+            "previsto": "2026-07-31",
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.15.2.2",
@@ -4723,8 +4745,8 @@
             "situacao": "Não iniciado",
             "supervisor": "Não informado",
             "gerente": "Não informado",
-            "previsto": null,
-            "replan": null
+            "previsto": "2026-07-31",
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.15.1.4",
@@ -4734,8 +4756,8 @@
             "situacao": "Em andamento",
             "supervisor": "Não informado",
             "gerente": "Não informado",
-            "previsto": null,
-            "replan": null
+            "previsto": "2026-07-31",
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.15.3.2",
@@ -4745,8 +4767,8 @@
             "situacao": "Não iniciado",
             "supervisor": "Não informado",
             "gerente": "Não informado",
-            "previsto": null,
-            "replan": null
+            "previsto": "2026-07-31",
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.15.2.3",
@@ -4756,8 +4778,8 @@
             "situacao": "Não iniciado",
             "supervisor": "Não informado",
             "gerente": "Não informado",
-            "previsto": null,
-            "replan": null
+            "previsto": "2026-07-31",
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.15.1.5",
@@ -4767,8 +4789,8 @@
             "situacao": "Em andamento",
             "supervisor": "Não informado",
             "gerente": "Não informado",
-            "previsto": null,
-            "replan": null
+            "previsto": "2026-07-31",
+            "replan": "2026-07-31"
           }
         ],
         "n_itens": 6,
@@ -4777,13 +4799,17 @@
         "nao_iniciados": 3,
         "progresso": 25,
         "status": "Em andamento",
-        "prazo_exec": "A verificar",
-        "prazo_prev": "A verificar",
+        "prazo_exec": "30/08/2026",
+        "prazo_prev": "31/07/2026",
         "fase_bucket": "Ambas",
-        "projeto": [],
-        "campo": [],
+        "projeto": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Chillers/chiller_projeto_06-08.png"
+        ],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Chillers/WhatsApp%20Image%202026-08-06%20at%2013.45.20%20(4).jpeg"
+        ],
         "pend_ppt": [],
-        "prazo_replan": null
+        "prazo_replan": "30/08/2026"
       },
       {
         "area": "Descarga de Soda",
@@ -4801,8 +4827,8 @@
             "situacao": "Em andamento",
             "supervisor": "Não informado",
             "gerente": "Não informado",
-            "previsto": null,
-            "replan": null
+            "previsto": "2026-07-31",
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.20.1.12",
@@ -4812,8 +4838,8 @@
             "situacao": "Não iniciado",
             "supervisor": "Não informado",
             "gerente": "Não informado",
-            "previsto": null,
-            "replan": null
+            "previsto": "2026-07-31",
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.20.1.13",
@@ -4823,8 +4849,8 @@
             "situacao": "Em andamento",
             "supervisor": "Não informado",
             "gerente": "Não informado",
-            "previsto": null,
-            "replan": null
+            "previsto": "2026-07-31",
+            "replan": "2026-07-31"
           },
           {
             "item_cod": "1.2.20.3.3",
@@ -4834,8 +4860,8 @@
             "situacao": "Não iniciado",
             "supervisor": "Não informado",
             "gerente": "Não informado",
-            "previsto": null,
-            "replan": null
+            "previsto": "2026-07-31",
+            "replan": "2026-08-30"
           },
           {
             "item_cod": "1.2.20.2.5",
@@ -4845,8 +4871,8 @@
             "situacao": "Não iniciado",
             "supervisor": "Não informado",
             "gerente": "Não informado",
-            "previsto": null,
-            "replan": null
+            "previsto": "2026-07-31",
+            "replan": "2026-07-31"
           }
         ],
         "n_itens": 5,
@@ -4855,13 +4881,17 @@
         "nao_iniciados": 3,
         "progresso": 20,
         "status": "Em andamento",
-        "prazo_exec": "A verificar",
-        "prazo_prev": "A verificar",
+        "prazo_exec": "30/08/2026",
+        "prazo_prev": "31/07/2026",
         "fase_bucket": "Ambas",
         "projeto": [],
-        "campo": [],
+        "campo": [
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Descarga%20de%20Soda/Descarga%20de%20Soda.png",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Descarga%20de%20Soda/WhatsApp%20Image%202026-08-06%20at%2013.45.20%20(7).jpeg",
+          "dados/17.%20Atualiza%C3%A7%C3%A3o%20de%20SCAs/3.%20Rio%20Verde/1.%20Imagens/Descarga%20de%20Soda/WhatsApp%20Image%202026-08-06%20at%2013.45.20%20(9).jpeg"
+        ],
         "pend_ppt": [],
-        "prazo_replan": null
+        "prazo_replan": "30/08/2026"
       }
     ]
   },
